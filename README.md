@@ -2,14 +2,16 @@ This project represents a basic java websocket client for the codenjoy platform.
 It allows you to easily and quickly join the game, developing your unique algorithm, having a configured infrastructure.
 
 # What do you need to get started?
-To get started, you should define the desired game and enter a value in `com.codenjoy.dojo.Runner.GAME`. \
+To get started, you should define the desired game and enter a value in `com.codenjoy.dojo.JavaRunner.GAME`. The class can be found under src/main/java/com/codenjoy/dojo. \
+GAME is a variable declared in JavaRunner Class.\
 The second important thing is the connection token to the server. After successful authorization on the site, you must copy the url
-and enter a value in `com.codenjoy.dojo.Runner.URL`. \
+and enter a value in `com.codenjoy.dojo.JavaRunner.URL`. \
+URL is a variable declared in JavaRunner Class.
 This is enough to connect and participate in the competition.
 
 # How to run it?
-To start a project from the console window, you must first perform build with Maven `mvn clean package -Pjar-with-dependencies`.
-The entry point for starting a project is `com.codenjoy.dojo.Runner.main(args)`. \
+To start a project from the console window, you must first perform build with Maven `mvn clean package -Pjar-with-dependencies -DskipTests=true`.
+The entry point for starting a project is `com.codenjoy.dojo.JavaRunner.main(args)`. \
 You can pass the game type and token connection to the server as command-line arguments.
 Game parameters passed by arguments at startup have a higher priority than those defined in the code.
 
