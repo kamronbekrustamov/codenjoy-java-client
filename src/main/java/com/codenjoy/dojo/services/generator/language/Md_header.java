@@ -57,7 +57,7 @@ public class Md_header implements Template {
                 "    <head>\n" +
                 "        <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n" +
                 "        <title>${game-capitalize} codenjoy — как играть? | Игры на работе</title>\n" +
-                "        <base href=\".\" target=\"_self\">\n" +
+                "        <base href=\"\" target=\"_self\">\n" +
                 "        <link href=\"../../../resources/css/all.min.css\" media=\"all\" type=\"text/css\" rel=\"stylesheet\">\n" +
                 "        <link href=\"../../../resources/css/custom.css\" rel=\"stylesheet\">\n" +
                 "\n" +
