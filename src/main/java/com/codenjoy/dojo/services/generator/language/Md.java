@@ -28,8 +28,6 @@ import java.util.List;
 
 public class Md implements Template {
 
-    public static final String SPRITE_SIZE = "40";
-
     @Override
     public String header(List<String> locales) {
         return "<meta charset=\"UTF-8\">\n" +
@@ -43,7 +41,7 @@ public class Md implements Template {
     public String line() {
         return "|<img src=\"/codenjoy-contest/resources" +
                 "/${game}/sprite/${element-lower}.png\" " +
-                "style=\"width:" + SPRITE_SIZE + "px;\" />" +
+                "style=\"height:100%;\" />" +
                 " | `${element}('${char}')` | ${info} | \n";
     }
 
