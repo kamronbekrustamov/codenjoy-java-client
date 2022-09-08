@@ -233,7 +233,8 @@ public class ElementGenerator {
         return GameProperties
                 .replace(template, canonicalGame)
                 .replace("${tag}", "#" + "%L") // because of warning in the mvn compile in phase lecense header generation
-                .replace("${language}", language);
+                .replace("${language}", language)
+                .replace("${locale}", locale.getLanguage());
     }
 
     private List<String> splitLength(String text, int length) {

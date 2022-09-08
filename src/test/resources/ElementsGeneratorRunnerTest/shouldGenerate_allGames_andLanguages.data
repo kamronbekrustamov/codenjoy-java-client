@@ -7,7 +7,7 @@
 	 'BASE':    ''[0m
 [44;93m	   absolute:'C:\Java\dojorena\codenjoy\CodingDojo\clients\java'[0m
 
-Store 'a2048-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\elements.md'
+Store 'a2048-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\en\elements.md'
 Store 'a2048-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\header.html'
 Store 'a2048-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\footer.html'
 Store 'a2048-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\a2048\Element.java'
@@ -18,7 +18,7 @@ Store 'a2048-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\gam
 Store 'a2048-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\a2048\element.py'
 Store 'a2048-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\A2048\A2048Element.cs'
 
-Store 'chess-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\chess\src\main\webapp\resources\chess\help\elements.md'
+Store 'chess-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\chess\src\main\webapp\resources\chess\help\en\elements.md'
 Store 'chess-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\chess\src\main\webapp\resources\chess\help\header.html'
 Store 'chess-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\chess\src\main\webapp\resources\chess\help\footer.html'
 Store 'chess-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\chess\Element.java'
@@ -29,7 +29,7 @@ Store 'chess-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\gam
 Store 'chess-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\chess\element.py'
 Store 'chess-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Chess\ChessElement.cs'
 
-Store 'clifford-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\elements.md'
+Store 'clifford-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\en\elements.md'
 Store 'clifford-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\header.html'
 Store 'clifford-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\footer.html'
 Store 'clifford-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\clifford\Element.java'
@@ -40,7 +40,7 @@ Store 'clifford-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\
 Store 'clifford-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\clifford\element.py'
 Store 'clifford-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Clifford\CliffordElement.cs'
 
-Store 'collapse-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\collapse\src\main\webapp\resources\collapse\help\elements.md'
+Store 'collapse-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\collapse\src\main\webapp\resources\collapse\help\en\elements.md'
 Store 'collapse-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\collapse\src\main\webapp\resources\collapse\help\header.html'
 Store 'collapse-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\collapse\src\main\webapp\resources\collapse\help\footer.html'
 Store 'collapse-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\collapse\Element.java'
@@ -51,7 +51,7 @@ Store 'collapse-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\
 Store 'collapse-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\collapse\element.py'
 Store 'collapse-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Collapse\CollapseElement.cs'
 
-Store 'excitebike-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\elements.md'
+Store 'excitebike-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\en\elements.md'
 Store 'excitebike-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\header.html'
 Store 'excitebike-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\footer.html'
 Store 'excitebike-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\excitebike\Element.java'
@@ -62,7 +62,7 @@ Store 'excitebike-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\ph
 Store 'excitebike-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\excitebike\element.py'
 Store 'excitebike-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Excitebike\ExcitebikeElement.cs'
 
-Store 'expansion-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\expansion\src\main\webapp\resources\expansion\help\elements.md'
+Store 'expansion-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\expansion\src\main\webapp\resources\expansion\help\en\elements.md'
 Store 'expansion-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\expansion\src\main\webapp\resources\expansion\help\header.html'
 Store 'expansion-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\expansion\src\main\webapp\resources\expansion\help\footer.html'
 Store 'expansion-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\expansion\Element.java'
@@ -73,7 +73,7 @@ Store 'expansion-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php
 Store 'expansion-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\expansion\element.py'
 Store 'expansion-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Expansion\ExpansionElement.cs'
 
-Store 'fifteen-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\elements.md'
+Store 'fifteen-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\en\elements.md'
 Store 'fifteen-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\header.html'
 Store 'fifteen-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\footer.html'
 Store 'fifteen-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\fifteen\Element.java'
@@ -84,7 +84,7 @@ Store 'fifteen-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\g
 Store 'fifteen-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\fifteen\element.py'
 Store 'fifteen-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Fifteen\FifteenElement.cs'
 
-Store 'football-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\football\src\main\webapp\resources\football\help\elements.md'
+Store 'football-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\football\src\main\webapp\resources\football\help\en\elements.md'
 Store 'football-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\football\src\main\webapp\resources\football\help\header.html'
 Store 'football-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\football\src\main\webapp\resources\football\help\footer.html'
 Store 'football-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\football\Element.java'
@@ -95,7 +95,7 @@ Store 'football-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\
 Store 'football-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\football\element.py'
 Store 'football-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Football\FootballElement.cs'
 
-Store 'hex-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\hex\src\main\webapp\resources\hex\help\elements.md'
+Store 'hex-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\hex\src\main\webapp\resources\hex\help\en\elements.md'
 Store 'hex-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\hex\src\main\webapp\resources\hex\help\header.html'
 Store 'hex-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\hex\src\main\webapp\resources\hex\help\footer.html'
 Store 'hex-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\hex\Element.java'
@@ -106,7 +106,7 @@ Store 'hex-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\games
 Store 'hex-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\hex\element.py'
 Store 'hex-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Hex\HexElement.cs'
 
-Store 'icancode-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\icancode\src\main\webapp\resources\icancode\help\elements.md'
+Store 'icancode-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\icancode\src\main\webapp\resources\icancode\help\en\elements.md'
 Store 'icancode-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\icancode\src\main\webapp\resources\icancode\help\header.html'
 Store 'icancode-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\icancode\src\main\webapp\resources\icancode\help\footer.html'
 Store 'icancode-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\icancode\Element.java'
@@ -117,7 +117,7 @@ Store 'icancode-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\
 Store 'icancode-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\icancode\element.py'
 Store 'icancode-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Icancode\IcancodeElement.cs'
 
-Store 'japanese-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\japanese\src\main\webapp\resources\japanese\help\elements.md'
+Store 'japanese-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\japanese\src\main\webapp\resources\japanese\help\en\elements.md'
 Store 'japanese-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\japanese\src\main\webapp\resources\japanese\help\header.html'
 Store 'japanese-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\japanese\src\main\webapp\resources\japanese\help\footer.html'
 Store 'japanese-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\japanese\Element.java'
@@ -128,7 +128,7 @@ Store 'japanese-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\
 Store 'japanese-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\japanese\element.py'
 Store 'japanese-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Japanese\JapaneseElement.cs'
 
-Store 'kata-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\kata\src\main\webapp\resources\kata\help\elements.md'
+Store 'kata-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\kata\src\main\webapp\resources\kata\help\en\elements.md'
 Store 'kata-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\kata\src\main\webapp\resources\kata\help\header.html'
 Store 'kata-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\kata\src\main\webapp\resources\kata\help\footer.html'
 Store 'kata-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\kata\Element.java'
@@ -139,7 +139,7 @@ Store 'kata-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\game
 Store 'kata-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\kata\element.py'
 Store 'kata-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Kata\KataElement.cs'
 
-Store 'knibert-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\knibert\src\main\webapp\resources\knibert\help\elements.md'
+Store 'knibert-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\knibert\src\main\webapp\resources\knibert\help\en\elements.md'
 Store 'knibert-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\knibert\src\main\webapp\resources\knibert\help\header.html'
 Store 'knibert-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\knibert\src\main\webapp\resources\knibert\help\footer.html'
 Store 'knibert-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\knibert\Element.java'
@@ -150,7 +150,7 @@ Store 'knibert-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\g
 Store 'knibert-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\knibert\element.py'
 Store 'knibert-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Knibert\KnibertElement.cs'
 
-Store 'lemonade-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\elements.md'
+Store 'lemonade-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\en\elements.md'
 Store 'lemonade-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\header.html'
 Store 'lemonade-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\footer.html'
 Store 'lemonade-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\lemonade\Element.java'
@@ -161,7 +161,7 @@ Store 'lemonade-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\
 Store 'lemonade-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\lemonade\element.py'
 Store 'lemonade-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Lemonade\LemonadeElement.cs'
 
-Store 'lunolet-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\elements.md'
+Store 'lunolet-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\en\elements.md'
 Store 'lunolet-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\header.html'
 Store 'lunolet-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\footer.html'
 Store 'lunolet-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\lunolet\Element.java'
@@ -172,7 +172,7 @@ Store 'lunolet-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\g
 Store 'lunolet-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\lunolet\element.py'
 Store 'lunolet-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Lunolet\LunoletElement.cs'
 
-Store 'moebius-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\moebius\src\main\webapp\resources\moebius\help\elements.md'
+Store 'moebius-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\moebius\src\main\webapp\resources\moebius\help\en\elements.md'
 Store 'moebius-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\moebius\src\main\webapp\resources\moebius\help\header.html'
 Store 'moebius-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\moebius\src\main\webapp\resources\moebius\help\footer.html'
 Store 'moebius-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\moebius\Element.java'
@@ -183,7 +183,7 @@ Store 'moebius-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\g
 Store 'moebius-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\moebius\element.py'
 Store 'moebius-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Moebius\MoebiusElement.cs'
 
-Store 'mollymage-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\elements.md'
+Store 'mollymage-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\en\elements.md'
 Store 'mollymage-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\header.html'
 Store 'mollymage-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\footer.html'
 Store 'mollymage-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\mollymage\Element.java'
@@ -194,7 +194,7 @@ Store 'mollymage-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php
 Store 'mollymage-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\mollymage\element.py'
 Store 'mollymage-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Mollymage\MollymageElement.cs'
 
-Store 'namdreab-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\elements.md'
+Store 'namdreab-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\en\elements.md'
 Store 'namdreab-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\header.html'
 Store 'namdreab-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\footer.html'
 Store 'namdreab-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\namdreab\Element.java'
@@ -205,7 +205,7 @@ Store 'namdreab-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\
 Store 'namdreab-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\namdreab\element.py'
 Store 'namdreab-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Namdreab\NamdreabElement.cs'
 
-Store 'pong-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\pong\src\main\webapp\resources\pong\help\elements.md'
+Store 'pong-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\pong\src\main\webapp\resources\pong\help\en\elements.md'
 Store 'pong-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\pong\src\main\webapp\resources\pong\help\header.html'
 Store 'pong-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\pong\src\main\webapp\resources\pong\help\footer.html'
 Store 'pong-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\pong\Element.java'
@@ -216,7 +216,7 @@ Store 'pong-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\game
 Store 'pong-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\pong\element.py'
 Store 'pong-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Pong\PongElement.cs'
 
-Store 'puzzlebox-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\elements.md'
+Store 'puzzlebox-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\en\elements.md'
 Store 'puzzlebox-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\header.html'
 Store 'puzzlebox-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\footer.html'
 Store 'puzzlebox-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\puzzlebox\Element.java'
@@ -227,7 +227,7 @@ Store 'puzzlebox-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php
 Store 'puzzlebox-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\puzzlebox\element.py'
 Store 'puzzlebox-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Puzzlebox\PuzzleboxElement.cs'
 
-Store 'quadro-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quadro\src\main\webapp\resources\quadro\help\elements.md'
+Store 'quadro-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quadro\src\main\webapp\resources\quadro\help\en\elements.md'
 Store 'quadro-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quadro\src\main\webapp\resources\quadro\help\header.html'
 Store 'quadro-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quadro\src\main\webapp\resources\quadro\help\footer.html'
 Store 'quadro-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\quadro\Element.java'
@@ -238,7 +238,7 @@ Store 'quadro-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\ga
 Store 'quadro-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\quadro\element.py'
 Store 'quadro-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Quadro\QuadroElement.cs'
 
-Store 'quake2d-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\elements.md'
+Store 'quake2d-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\en\elements.md'
 Store 'quake2d-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\header.html'
 Store 'quake2d-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\footer.html'
 Store 'quake2d-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\quake2d\Element.java'
@@ -249,7 +249,7 @@ Store 'quake2d-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\g
 Store 'quake2d-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\quake2d\element.py'
 Store 'quake2d-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Quake2d\Quake2dElement.cs'
 
-Store 'rawelbbub-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\elements.md'
+Store 'rawelbbub-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\en\elements.md'
 Store 'rawelbbub-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\header.html'
 Store 'rawelbbub-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\footer.html'
 Store 'rawelbbub-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\rawelbbub\Element.java'
@@ -260,7 +260,7 @@ Store 'rawelbbub-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php
 Store 'rawelbbub-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\rawelbbub\element.py'
 Store 'rawelbbub-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Rawelbbub\RawelbbubElement.cs'
 
-Store 'reversi-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\reversi\src\main\webapp\resources\reversi\help\elements.md'
+Store 'reversi-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\reversi\src\main\webapp\resources\reversi\help\en\elements.md'
 Store 'reversi-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\reversi\src\main\webapp\resources\reversi\help\header.html'
 Store 'reversi-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\reversi\src\main\webapp\resources\reversi\help\footer.html'
 Store 'reversi-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\reversi\Element.java'
@@ -271,7 +271,7 @@ Store 'reversi-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\g
 Store 'reversi-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\reversi\element.py'
 Store 'reversi-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Reversi\ReversiElement.cs'
 
-Store 'rubicscube-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\elements.md'
+Store 'rubicscube-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\en\elements.md'
 Store 'rubicscube-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\header.html'
 Store 'rubicscube-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\footer.html'
 Store 'rubicscube-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\rubicscube\Element.java'
@@ -282,7 +282,7 @@ Store 'rubicscube-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\ph
 Store 'rubicscube-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\rubicscube\element.py'
 Store 'rubicscube-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Rubicscube\RubicscubeElement.cs'
 
-Store 'sample-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sample\src\main\webapp\resources\sample\help\elements.md'
+Store 'sample-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sample\src\main\webapp\resources\sample\help\en\elements.md'
 Store 'sample-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sample\src\main\webapp\resources\sample\help\header.html'
 Store 'sample-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sample\src\main\webapp\resources\sample\help\footer.html'
 Store 'sample-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\sample\Element.java'
@@ -293,7 +293,7 @@ Store 'sample-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\ga
 Store 'sample-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\sample\element.py'
 Store 'sample-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Sample\SampleElement.cs'
 
-Store 'sampletext-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\elements.md'
+Store 'sampletext-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\en\elements.md'
 Store 'sampletext-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\header.html'
 Store 'sampletext-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\footer.html'
 Store 'sampletext-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\sampletext\Element.java'
@@ -304,7 +304,7 @@ Store 'sampletext-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\ph
 Store 'sampletext-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\sampletext\element.py'
 Store 'sampletext-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Sampletext\SampletextElement.cs'
 
-Store 'selfdefense-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\elements.md'
+Store 'selfdefense-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\en\elements.md'
 Store 'selfdefense-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\header.html'
 Store 'selfdefense-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\footer.html'
 Store 'selfdefense-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\selfdefense\Element.java'
@@ -315,7 +315,7 @@ Store 'selfdefense-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\p
 Store 'selfdefense-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\selfdefense\element.py'
 Store 'selfdefense-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Selfdefense\SelfdefenseElement.cs'
 
-Store 'sokoban-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\elements.md'
+Store 'sokoban-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\en\elements.md'
 Store 'sokoban-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\header.html'
 Store 'sokoban-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\footer.html'
 Store 'sokoban-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\sokoban\Element.java'
@@ -326,7 +326,7 @@ Store 'sokoban-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\g
 Store 'sokoban-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\sokoban\element.py'
 Store 'sokoban-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Sokoban\SokobanElement.cs'
 
-Store 'spacerace-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\elements.md'
+Store 'spacerace-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\en\elements.md'
 Store 'spacerace-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\header.html'
 Store 'spacerace-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\footer.html'
 Store 'spacerace-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\spacerace\Element.java'
@@ -337,7 +337,7 @@ Store 'spacerace-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php
 Store 'spacerace-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\spacerace\element.py'
 Store 'spacerace-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Spacerace\SpaceraceElement.cs'
 
-Store 'startandjump-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\elements.md'
+Store 'startandjump-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\en\elements.md'
 Store 'startandjump-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\header.html'
 Store 'startandjump-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\footer.html'
 Store 'startandjump-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\startandjump\Element.java'
@@ -348,7 +348,7 @@ Store 'startandjump-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\
 Store 'startandjump-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\startandjump\element.py'
 Store 'startandjump-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Startandjump\StartandjumpElement.cs'
 
-Store 'sudoku-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\elements.md'
+Store 'sudoku-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\en\elements.md'
 Store 'sudoku-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\header.html'
 Store 'sudoku-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\footer.html'
 Store 'sudoku-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\sudoku\Element.java'
@@ -359,7 +359,7 @@ Store 'sudoku-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\ga
 Store 'sudoku-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\sudoku\element.py'
 Store 'sudoku-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Sudoku\SudokuElement.cs'
 
-Store 'tetris-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\tetris\src\main\webapp\resources\tetris\help\elements.md'
+Store 'tetris-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\tetris\src\main\webapp\resources\tetris\help\en\elements.md'
 Store 'tetris-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\tetris\src\main\webapp\resources\tetris\help\header.html'
 Store 'tetris-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\tetris\src\main\webapp\resources\tetris\help\footer.html'
 Store 'tetris-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\tetris\Element.java'
@@ -370,7 +370,7 @@ Store 'tetris-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\ga
 Store 'tetris-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\tetris\element.py'
 Store 'tetris-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Tetris\TetrisElement.cs'
 
-Store 'vacuum-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\elements.md'
+Store 'vacuum-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\en\elements.md'
 Store 'vacuum-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\header.html'
 Store 'vacuum-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\footer.html'
 Store 'vacuum-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\vacuum\Element.java'
@@ -381,7 +381,7 @@ Store 'vacuum-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\ga
 Store 'vacuum-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\vacuum\element.py'
 Store 'vacuum-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Vacuum\VacuumElement.cs'
 
-Store 'verland-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\verland\src\main\webapp\resources\verland\help\elements.md'
+Store 'verland-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\verland\src\main\webapp\resources\verland\help\en\elements.md'
 Store 'verland-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\verland\src\main\webapp\resources\verland\help\header.html'
 Store 'verland-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\verland\src\main\webapp\resources\verland\help\footer.html'
 Store 'verland-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\verland\Element.java'
@@ -392,7 +392,7 @@ Store 'verland-php' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\php\g
 Store 'verland-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python\games\verland\element.py'
 Store 'verland-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Verland\VerlandElement.cs'
 
-Store 'xonix-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\xonix\src\main\webapp\resources\xonix\help\elements.md'
+Store 'xonix-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\xonix\src\main\webapp\resources\xonix\help\en\elements.md'
 Store 'xonix-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\xonix\src\main\webapp\resources\xonix\help\header.html'
 Store 'xonix-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\xonix\src\main\webapp\resources\xonix\help\footer.html'
 Store 'xonix-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\xonix\Element.java'
