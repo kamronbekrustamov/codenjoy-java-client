@@ -65,7 +65,7 @@ public class Csharp implements Template {
     }
 
     @Override
-    public String line(boolean subrepo) {
+    public String line() {
         return "        ${element} = (short)'${char}',\n";
     }
 

@@ -40,16 +40,8 @@ public class Md implements Template {
     }
 
     @Override
-    public String line(boolean subrepo) {
-        if (subrepo) {
-            return "|<img src=\"https://github.com/codenjoyme/codenjoy-${game-canonical}/raw/master" +
-                    "/src/main/webapp/resources/${game}/sprite/${element-lower}.png\" " +
-                    "style=\"width:" + SPRITE_SIZE + "px;\" />" +
-                    " | `${element}('${char}')` | ${info} | \n";
-        }
-
-        return "|<img src=\"https://github.com/codenjoyme/codenjoy/raw/master" +
-                "/CodingDojo/games/${game-canonical}/src/main/webapp/resources" +
+    public String line() {
+        return "|<img src=\"/codenjoy-contest/resources" +
                 "/${game}/sprite/${element-lower}.png\" " +
                 "style=\"width:" + SPRITE_SIZE + "px;\" />" +
                 " | `${element}('${char}')` | ${info} | \n";

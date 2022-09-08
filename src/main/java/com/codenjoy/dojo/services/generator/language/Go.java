@@ -58,7 +58,7 @@ public class Go implements Template {
     }
 
     @Override
-    public String line(boolean subrepo) {
+    public String line() {
         return "    \"${element}\": '${char}',\n";
     }
 

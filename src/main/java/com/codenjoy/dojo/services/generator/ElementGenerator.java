@@ -47,15 +47,6 @@ public class ElementGenerator {
     // используется для тестирования, этим флагом отключаем реальное сохранение файлов
     public static boolean READONLY = false;
 
-    // TODO динамически получать эту инфу, проверяя наличие файла .git в корне проекта
-    public static final List<String> SUBREPO_GAMES = Arrays.asList(
-            "icancode", "kata", "lemonade", "lunolet",
-            "reversi", "rubicscube", "sample", "sampletext",
-            "sudoku", "knibert", "namdreab", "rawelbbub",
-            "chess", "clifford", "excitebike",
-            "japanese", "mollymage", "selfdefense",
-            "vacuum", "verland", "xonix");
-
     public static final List<String> ENGLISH_PRESENT = Arrays.asList(
             "a2048", "clifford", "kata", "knibert",
             "namdreab", "vacuum");
@@ -66,7 +57,6 @@ public class ElementGenerator {
     private final String game;
     private final String canonicalGame;
 
-    private final boolean subrepo;
     private final String language;
     private final Template template;
     private final Locale locale;
@@ -80,7 +70,6 @@ public class ElementGenerator {
 
         this.language = language;
         this.template = template();
-        subrepo = SUBREPO_GAMES.contains(game);
     }
 
     private String getBase(String inputBase) {
@@ -165,7 +154,7 @@ public class ElementGenerator {
         Map<CharElement, String> infos = loadInfo(elements);
 
         List<String> lines = Arrays.stream(elements)
-                .map(el -> replace(template.line(subrepo), el, infos))
+                .map(el -> replace(template.line(), el, infos))
                 .collect(toList());
 
         List<String> infosList = new LinkedList<>(infos.values());
