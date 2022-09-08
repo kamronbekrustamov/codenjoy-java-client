@@ -1,4 +1,4 @@
-package com.codenjoy.dojo.services.generator;
+package com.codenjoy.dojo.utils;
 
 /*-
  * #%L
@@ -22,40 +22,35 @@ package com.codenjoy.dojo.services.generator;
  * #L%
  */
 
-import com.codenjoy.dojo.utils.RedirectOutput;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.rules.TestName;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static com.codenjoy.dojo.services.generator.ElementGeneratorTest.assertSmokeEquals;
+/**
+ * Позволяет временно переопределить System.out для целей тестирования.
+ */
+public class RedirectOutput {
 
-public class ElementsGeneratorRunnerTest {
+    private ByteArrayOutputStream output;
+    private PrintStream oldPrintStream;
 
-    @Rule
-    public TestName test = new TestName();
-
-    private RedirectOutput output = new RedirectOutput();
-
-    @Test
-    public void shouldGenerate_allGames_andLanguages() {
-        // given
-        output.redirect();
-        ElementGenerator.READONLY = true;
-
-        // when
-        ElementGeneratorRunner.main(new String[0]);
-
-        // then
-        String actual = output.toString();
-        output.rollback();
-        assertEquals(actual);
+    public void redirect() {
+        oldPrintStream = System.out;
+        output = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(output));
     }
 
-    private void assertEquals(String actual) {
-        assertSmokeEquals(actual, getClass(), test);
+    public void rollback() {
+        System.out.flush();
+        System.setOut(oldPrintStream);
+        System.out.println(output);
+    }
+
+    public boolean contains(String message) {
+        return toString().contains(message);
+    }
+
+    @Override
+    public String toString() {
+        return output.toString();
     }
 }
