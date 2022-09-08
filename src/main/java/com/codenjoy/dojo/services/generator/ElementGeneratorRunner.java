@@ -22,21 +22,16 @@ package com.codenjoy.dojo.services.generator;
  * #L%
  */
 
-import com.codenjoy.dojo.services.printer.CharElement;
+import com.codenjoy.dojo.utils.GamesUtils;
 import com.codenjoy.dojo.utils.PrintUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.reflections.Reflections;
 
 import java.io.File;
-import java.lang.reflect.Modifier;
 import java.util.List;
 import java.util.Locale;
-import java.util.Objects;
 
 import static com.codenjoy.dojo.utils.PrintUtils.Color.ERROR;
 import static com.codenjoy.dojo.utils.PrintUtils.Color.INFO;
 import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
 public class ElementGeneratorRunner {
 
@@ -53,7 +48,7 @@ public class ElementGeneratorRunner {
         System.out.println("| Starting elements generator |");
         System.out.println("+-----------------------------+");
 
-        allGames = games();
+        allGames = GamesUtils.games();
         if (args != null && args.length == 4) {
             base = args[0];
             games = args[1];
@@ -124,21 +119,5 @@ public class ElementGeneratorRunner {
                 source,
                 isAllGames() ? "all=" + allGames : games,
                 clients, base);
-    }
-
-    private static List<String> games() {
-        String packageName = "com.codenjoy.dojo.games";
-        return new Reflections(packageName).getSubTypesOf(CharElement.class).stream()
-                .filter(clazz -> !Modifier.isAbstract(clazz.getModifiers()))
-                .filter(clazz -> !Modifier.isInterface(clazz.getModifiers()))
-                .filter(clazz -> Modifier.isPublic(clazz.getModifiers()))
-                .filter(clazz -> !clazz.toString().contains("test"))
-                .map(Class::getCanonicalName)
-                .map(name -> StringUtils.substringBetween(name,
-                        "com.codenjoy.dojo.games.", ".Element"))
-                .filter(Objects::nonNull)
-                .map(ElementGenerator::getCanonicalGame)
-                .sorted()
-                .collect(toList());
     }
 }
