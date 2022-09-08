@@ -73,14 +73,14 @@ public class ElementGeneratorRunner {
 
         if (!new File(base).isAbsolute()) {
             base = new File(base).getAbsoluteFile().getPath();
-            PrintUtils.printf("\t   absolute:'%s'\n",
+            PrintUtils.printf("\t   absolute:'%s'",
                     INFO,
                     base);
         }
 
         if (!gamesSourcesPresent(base)) {
             PrintUtils.printf("Please run this script on a fully cloned project c with submodules (with --recursive option)\n" +
-                            "    git clone --recursive https://github.com/codenjoyme/codenjoy.git\n",
+                            "    git clone --recursive https://github.com/codenjoyme/codenjoy.git",
                     ERROR,
                     base);
             return;
@@ -89,7 +89,7 @@ public class ElementGeneratorRunner {
         for (String game : games.split(",")) {
             System.out.println();
             if (!allGames.contains(game)) {
-                PrintUtils.printf("Game not found: '%s'\n", ERROR, game);
+                PrintUtils.printf("Game not found: '%s'", ERROR, game);
                 continue;
             }
             for (String language : clients.split(",")) {
@@ -119,7 +119,7 @@ public class ElementGeneratorRunner {
                 "Got from %s:\n" +
                 "\t 'GAMES':   '%s'\n" +
                 "\t 'CLIENTS': '%s'\n" +
-                "\t 'BASE':    '%s'\n",
+                "\t 'BASE':    '%s'",
                 INFO,
                 source,
                 isAllGames() ? "all=" + allGames : games,

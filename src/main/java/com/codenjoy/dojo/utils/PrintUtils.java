@@ -25,10 +25,11 @@ package com.codenjoy.dojo.utils;
 public class PrintUtils {
 
     public enum Color {
-        TEXT(""),
-        INFO("44;93"),
-        WARNING("45;93"),
-        ERROR("41;93");
+        TEXT(""),         // black background
+        INFO("44;93"),    // blue --
+        SUMMARY("42;93"), // green --
+        WARNING("45;93"), // pink --
+        ERROR("41;93");   // red --
 
         private final String color;
 
@@ -42,7 +43,7 @@ public class PrintUtils {
     }
 
     public static void printf(String format, Color color, Object ... args) {
-        format = String.format("\u001B[%sm%s\u001B[0m", color.color, format);
+        format = String.format("\u001B[%sm%s\u001B[0m\n", color.color, format);
         System.out.printf(format, args);
     }
 }

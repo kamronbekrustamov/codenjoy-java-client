@@ -4,9 +4,9 @@
 [44;93mGot from Runner:
 	 'GAMES':   'all=[a2048, chess, clifford, collapse, excitebike, expansion, fifteen, football, hex, icancode, japanese, kata, knibert, lemonade, lunolet, moebius, mollymage, namdreab, pong, puzzlebox, quadro, quake2d, rawelbbub, reversi, rubicscube, sample, sampletext, selfdefense, sokoban, spacerace, startandjump, sudoku, tetris, vacuum, verland, xonix]'
 	 'CLIENTS': 'md,md_header,md_footer,java,cpp,go,js,php,python,csharp'
-	 'BASE':    ''
-[0m[44;93m	   absolute:'C:\Java\dojorena\codenjoy\CodingDojo\clients\java'
-[0m
+	 'BASE':    ''[0m
+[44;93m	   absolute:'C:\Java\dojorena\codenjoy\CodingDojo\clients\java'[0m
+
 Store 'a2048-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\elements.md'
 Store 'a2048-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\header.html'
 Store 'a2048-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\footer.html'
