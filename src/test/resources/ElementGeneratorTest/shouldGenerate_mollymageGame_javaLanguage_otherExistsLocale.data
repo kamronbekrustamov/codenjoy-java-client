@@ -1,0 +1,176 @@
+package com.codenjoy.dojo.games.mollymage;
+
+/*-
+ * #%L
+ * Codenjoy - it's a dojo-like platform from developers to developers.
+ * %%
+ * Copyright (C) 2012 - 2022 Codenjoy
+ * %%
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public
+ * License along with this program.  If not, see
+ * <http://www.gnu.org/licenses/gpl-3.0.html>.
+ * #L%
+ */
+
+
+import com.codenjoy.dojo.services.printer.CharElement;
+
+public enum Element implements CharElement {
+
+        // После того как герой поставит зелье таймер включится (всего
+        // 5 тиков).
+
+    POTION_TIMER_5('5'),
+
+        // Это зелье взорвется после 4 тика.
+
+    POTION_TIMER_4('4'),
+
+        // Это после 3...
+
+    POTION_TIMER_3('3'),
+
+        // Два..
+
+    POTION_TIMER_2('2'),
+
+        // Один.
+
+    POTION_TIMER_1('1'),
+
+        // Пуф! Это то, как зелье взрывается. При этом всех, кого можно
+        // уничтожить - будут уничтожены, закрытые сундуки - откроются.
+
+    BLAST('҉'),
+
+        // Неразрушаемые стены - им пары зелья не страшны.
+
+    WALL('☼'),
+
+        // А это сундук с сокровищами, может быть открыт во время
+        // взрыва зелья.
+
+    TREASURE_BOX('#'),
+
+        // Это как открытый сундук выглядит, она пропадет в следующую
+        // секунду. Если это твоих рук дело - ты получишь бонусные
+        // очки.
+
+    TREASURE_BOX_OPENING('H'),
+
+        // Этот малый бегает по полю в произвольном порядке если он
+        // дотронется до героя - тот умрет его можно уничтожить с
+        // помощью зелья заработав бонусные очки.
+
+    GHOST('&'),
+
+        // Это уничтоженный призрак.
+
+    GHOST_DEAD('x'),
+
+        // Увеличивает радиус[(?)](#ask) распространения ядовитых
+        // паров. Действует только для вновь установленных зелий.
+
+    POTION_BLAST_RADIUS_INCREASE('+'),
+
+        // Увеличивает количество[(?)](#ask) доступных игроку зелий.
+
+    POTION_COUNT_INCREASE('c'),
+
+        // Дистанционный детонатор. Срабатывает при повторном действии
+        // `ACT` команды. Количество детонаторов задается
+        // настройками[(?)](#ask).
+
+    POTION_REMOTE_CONTROL('r'),
+
+        // Дает иммунитет от ядовитых паров на время[(?)](#ask).
+
+    POTION_IMMUNE('i'),
+
+        // Ядомет. Позволяет герою стрелять ядом. Радиус действия такой
+        // же как и у зелья. Активируется командой `АСТ(1),<DIRECTION>`
+        // (например: `RIGHT,ACT(1)`), работает параллельно с
+        // установкой зелий. После применения необходима "перезарядка".
+        // Действие временное[(?)](#ask).
+
+    POISON_THROWER('T'),
+
+        // Детонатор всех зелий на поле. Позволяет игроку взорвать все
+        // существующие зелья на поле независимо от их владельца и
+        // типа. Активируется командой `АСТ(2)`. Действие
+        // временное[(?)](#ask).
+
+    POTION_EXPLODER('A'),
+
+        // Cвободная ячейка, куда ты можешь направить героя.
+
+    NONE(' '),
+
+        // Это то, как твой герой выглядит.
+
+    HERO('☺'),
+
+        // Твой герой варит зелье.
+
+    HERO_POTION('☻'),
+
+        // Ойкс! Твой герой умер. Не волнуйся, он появится через
+        // секунду где-нибудь на поле, но вполне вероятно за это ты
+        // получишь штрафные очки.
+
+    HERO_DEAD('Ѡ'),
+
+        // Это то, как другой игрок выглядит. В зависимости от режима
+        // игры: командный или все против всех - это либо либо напарник
+        // либо противник соответственно.
+
+    OTHER_HERO('♥'),
+
+        // Другой герой под которым варится зелье.
+
+    OTHER_HERO_POTION('♠'),
+
+        // Другой герой погиб (он пропадет в следующем тике). Если это
+        // твоих рук дело - ты получишь бонусные очки.
+
+    OTHER_HERO_DEAD('♣'),
+
+        // Герой противник. Актуально для командной игры.
+
+    ENEMY_HERO('ö'),
+
+        // Герой-противник под которым варится зелье.
+
+    ENEMY_HERO_POTION('Ö'),
+
+        // Герой-противник уничтожен. Если это твоя заслуга - ты
+        // получишь бонусные очки.
+
+    ENEMY_HERO_DEAD('ø');
+
+    private final char ch;
+
+    Element(char ch) {
+        this.ch = ch;
+    }
+
+    @Override
+    public char ch() {
+        return ch;
+    }
+
+    @Override
+    public String toString() {
+        return String.valueOf(ch);
+    }
+}

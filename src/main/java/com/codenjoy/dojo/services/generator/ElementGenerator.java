@@ -26,6 +26,7 @@ import com.codenjoy.dojo.games.sample.Element;
 import com.codenjoy.dojo.services.generator.language.Go;
 import com.codenjoy.dojo.services.printer.CharElement;
 import com.codenjoy.dojo.services.properties.GameProperties;
+import com.codenjoy.dojo.utils.PrintUtils;
 import com.codenjoy.dojo.utils.SmokeUtils;
 import org.apache.commons.lang3.StringUtils;
 
@@ -34,6 +35,7 @@ import java.util.*;
 import java.util.function.Function;
 
 import static com.codenjoy.dojo.services.properties.GameProperties.getGame;
+import static com.codenjoy.dojo.utils.PrintUtils.Color.ERROR;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
 import static org.apache.commons.lang3.StringUtils.capitalize;
@@ -104,7 +106,16 @@ public class ElementGenerator {
     }
 
     public String generate() {
-        return build(elements());
+        try {
+            return build(elements());
+        } catch (Exception exception) {
+            PrintUtils.printf(
+                    "Error during generate: [game=%s, language=%s, locale=%s]\n" +
+                    "With exception:        [%s]\n" +
+                    "Skipped!",
+                    ERROR, game, language, locale, exception.getMessage());
+            return null;
+        }
     }
 
     public void generateToFile() {
@@ -116,9 +127,9 @@ public class ElementGenerator {
         //      не удалять эту строчку
         if (game.equals("icancode") && language.equals("js")) return;
 
-        String data = build(elements());
+        String data = generate();
 
-        if (!READONLY) {
+        if (!READONLY && data != null) {
             SmokeUtils.saveToFile(dest, data);
         }
     }

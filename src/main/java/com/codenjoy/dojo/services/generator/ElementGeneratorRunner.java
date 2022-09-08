@@ -26,12 +26,14 @@ import com.codenjoy.dojo.utils.GamesUtils;
 import com.codenjoy.dojo.utils.PrintUtils;
 
 import java.io.File;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
 import static com.codenjoy.dojo.utils.PrintUtils.Color.ERROR;
 import static com.codenjoy.dojo.utils.PrintUtils.Color.INFO;
 import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
 
 public class ElementGeneratorRunner {
 
@@ -41,7 +43,7 @@ public class ElementGeneratorRunner {
     private static String games;
     private static String clients;
     private static List<String> allGames;
-    private static Locale locale;
+    private static List<Locale> locales;
 
     public static void main(String[] args) {
         System.out.println("+-----------------------------+");
@@ -53,13 +55,13 @@ public class ElementGeneratorRunner {
             base = args[0];
             games = args[1];
             clients = args[2];
-            locale = Locale.forLanguageTag(args[3]);
+            locales = localesFor(args[3].split(","));
             printInfo("Environment");
         } else {
             base = "";
             games = ALL_GAMES;
             clients = "md,md_header,md_footer,java,cpp,go,js,php,python,csharp";
-            locale = Locale.ENGLISH;
+            locales = localesFor("en", "ru");
             printInfo("Runner");
         }
         if (isAllGames()) {
@@ -88,9 +90,28 @@ public class ElementGeneratorRunner {
                 continue;
             }
             for (String language : clients.split(",")) {
-                new ElementGenerator(game, language, locale, base).generateToFile();
+                for (Locale locale : filter(locales, language)) {
+                    new ElementGenerator(game, language, locale, base).generateToFile();
+                }
             }
         }
+    }
+
+    // для всех языков по умолчанию берется только первая локаль в списке,
+    // а для elements.md мы генерим для всех выбранных локалей
+    // TODO как-то это костыльно, подумать на досуге
+    private static List<Locale> filter(List<Locale> locales, String language) {
+        if (language.equals("md")) {
+            return locales;
+        }
+
+        return Arrays.asList(locales.get(0));
+    }
+
+    private static List<Locale> localesFor(String... codes) {
+        return Arrays.stream(codes)
+                .map(Locale::forLanguageTag)
+                .collect(toList());
     }
 
     private static boolean gamesSourcesPresent(String base) {
@@ -114,10 +135,11 @@ public class ElementGeneratorRunner {
                 "Got from %s:\n" +
                 "\t 'GAMES':   '%s'\n" +
                 "\t 'CLIENTS': '%s'\n" +
+                "\t 'LOCALES': '%s'\n" +
                 "\t 'BASE':    '%s'",
                 INFO,
                 source,
                 isAllGames() ? "all=" + allGames : games,
-                clients, base);
+                clients, locales, base);
     }
 }

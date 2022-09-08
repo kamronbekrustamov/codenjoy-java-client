@@ -22,6 +22,7 @@ package com.codenjoy.dojo.services.generator;
  * #L%
  */
 
+import com.codenjoy.dojo.utils.RedirectOutput;
 import com.codenjoy.dojo.utils.SmokeUtils;
 import org.junit.Rule;
 import org.junit.Test;
@@ -29,10 +30,15 @@ import org.junit.rules.TestName;
 
 import java.io.File;
 import java.util.Arrays;
+import java.util.Locale;
 
 import static java.util.Locale.ENGLISH;
 
 public class ElementGeneratorTest {
+
+    public static final Locale OTHER_EXISTS_LOCALE = Locale.forLanguageTag("ru");
+    public static final Locale NOT_EXISTS_LOCALE = Locale.CHINA;
+    private RedirectOutput output = new RedirectOutput();
 
     @Rule
     public TestName test = new TestName();
@@ -133,8 +139,28 @@ public class ElementGeneratorTest {
     }
 
     @Test
+    public void shouldGenerate_mollymageGame_markdownLanguage_otherExistsLocale() {
+        assertGenerate("mollymage", "md", OTHER_EXISTS_LOCALE);
+    }
+
+    @Test
+    public void shouldGenerate_mollymageGame_markdownLanguage_notExistsLocale() {
+        try {
+            output.redirect();
+            assertGenerate("mollymage", "md", NOT_EXISTS_LOCALE);
+        } finally {
+            output.rollback();
+        }
+    }
+
+    @Test
     public void shouldGenerate_mollymageGame_javaLanguage() {
         assertGenerate("mollymage", "java");
+    }
+
+    @Test
+    public void shouldGenerate_mollymageGame_javaLanguage_otherExistsLocale() {
+        assertGenerate("mollymage", "java", OTHER_EXISTS_LOCALE);
     }
 
     @Test
@@ -160,7 +186,16 @@ public class ElementGeneratorTest {
     }
 
     private void assertGenerate(String game, String language) {
-        assertEquals(new ElementGenerator(game, language, ENGLISH, base(game)).generate());
+        assertGenerate(game, language, ENGLISH);
+    }
+
+    private void assertGenerate(String game, String language, Locale locale) {
+        String actual = new ElementGenerator(game, language, locale, base(game)).generate();
+        if (actual == null) {
+            // если ничего не пришло, скорее всего там ошибка
+            actual = output.toString();
+        }
+        assertEquals(actual);
     }
 
     // TODO если получится избавиться от этого чуда, будет здорово

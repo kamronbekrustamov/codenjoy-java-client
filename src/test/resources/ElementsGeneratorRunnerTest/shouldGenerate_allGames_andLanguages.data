@@ -4,10 +4,18 @@
 [44;93mGot from Runner:
 	 'GAMES':   'all=[a2048, chess, clifford, collapse, excitebike, expansion, fifteen, football, hex, icancode, japanese, kata, knibert, lemonade, lunolet, moebius, mollymage, namdreab, pong, puzzlebox, quadro, quake2d, rawelbbub, reversi, rubicscube, sample, sampletext, selfdefense, sokoban, spacerace, startandjump, sudoku, tetris, vacuum, verland, xonix]'
 	 'CLIENTS': 'md,md_header,md_footer,java,cpp,go,js,php,python,csharp'
+	 'LOCALES': '[en, ru]'
 	 'BASE':    ''[0m
 [44;93m	   absolute:'C:\Java\dojorena\codenjoy\CodingDojo\clients\java'[0m
 
 Store 'a2048-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\en\elements.md'
+Store 'a2048-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/a2048/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\a2048\src\main\webapp\resources\a2048\help\ru\info.properties'
+[41;93mError during generate: [game=a2048, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=a2048, language=md]]
+Skipped![0m
 Store 'a2048-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\header.html'
 Store 'a2048-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\a2048\src\main\webapp\resources\a2048\help\footer.html'
 Store 'a2048-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\a2048\Element.java'
@@ -19,6 +27,13 @@ Store 'a2048-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pyth
 Store 'a2048-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\A2048\A2048Element.cs'
 
 Store 'chess-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\chess\src\main\webapp\resources\chess\help\en\elements.md'
+Store 'chess-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\chess\src\main\webapp\resources\chess\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/chess/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\chess\src\main\webapp\resources\chess\help\ru\info.properties'
+[41;93mError during generate: [game=chess, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=chess, language=md]]
+Skipped![0m
 Store 'chess-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\chess\src\main\webapp\resources\chess\help\header.html'
 Store 'chess-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\chess\src\main\webapp\resources\chess\help\footer.html'
 Store 'chess-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\chess\Element.java'
@@ -30,6 +45,13 @@ Store 'chess-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pyth
 Store 'chess-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Chess\ChessElement.cs'
 
 Store 'clifford-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\en\elements.md'
+Store 'clifford-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/clifford/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\clifford\src\main\webapp\resources\clifford\help\ru\info.properties'
+[41;93mError during generate: [game=clifford, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=clifford, language=md]]
+Skipped![0m
 Store 'clifford-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\header.html'
 Store 'clifford-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\footer.html'
 Store 'clifford-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\clifford\Element.java'
@@ -41,6 +63,13 @@ Store 'clifford-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\p
 Store 'clifford-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Clifford\CliffordElement.cs'
 
 Store 'collapse-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\collapse\src\main\webapp\resources\collapse\help\en\elements.md'
+Store 'collapse-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\collapse\src\main\webapp\resources\collapse\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/collapse/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\collapse\src\main\webapp\resources\collapse\help\ru\info.properties'
+[41;93mError during generate: [game=collapse, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=collapse, language=md]]
+Skipped![0m
 Store 'collapse-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\collapse\src\main\webapp\resources\collapse\help\header.html'
 Store 'collapse-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\collapse\src\main\webapp\resources\collapse\help\footer.html'
 Store 'collapse-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\collapse\Element.java'
@@ -52,6 +81,13 @@ Store 'collapse-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\p
 Store 'collapse-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Collapse\CollapseElement.cs'
 
 Store 'excitebike-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\en\elements.md'
+Store 'excitebike-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/excitebike/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\excitebike\src\main\webapp\resources\excitebike\help\ru\info.properties'
+[41;93mError during generate: [game=excitebike, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=excitebike, language=md]]
+Skipped![0m
 Store 'excitebike-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\header.html'
 Store 'excitebike-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\footer.html'
 Store 'excitebike-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\excitebike\Element.java'
@@ -63,6 +99,13 @@ Store 'excitebike-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients
 Store 'excitebike-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Excitebike\ExcitebikeElement.cs'
 
 Store 'expansion-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\expansion\src\main\webapp\resources\expansion\help\en\elements.md'
+Store 'expansion-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\expansion\src\main\webapp\resources\expansion\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/expansion/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\expansion\src\main\webapp\resources\expansion\help\ru\info.properties'
+[41;93mError during generate: [game=expansion, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=expansion, language=md]]
+Skipped![0m
 Store 'expansion-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\expansion\src\main\webapp\resources\expansion\help\header.html'
 Store 'expansion-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\expansion\src\main\webapp\resources\expansion\help\footer.html'
 Store 'expansion-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\expansion\Element.java'
@@ -74,6 +117,13 @@ Store 'expansion-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\
 Store 'expansion-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Expansion\ExpansionElement.cs'
 
 Store 'fifteen-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\en\elements.md'
+Store 'fifteen-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/fifteen/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\fifteen\src\main\webapp\resources\fifteen\help\ru\info.properties'
+[41;93mError during generate: [game=fifteen, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=fifteen, language=md]]
+Skipped![0m
 Store 'fifteen-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\header.html'
 Store 'fifteen-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\footer.html'
 Store 'fifteen-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\fifteen\Element.java'
@@ -85,6 +135,13 @@ Store 'fifteen-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\py
 Store 'fifteen-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Fifteen\FifteenElement.cs'
 
 Store 'football-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\football\src\main\webapp\resources\football\help\en\elements.md'
+Store 'football-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\football\src\main\webapp\resources\football\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/football/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\football\src\main\webapp\resources\football\help\ru\info.properties'
+[41;93mError during generate: [game=football, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=football, language=md]]
+Skipped![0m
 Store 'football-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\football\src\main\webapp\resources\football\help\header.html'
 Store 'football-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\football\src\main\webapp\resources\football\help\footer.html'
 Store 'football-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\football\Element.java'
@@ -96,6 +153,13 @@ Store 'football-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\p
 Store 'football-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Football\FootballElement.cs'
 
 Store 'hex-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\hex\src\main\webapp\resources\hex\help\en\elements.md'
+Store 'hex-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\hex\src\main\webapp\resources\hex\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/hex/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\hex\src\main\webapp\resources\hex\help\ru\info.properties'
+[41;93mError during generate: [game=hex, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=hex, language=md]]
+Skipped![0m
 Store 'hex-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\hex\src\main\webapp\resources\hex\help\header.html'
 Store 'hex-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\hex\src\main\webapp\resources\hex\help\footer.html'
 Store 'hex-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\hex\Element.java'
@@ -107,6 +171,13 @@ Store 'hex-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\python
 Store 'hex-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Hex\HexElement.cs'
 
 Store 'icancode-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\icancode\src\main\webapp\resources\icancode\help\en\elements.md'
+Store 'icancode-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\icancode\src\main\webapp\resources\icancode\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/icancode/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\icancode\src\main\webapp\resources\icancode\help\ru\info.properties'
+[41;93mError during generate: [game=icancode, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=icancode, language=md]]
+Skipped![0m
 Store 'icancode-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\icancode\src\main\webapp\resources\icancode\help\header.html'
 Store 'icancode-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\icancode\src\main\webapp\resources\icancode\help\footer.html'
 Store 'icancode-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\icancode\Element.java'
@@ -118,6 +189,13 @@ Store 'icancode-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\p
 Store 'icancode-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Icancode\IcancodeElement.cs'
 
 Store 'japanese-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\japanese\src\main\webapp\resources\japanese\help\en\elements.md'
+Store 'japanese-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\japanese\src\main\webapp\resources\japanese\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/japanese/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\japanese\src\main\webapp\resources\japanese\help\ru\info.properties'
+[41;93mError during generate: [game=japanese, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=japanese, language=md]]
+Skipped![0m
 Store 'japanese-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\japanese\src\main\webapp\resources\japanese\help\header.html'
 Store 'japanese-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\japanese\src\main\webapp\resources\japanese\help\footer.html'
 Store 'japanese-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\japanese\Element.java'
@@ -129,6 +207,13 @@ Store 'japanese-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\p
 Store 'japanese-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Japanese\JapaneseElement.cs'
 
 Store 'kata-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\kata\src\main\webapp\resources\kata\help\en\elements.md'
+Store 'kata-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\kata\src\main\webapp\resources\kata\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/kata/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\kata\src\main\webapp\resources\kata\help\ru\info.properties'
+[41;93mError during generate: [game=kata, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=kata, language=md]]
+Skipped![0m
 Store 'kata-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\kata\src\main\webapp\resources\kata\help\header.html'
 Store 'kata-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\kata\src\main\webapp\resources\kata\help\footer.html'
 Store 'kata-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\kata\Element.java'
@@ -140,6 +225,13 @@ Store 'kata-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pytho
 Store 'kata-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Kata\KataElement.cs'
 
 Store 'knibert-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\knibert\src\main\webapp\resources\knibert\help\en\elements.md'
+Store 'knibert-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\knibert\src\main\webapp\resources\knibert\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/knibert/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\knibert\src\main\webapp\resources\knibert\help\ru\info.properties'
+[41;93mError during generate: [game=knibert, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=knibert, language=md]]
+Skipped![0m
 Store 'knibert-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\knibert\src\main\webapp\resources\knibert\help\header.html'
 Store 'knibert-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\knibert\src\main\webapp\resources\knibert\help\footer.html'
 Store 'knibert-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\knibert\Element.java'
@@ -151,6 +243,13 @@ Store 'knibert-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\py
 Store 'knibert-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Knibert\KnibertElement.cs'
 
 Store 'lemonade-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\en\elements.md'
+Store 'lemonade-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/lemonade/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\lemonade\src\main\webapp\resources\lemonade\help\ru\info.properties'
+[41;93mError during generate: [game=lemonade, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=lemonade, language=md]]
+Skipped![0m
 Store 'lemonade-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\header.html'
 Store 'lemonade-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\footer.html'
 Store 'lemonade-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\lemonade\Element.java'
@@ -162,6 +261,13 @@ Store 'lemonade-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\p
 Store 'lemonade-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Lemonade\LemonadeElement.cs'
 
 Store 'lunolet-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\en\elements.md'
+Store 'lunolet-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/lunolet/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\lunolet\src\main\webapp\resources\lunolet\help\ru\info.properties'
+[41;93mError during generate: [game=lunolet, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=lunolet, language=md]]
+Skipped![0m
 Store 'lunolet-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\header.html'
 Store 'lunolet-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\footer.html'
 Store 'lunolet-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\lunolet\Element.java'
@@ -173,6 +279,13 @@ Store 'lunolet-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\py
 Store 'lunolet-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Lunolet\LunoletElement.cs'
 
 Store 'moebius-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\moebius\src\main\webapp\resources\moebius\help\en\elements.md'
+Store 'moebius-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\moebius\src\main\webapp\resources\moebius\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/moebius/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\moebius\src\main\webapp\resources\moebius\help\ru\info.properties'
+[41;93mError during generate: [game=moebius, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=moebius, language=md]]
+Skipped![0m
 Store 'moebius-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\moebius\src\main\webapp\resources\moebius\help\header.html'
 Store 'moebius-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\moebius\src\main\webapp\resources\moebius\help\footer.html'
 Store 'moebius-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\moebius\Element.java'
@@ -184,6 +297,7 @@ Store 'moebius-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\py
 Store 'moebius-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Moebius\MoebiusElement.cs'
 
 Store 'mollymage-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\en\elements.md'
+Store 'mollymage-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\ru\elements.md'
 Store 'mollymage-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\header.html'
 Store 'mollymage-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\footer.html'
 Store 'mollymage-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\mollymage\Element.java'
@@ -195,6 +309,13 @@ Store 'mollymage-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\
 Store 'mollymage-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Mollymage\MollymageElement.cs'
 
 Store 'namdreab-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\en\elements.md'
+Store 'namdreab-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/namdreab/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\namdreab\src\main\webapp\resources\namdreab\help\ru\info.properties'
+[41;93mError during generate: [game=namdreab, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=namdreab, language=md]]
+Skipped![0m
 Store 'namdreab-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\header.html'
 Store 'namdreab-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\footer.html'
 Store 'namdreab-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\namdreab\Element.java'
@@ -206,6 +327,13 @@ Store 'namdreab-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\p
 Store 'namdreab-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Namdreab\NamdreabElement.cs'
 
 Store 'pong-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\pong\src\main\webapp\resources\pong\help\en\elements.md'
+Store 'pong-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\pong\src\main\webapp\resources\pong\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/pong/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\pong\src\main\webapp\resources\pong\help\ru\info.properties'
+[41;93mError during generate: [game=pong, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=pong, language=md]]
+Skipped![0m
 Store 'pong-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\pong\src\main\webapp\resources\pong\help\header.html'
 Store 'pong-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\pong\src\main\webapp\resources\pong\help\footer.html'
 Store 'pong-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\pong\Element.java'
@@ -217,6 +345,13 @@ Store 'pong-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pytho
 Store 'pong-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Pong\PongElement.cs'
 
 Store 'puzzlebox-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\en\elements.md'
+Store 'puzzlebox-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/puzzlebox/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\ru\info.properties'
+[41;93mError during generate: [game=puzzlebox, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=puzzlebox, language=md]]
+Skipped![0m
 Store 'puzzlebox-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\header.html'
 Store 'puzzlebox-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\footer.html'
 Store 'puzzlebox-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\puzzlebox\Element.java'
@@ -228,6 +363,13 @@ Store 'puzzlebox-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\
 Store 'puzzlebox-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Puzzlebox\PuzzleboxElement.cs'
 
 Store 'quadro-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quadro\src\main\webapp\resources\quadro\help\en\elements.md'
+Store 'quadro-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quadro\src\main\webapp\resources\quadro\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/quadro/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\quadro\src\main\webapp\resources\quadro\help\ru\info.properties'
+[41;93mError during generate: [game=quadro, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=quadro, language=md]]
+Skipped![0m
 Store 'quadro-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quadro\src\main\webapp\resources\quadro\help\header.html'
 Store 'quadro-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quadro\src\main\webapp\resources\quadro\help\footer.html'
 Store 'quadro-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\quadro\Element.java'
@@ -239,6 +381,13 @@ Store 'quadro-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pyt
 Store 'quadro-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Quadro\QuadroElement.cs'
 
 Store 'quake2d-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\en\elements.md'
+Store 'quake2d-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/quake2d/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\quake2d\src\main\webapp\resources\quake2d\help\ru\info.properties'
+[41;93mError during generate: [game=quake2d, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=quake2d, language=md]]
+Skipped![0m
 Store 'quake2d-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\header.html'
 Store 'quake2d-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\footer.html'
 Store 'quake2d-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\quake2d\Element.java'
@@ -250,6 +399,13 @@ Store 'quake2d-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\py
 Store 'quake2d-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Quake2d\Quake2dElement.cs'
 
 Store 'rawelbbub-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\en\elements.md'
+Store 'rawelbbub-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/rawelbbub/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\ru\info.properties'
+[41;93mError during generate: [game=rawelbbub, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=rawelbbub, language=md]]
+Skipped![0m
 Store 'rawelbbub-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\header.html'
 Store 'rawelbbub-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\footer.html'
 Store 'rawelbbub-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\rawelbbub\Element.java'
@@ -261,6 +417,13 @@ Store 'rawelbbub-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\
 Store 'rawelbbub-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Rawelbbub\RawelbbubElement.cs'
 
 Store 'reversi-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\reversi\src\main\webapp\resources\reversi\help\en\elements.md'
+Store 'reversi-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\reversi\src\main\webapp\resources\reversi\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/reversi/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\reversi\src\main\webapp\resources\reversi\help\ru\info.properties'
+[41;93mError during generate: [game=reversi, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=reversi, language=md]]
+Skipped![0m
 Store 'reversi-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\reversi\src\main\webapp\resources\reversi\help\header.html'
 Store 'reversi-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\reversi\src\main\webapp\resources\reversi\help\footer.html'
 Store 'reversi-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\reversi\Element.java'
@@ -272,6 +435,13 @@ Store 'reversi-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\py
 Store 'reversi-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Reversi\ReversiElement.cs'
 
 Store 'rubicscube-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\en\elements.md'
+Store 'rubicscube-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/rubicscube/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\rubicscube\src\main\webapp\resources\rubicscube\help\ru\info.properties'
+[41;93mError during generate: [game=rubicscube, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=rubicscube, language=md]]
+Skipped![0m
 Store 'rubicscube-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\header.html'
 Store 'rubicscube-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\footer.html'
 Store 'rubicscube-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\rubicscube\Element.java'
@@ -283,6 +453,13 @@ Store 'rubicscube-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients
 Store 'rubicscube-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Rubicscube\RubicscubeElement.cs'
 
 Store 'sample-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sample\src\main\webapp\resources\sample\help\en\elements.md'
+Store 'sample-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sample\src\main\webapp\resources\sample\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/sample/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\sample\src\main\webapp\resources\sample\help\ru\info.properties'
+[41;93mError during generate: [game=sample, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=sample, language=md]]
+Skipped![0m
 Store 'sample-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sample\src\main\webapp\resources\sample\help\header.html'
 Store 'sample-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sample\src\main\webapp\resources\sample\help\footer.html'
 Store 'sample-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\sample\Element.java'
@@ -294,6 +471,13 @@ Store 'sample-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pyt
 Store 'sample-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Sample\SampleElement.cs'
 
 Store 'sampletext-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\en\elements.md'
+Store 'sampletext-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/sampletext/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\sampletext\src\main\webapp\resources\sampletext\help\ru\info.properties'
+[41;93mError during generate: [game=sampletext, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=sampletext, language=md]]
+Skipped![0m
 Store 'sampletext-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\header.html'
 Store 'sampletext-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\footer.html'
 Store 'sampletext-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\sampletext\Element.java'
@@ -305,6 +489,13 @@ Store 'sampletext-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients
 Store 'sampletext-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Sampletext\SampletextElement.cs'
 
 Store 'selfdefense-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\en\elements.md'
+Store 'selfdefense-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/selfdefense/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\selfdefense\src\main\webapp\resources\selfdefense\help\ru\info.properties'
+[41;93mError during generate: [game=selfdefense, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=selfdefense, language=md]]
+Skipped![0m
 Store 'selfdefense-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\header.html'
 Store 'selfdefense-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\footer.html'
 Store 'selfdefense-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\selfdefense\Element.java'
@@ -316,6 +507,13 @@ Store 'selfdefense-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\client
 Store 'selfdefense-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Selfdefense\SelfdefenseElement.cs'
 
 Store 'sokoban-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\en\elements.md'
+Store 'sokoban-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/sokoban/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\sokoban\src\main\webapp\resources\sokoban\help\ru\info.properties'
+[41;93mError during generate: [game=sokoban, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=sokoban, language=md]]
+Skipped![0m
 Store 'sokoban-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\header.html'
 Store 'sokoban-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\footer.html'
 Store 'sokoban-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\sokoban\Element.java'
@@ -327,6 +525,13 @@ Store 'sokoban-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\py
 Store 'sokoban-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Sokoban\SokobanElement.cs'
 
 Store 'spacerace-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\en\elements.md'
+Store 'spacerace-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/spacerace/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\spacerace\src\main\webapp\resources\spacerace\help\ru\info.properties'
+[41;93mError during generate: [game=spacerace, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=spacerace, language=md]]
+Skipped![0m
 Store 'spacerace-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\header.html'
 Store 'spacerace-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\footer.html'
 Store 'spacerace-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\spacerace\Element.java'
@@ -338,6 +543,13 @@ Store 'spacerace-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\
 Store 'spacerace-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Spacerace\SpaceraceElement.cs'
 
 Store 'startandjump-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\en\elements.md'
+Store 'startandjump-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/startandjump/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\startandjump\src\main\webapp\resources\startandjump\help\ru\info.properties'
+[41;93mError during generate: [game=startandjump, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=startandjump, language=md]]
+Skipped![0m
 Store 'startandjump-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\header.html'
 Store 'startandjump-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\footer.html'
 Store 'startandjump-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\startandjump\Element.java'
@@ -349,6 +561,13 @@ Store 'startandjump-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clien
 Store 'startandjump-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Startandjump\StartandjumpElement.cs'
 
 Store 'sudoku-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\en\elements.md'
+Store 'sudoku-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/sudoku/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\sudoku\src\main\webapp\resources\sudoku\help\ru\info.properties'
+[41;93mError during generate: [game=sudoku, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=sudoku, language=md]]
+Skipped![0m
 Store 'sudoku-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\header.html'
 Store 'sudoku-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\footer.html'
 Store 'sudoku-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\sudoku\Element.java'
@@ -360,6 +579,13 @@ Store 'sudoku-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pyt
 Store 'sudoku-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Sudoku\SudokuElement.cs'
 
 Store 'tetris-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\tetris\src\main\webapp\resources\tetris\help\en\elements.md'
+Store 'tetris-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\tetris\src\main\webapp\resources\tetris\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/tetris/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\tetris\src\main\webapp\resources\tetris\help\ru\info.properties'
+[41;93mError during generate: [game=tetris, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=tetris, language=md]]
+Skipped![0m
 Store 'tetris-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\tetris\src\main\webapp\resources\tetris\help\header.html'
 Store 'tetris-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\tetris\src\main\webapp\resources\tetris\help\footer.html'
 Store 'tetris-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\tetris\Element.java'
@@ -371,6 +597,13 @@ Store 'tetris-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pyt
 Store 'tetris-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Tetris\TetrisElement.cs'
 
 Store 'vacuum-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\en\elements.md'
+Store 'vacuum-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/vacuum/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\vacuum\src\main\webapp\resources\vacuum\help\ru\info.properties'
+[41;93mError during generate: [game=vacuum, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=vacuum, language=md]]
+Skipped![0m
 Store 'vacuum-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\header.html'
 Store 'vacuum-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\footer.html'
 Store 'vacuum-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\vacuum\Element.java'
@@ -382,6 +615,13 @@ Store 'vacuum-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\pyt
 Store 'vacuum-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Vacuum\VacuumElement.cs'
 
 Store 'verland-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\verland\src\main\webapp\resources\verland\help\en\elements.md'
+Store 'verland-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\verland\src\main\webapp\resources\verland\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/verland/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\verland\src\main\webapp\resources\verland\help\ru\info.properties'
+[41;93mError during generate: [game=verland, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=verland, language=md]]
+Skipped![0m
 Store 'verland-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\verland\src\main\webapp\resources\verland\help\header.html'
 Store 'verland-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\verland\src\main\webapp\resources\verland\help\footer.html'
 Store 'verland-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\verland\Element.java'
@@ -393,6 +633,13 @@ Store 'verland-python' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\py
 Store 'verland-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csharp\Dojo\Games\Verland\VerlandElement.cs'
 
 Store 'xonix-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\xonix\src\main\webapp\resources\xonix\help\en\elements.md'
+Store 'xonix-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\xonix\src\main\webapp\resources\xonix\help\ru\elements.md'
+Properties file not found in either: 
+		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/xonix/help/ru/info.properties'
+		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\xonix\src\main\webapp\resources\xonix\help\ru\info.properties'
+[41;93mError during generate: [game=xonix, language=md, locale=ru]
+With exception:        [Cant load properties file: [game=xonix, language=md]]
+Skipped![0m
 Store 'xonix-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\xonix\src\main\webapp\resources\xonix\help\header.html'
 Store 'xonix-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\xonix\src\main\webapp\resources\xonix\help\footer.html'
 Store 'xonix-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\xonix\Element.java'

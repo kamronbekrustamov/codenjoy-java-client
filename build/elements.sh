@@ -49,7 +49,7 @@ eval_echo "MVNW=./mvnw"
 eval_echo "GAMES=all"
 # eval_echo "GAMES=a2048,excitebike,rawelbbub,chess,clifford,collapse,expansion,fifteen,football,hex,icancode,japanese,kata,lemonade,lunolet,moebius,mollymage,pong,puzzlebox,quadro,quake2d,reversi,rubicscube,sample,sampletext,selfdefense,knibert,namdreab,sokoban,spacerace,startandjump,sudoku,tetris,vacuum,verland,xonix"
 eval_echo "CLIENTS=md,md_header,md_footer,cpp,go,js,php,python,csharp"
-eval_echo "LOCALE=en"
+eval_echo "LOCALE=en,ru"
 
 # TODO excitebike(add info)
 # TODO icancode(js)
