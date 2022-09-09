@@ -86,6 +86,7 @@ public class ElementGeneratorTest {
 
     @Test
     public void shouldGenerate_testGame_markdownHeaderLanguage() {
+        // 1 language
         assertGenerate("test", "md_header");
     }
 
@@ -135,6 +136,12 @@ public class ElementGeneratorTest {
     }
 
     @Test
+    public void shouldGenerate_sampleGame_markdownHeaderLanguage() {
+        // 1 language
+        assertGenerate("sample", "md_header");
+    }
+
+    @Test
     public void shouldGenerate_mollymageGame_markdownLanguage() {
         assertGenerate("mollymage", "md");
     }
@@ -142,6 +149,12 @@ public class ElementGeneratorTest {
     @Test
     public void shouldGenerate_mollymageGame_markdownLanguage_otherExistsLocale() {
         assertGenerate("mollymage", "md", OTHER_EXISTS_LOCALE);
+    }
+
+    @Test
+    public void shouldGenerate_mollymageGame_markdownHeaderLanguage() {
+        // 2 languages
+        assertGenerate("mollymage", "md_header");
     }
 
     @Test

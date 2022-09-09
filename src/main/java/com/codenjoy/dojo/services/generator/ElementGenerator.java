@@ -64,10 +64,17 @@ public class ElementGenerator {
         this.game = getGame(game);
         base = getBase(inputBase);
         this.locale = locale;
-        this.locales = locales;
+        this.locales = locales.stream()
+                .map(it -> hasProperties(game, it) ? it : null)
+                .filter(Objects::nonNull)
+                .collect(toList());
 
         this.language = language;
         this.template = template();
+    }
+
+    private boolean hasProperties(String game, Locale locale) {
+        return GameProperties.has(base, locale, game);
     }
 
     private String getBase(String inputBase) {

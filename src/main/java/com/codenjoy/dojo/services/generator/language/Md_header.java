@@ -77,7 +77,7 @@ public class Md_header implements Template {
                 "                       <header class=\"entry-header\">\n" +
                 "                           <h1 class=\"entry-title\">${game-capitalize} codenjoy — как играть?&nbsp;\n" +
             process(locales,
-                "                               <a href=\"../../../resources/${game}/help/index${lng}.html\">[${lng-upper}]</a>\n"
+                "                               <a href=\"/codenjoy-contest/manual/${game}/${lng}\">[${lng-upper}]</a>\n"
             ) +
                 "                           </h1>\n" +
                 "                       </header>\n" +
@@ -93,7 +93,7 @@ public class Md_header implements Template {
         return locales.stream()
                 .map(Locale::getLanguage)
                 .map(language -> template
-                        .replace("${lng}", "-" + language)
+                        .replace("${lng}", language)
                         .replace("${lng-upper}", language.toUpperCase()))
                 .collect(joining(""));
     }

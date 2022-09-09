@@ -39,6 +39,15 @@ public class GameProperties {
     private Locale locale;
     private Properties properties;
     private String canonicalGame;
+    private boolean silentMode;
+
+    public GameProperties() {
+        this(false);
+    }
+
+    public GameProperties(boolean silentMode) {
+        this.silentMode = silentMode;
+    }
 
     public static String get(String base, Locale locale, String game, String name) {
         GameProperties properties = new GameProperties();
@@ -46,6 +55,11 @@ public class GameProperties {
             throw new RuntimeException("Cant load properties file for game: " + game);
         }
         return properties.get(name);
+    }
+
+    public static boolean has(String base, Locale locale, String game) {
+        GameProperties properties = new GameProperties(true);
+        return properties.load(base, locale, game);
     }
 
     public boolean load(String base, Locale locale, String game) {
@@ -61,7 +75,7 @@ public class GameProperties {
 
         String sourcesPath = replace(base + "${game-source}" + locale(INFO_PROPERTIES), canonicalGame);
         boolean success = tryLoadFromSources(sourcesPath);
-        if (!success) {
+        if (!success && !silentMode) {
             System.out.printf("Properties file not found in either: \n" +
                     "\t\t'classpath:%s'\n" +
                     "\t\t'file:%s'\n",
@@ -88,7 +102,9 @@ public class GameProperties {
                 return true;
             }
         } catch (Exception exception) {
-            exception.printStackTrace();
+            if (!silentMode) {
+                exception.printStackTrace();
+            }
         }
         return false;
     }
@@ -108,7 +124,9 @@ public class GameProperties {
                 return true;
             }
         } catch (Exception exception) {
-            exception.printStackTrace();
+            if (!silentMode) {
+                exception.printStackTrace();
+            }
         }
         return false;
     }

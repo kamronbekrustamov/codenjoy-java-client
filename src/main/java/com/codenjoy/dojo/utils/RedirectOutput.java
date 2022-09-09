@@ -33,9 +33,12 @@ public class RedirectOutput {
     private ByteArrayOutputStream output;
     private PrintStream oldPrintStream;
 
+    public RedirectOutput() {
+        output = new ByteArrayOutputStream();
+    }
+
     public void redirect() {
         oldPrintStream = System.out;
-        output = new ByteArrayOutputStream();
         System.setOut(new PrintStream(output));
     }
 
