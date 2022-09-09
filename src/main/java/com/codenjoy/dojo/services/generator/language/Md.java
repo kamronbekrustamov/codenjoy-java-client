@@ -41,7 +41,7 @@ public class Md implements Template {
     public String line() {
         return "|<img src=\"/codenjoy-contest/resources" +
                 "/${game}/sprite/${element-lower}.png\" " +
-                "style=\"height:100%;\" />" +
+                "style=\"height:auto;\" />" +
                 " | `${element}('${char}')` | ${info} | \n";
     }
 
