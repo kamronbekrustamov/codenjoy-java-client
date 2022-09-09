@@ -77,7 +77,15 @@ public class ElementGenerator {
         return GameProperties.has(base, locale, game);
     }
 
-    private String getBase(String inputBase) {
+    /**
+     * Разные способы запуска (из IDE, с bash) дают нам разный контекст.
+     * Но алгоритм хочет видеть тут одну и ту же папку.
+     * Потому этот метод необходим для унифицирования base папки.
+     * @param inputBase любая папка (в том числе внутри CodingDojo).
+     * @return Если в пути содержится CodingDojo, то путь будет сокращен до этой папки,
+     * иначе вернется без изменения.
+     */
+    public static String getBase(String inputBase) {
         if (!inputBase.contains("CodingDojo")) {
             return inputBase;
         }

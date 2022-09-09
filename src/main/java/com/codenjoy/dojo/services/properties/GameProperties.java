@@ -27,9 +27,11 @@ import java.io.FileReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Properties;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
+import static java.util.stream.Collectors.toMap;
 import static org.apache.commons.lang3.StringUtils.capitalize;
 
 public class GameProperties {
@@ -82,6 +84,12 @@ public class GameProperties {
                     classPath, new File(sourcesPath).getAbsolutePath());
         }
         return success;
+    }
+
+    public Map<String, String> properties() {
+        return properties.entrySet().stream()
+                .collect(toMap(entry -> (String) entry.getKey(),
+                        entry -> (String) entry.getValue()));
     }
 
     private String locale(String template) {
