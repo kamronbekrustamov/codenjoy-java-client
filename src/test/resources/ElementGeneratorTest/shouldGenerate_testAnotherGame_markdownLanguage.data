@@ -3,10 +3,10 @@
 ## Symbol breakdown
 | Sprite | Code | Description |
 | -------- | -------- | -------- |
-|<img src="https://github.com/codenjoyme/codenjoy/raw/master/CodingDojo/games/test-another/src/main/webapp/resources/testanother/sprite/none.png" style="width:40px;" /> | `NONE(' ')` | Short comment. | 
-|<img src="https://github.com/codenjoyme/codenjoy/raw/master/CodingDojo/games/test-another/src/main/webapp/resources/testanother/sprite/wall.png" style="width:40px;" /> | `WALL('☼')` | Long long long long long long long long long long long looooooooong long long long long long long long long long long comment. | 
-|<img src="https://github.com/codenjoyme/codenjoy/raw/master/CodingDojo/games/test-another/src/main/webapp/resources/testanother/sprite/hero.png" style="width:40px;" /> | `HERO('☺')` | Another short comment. | 
-|<img src="https://github.com/codenjoyme/codenjoy/raw/master/CodingDojo/games/test-another/src/main/webapp/resources/testanother/sprite/other_hero.png" style="width:40px;" /> | `OTHER_HERO('☻')` | One more time. | 
-|<img src="https://github.com/codenjoyme/codenjoy/raw/master/CodingDojo/games/test-another/src/main/webapp/resources/testanother/sprite/hero_dead.png" style="width:40px;" /> | `HERO_DEAD('X')` |  | 
-|<img src="https://github.com/codenjoyme/codenjoy/raw/master/CodingDojo/games/test-another/src/main/webapp/resources/testanother/sprite/other_hero_dead_long_long_long_long_long.png" style="width:40px;" /> | `OTHER_HERO_DEAD_LONG_LONG_LONG_LONG_LONG('Y')` | Long name. | 
-|<img src="https://github.com/codenjoyme/codenjoy/raw/master/CodingDojo/games/test-another/src/main/webapp/resources/testanother/sprite/g.png" style="width:40px;" /> | `G('$')` | Short name. | 
+|<img src="/codenjoy-contest/resources/testanother/sprite/none.png" style="height:auto;" /> | `NONE(' ')` | Short comment. | 
+|<img src="/codenjoy-contest/resources/testanother/sprite/wall.png" style="height:auto;" /> | `WALL('☼')` | Long long long long long long long long long long long looooooooong long long long long long long long long long long comment. | 
+|<img src="/codenjoy-contest/resources/testanother/sprite/hero.png" style="height:auto;" /> | `HERO('☺')` | Another short comment. | 
+|<img src="/codenjoy-contest/resources/testanother/sprite/other_hero.png" style="height:auto;" /> | `OTHER_HERO('☻')` | One more time. | 
+|<img src="/codenjoy-contest/resources/testanother/sprite/hero_dead.png" style="height:auto;" /> | `HERO_DEAD('X')` |  | 
+|<img src="/codenjoy-contest/resources/testanother/sprite/other_hero_dead_long_long_long_long_long.png" style="height:auto;" /> | `OTHER_HERO_DEAD_LONG_LONG_LONG_LONG_LONG('Y')` | Long name. | 
+|<img src="/codenjoy-contest/resources/testanother/sprite/g.png" style="height:auto;" /> | `G('$')` | Short name. | 

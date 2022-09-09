@@ -25,11 +25,12 @@ package com.codenjoy.dojo.services.generator.language;
 import com.codenjoy.dojo.services.generator.Template;
 
 import java.util.List;
+import java.util.Locale;
 
 public class Md_footer implements Template {
 
     @Override
-    public String header(List<String> locales) {
+    public String header(List<Locale> locales) {
         return  "                           </div>\n" +
                 "                       </div>\n" +
                 "                   </div>\n" +

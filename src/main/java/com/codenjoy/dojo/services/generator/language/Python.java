@@ -25,11 +25,12 @@ package com.codenjoy.dojo.services.generator.language;
 import com.codenjoy.dojo.services.generator.Template;
 
 import java.util.List;
+import java.util.Locale;
 
 public class Python implements Template {
 
     @Override
-    public String header(List<String> locales) {
+    public String header(List<Locale> locales) {
         return "#!/usr/bin/env python3\n" +
                 "\n" +
                 "###\n" +

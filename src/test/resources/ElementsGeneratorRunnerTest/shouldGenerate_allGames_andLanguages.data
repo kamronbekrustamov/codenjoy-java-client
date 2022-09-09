@@ -46,12 +46,6 @@ Store 'chess-csharp' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\csha
 
 Store 'clifford-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\en\elements.md'
 Store 'clifford-md' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/clifford/help/ru/info.properties'
-		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\clifford\src\main\webapp\resources\clifford\help\ru\info.properties'
-[41;93mError during generate: [game=clifford, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=clifford, language=md]]
-Skipped![0m
 Store 'clifford-md_header' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\header.html'
 Store 'clifford-md_footer' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\..\games\clifford\src\main\webapp\resources\clifford\help\footer.html'
 Store 'clifford-java' in file: 'C:\Java\dojorena\codenjoy\CodingDojo\clients\java\src\main\java\com\codenjoy\dojo\games\clifford\Element.java'

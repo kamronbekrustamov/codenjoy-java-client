@@ -25,10 +25,11 @@ package com.codenjoy.dojo.services.generator;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.List;
+import java.util.Locale;
 
 public interface Template {
 
-    default String header(List<String> locales) {
+    default String header(List<Locale> locales) {
         return StringUtils.EMPTY;
     }
 

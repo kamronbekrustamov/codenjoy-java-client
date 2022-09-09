@@ -47,10 +47,6 @@ public class ElementGenerator {
     // используется для тестирования, этим флагом отключаем реальное сохранение файлов
     public static boolean READONLY = false;
 
-    public static final List<String> ENGLISH_PRESENT = Arrays.asList(
-            "a2048", "clifford", "kata", "knibert",
-            "namdreab", "vacuum");
-
     public static final List<String> DIFFERENT_NAME_GAMES = Arrays.asList();
     public static final GameProperties gameProperties = new GameProperties();
 
@@ -60,13 +56,15 @@ public class ElementGenerator {
     private final String language;
     private final Template template;
     private final Locale locale;
+    private final List<Locale> locales;
     private String base;
 
-    public ElementGenerator(String game, String language, Locale locale, String inputBase) {
+    public ElementGenerator(String game, String language, Locale locale, List<Locale> locales, String inputBase) {
         this.canonicalGame = game;
         this.game = getGame(game);
         base = getBase(inputBase);
         this.locale = locale;
+        this.locales = locales;
 
         this.language = language;
         this.template = template();
@@ -149,7 +147,7 @@ public class ElementGenerator {
     private String build(CharElement[] elements) {
         Template template = template();
 
-        String header = replace(template.header(locales()));
+        String header = replace(template.header(locales));
 
         Map<CharElement, String> infos = loadInfo(elements);
 
@@ -211,14 +209,6 @@ public class ElementGenerator {
                 .collect(toMap(Map.Entry::getKey, Map.Entry::getValue,
                         (value1, value2) -> value2,
                         LinkedHashMap::new));
-    }
-
-    private List<String> locales() {
-        if (ENGLISH_PRESENT.contains(canonicalGame)) {
-            return Arrays.asList("ru", "en");
-        } else {
-            return Arrays.asList("ru");
-        }
     }
 
     private String replace(String template, CharElement element, Map<CharElement, String> infos) {

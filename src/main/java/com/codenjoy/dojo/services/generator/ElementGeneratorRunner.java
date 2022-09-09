@@ -91,7 +91,7 @@ public class ElementGeneratorRunner {
             }
             for (String language : clients.split(",")) {
                 for (Locale locale : filter(locales, language)) {
-                    new ElementGenerator(game, language, locale, base).generateToFile();
+                    new ElementGenerator(game, language, locale, locales, base).generateToFile();
                 }
             }
         }
@@ -108,7 +108,7 @@ public class ElementGeneratorRunner {
         return Arrays.asList(locales.get(0));
     }
 
-    private static List<Locale> localesFor(String... codes) {
+    public static List<Locale> localesFor(String... codes) {
         return Arrays.stream(codes)
                 .map(Locale::forLanguageTag)
                 .collect(toList());

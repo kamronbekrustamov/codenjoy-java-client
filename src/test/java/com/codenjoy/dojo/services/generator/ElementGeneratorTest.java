@@ -32,6 +32,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.Locale;
 
+import static com.codenjoy.dojo.services.generator.ElementGeneratorRunner.localesFor;
 import static java.util.Locale.ENGLISH;
 
 public class ElementGeneratorTest {
@@ -190,7 +191,7 @@ public class ElementGeneratorTest {
     }
 
     private void assertGenerate(String game, String language, Locale locale) {
-        String actual = new ElementGenerator(game, language, locale, base(game)).generate();
+        String actual = new ElementGenerator(game, language, locale, localesFor("en", "ru"), base(game)).generate();
         if (actual == null) {
             // если ничего не пришло, скорее всего там ошибка
             actual = output.toString();
