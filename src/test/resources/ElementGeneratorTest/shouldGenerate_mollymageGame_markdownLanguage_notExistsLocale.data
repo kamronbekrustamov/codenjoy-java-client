@@ -1,6 +1,6 @@
 Properties file not found in either: 
-		'classpath:C:\Java\dojorena\codenjoy\CodingDojo/resources/mollymage/help/zh/info.properties'
-		'file:C:\Java\dojorena\codenjoy\CodingDojo\games\mollymage\src\main\webapp\resources\mollymage\help\zh\info.properties'
+		'classpath:<BASE>/resources/mollymage/help/zh/info.properties'
+		'file:<BASE>\games\mollymage\src\main\webapp\resources\mollymage\help\zh\info.properties'
 [41;93mError during generate: [game=mollymage, language=md, locale=zh_CN]
 With exception:        [Cant load properties file: [game=mollymage, language=md]]
 Skipped![0m

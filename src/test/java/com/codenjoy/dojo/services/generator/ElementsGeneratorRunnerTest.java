@@ -23,15 +23,11 @@ package com.codenjoy.dojo.services.generator;
  */
 
 import com.codenjoy.dojo.utils.RedirectOutput;
-import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestName;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-
-import static com.codenjoy.dojo.services.generator.ElementGeneratorTest.assertSmokeEquals;
+import static com.codenjoy.dojo.utils.SmokeUtils.assertSmokeEquals;
 
 public class ElementsGeneratorRunnerTest {
 
@@ -56,6 +52,6 @@ public class ElementsGeneratorRunnerTest {
     }
 
     private void assertEquals(String actual) {
-        assertSmokeEquals(actual, getClass(), test);
+        assertSmokeEquals(actual, getClass(), test.getMethodName());
     }
 }

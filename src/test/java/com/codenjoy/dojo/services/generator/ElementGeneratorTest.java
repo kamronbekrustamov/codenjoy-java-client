@@ -23,16 +23,15 @@ package com.codenjoy.dojo.services.generator;
  */
 
 import com.codenjoy.dojo.utils.RedirectOutput;
-import com.codenjoy.dojo.utils.SmokeUtils;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestName;
 
 import java.io.File;
-import java.util.Arrays;
 import java.util.Locale;
 
 import static com.codenjoy.dojo.services.generator.ElementGeneratorRunner.localesFor;
+import static com.codenjoy.dojo.utils.SmokeUtils.assertSmokeEquals;
 import static java.util.Locale.ENGLISH;
 
 public class ElementGeneratorTest {
@@ -188,15 +187,7 @@ public class ElementGeneratorTest {
     }
 
     private void assertEquals(String actual) {
-        assertSmokeEquals(actual, getClass(), test);
-    }
-
-    public static void assertSmokeEquals(String actual, Class owner, TestName test) {
-        SmokeUtils.assertSmokeFile(owner.getSimpleName()
-                + "/" + test.getMethodName() +  ".data",
-                Arrays.asList(actual
-                        .replace("\r\n", "\n")
-                        .split("\n")));
+        assertSmokeEquals(actual, getClass(), test.getMethodName());
     }
 
     private void assertGenerate(String game, String language) {

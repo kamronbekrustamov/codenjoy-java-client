@@ -98,6 +98,10 @@ public class ElementGenerator {
         return absolute.getAbsolutePath();
     }
 
+    public static String getBase() {
+        return getBase(new File(".").getAbsolutePath());
+    }
+
     public static String getCanonicalGame(String game) {
         for (String canonicalName : DIFFERENT_NAME_GAMES) {
             if (game.equals(getGame(canonicalName))) {
