@@ -41,7 +41,7 @@ public enum Element implements CharElement {
 
         // Apple.
 
-    APPLE('○'),
+    BLUEBERRY('○'),
 
         // Stone.
 
