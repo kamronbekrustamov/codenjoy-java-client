@@ -66,7 +66,7 @@ public class Board extends AbstractBoard<Element> {
         return getHeroHead() == null;
     }
 
-    public boolean isStoneAt(int x, int y) {
-        return isAt(x, y, STONE);
+    public boolean isAcornAt(int x, int y) {
+        return isAt(x, y, ACORN);
     }
 }

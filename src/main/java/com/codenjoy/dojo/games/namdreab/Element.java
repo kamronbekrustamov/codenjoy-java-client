@@ -45,7 +45,7 @@ public enum Element implements CharElement {
 
         // Stone.
 
-    STONE('●'),
+    ACORN('●'),
 
         // Flying pill/Angel's wings.
 
