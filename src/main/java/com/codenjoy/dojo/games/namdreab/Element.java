@@ -37,7 +37,7 @@ public enum Element implements CharElement {
 
         // Respawn point from which the hero starts its movement.
 
-    START_FLOOR('#'),
+    START_SPOT('#'),
 
         // Apple.
 
