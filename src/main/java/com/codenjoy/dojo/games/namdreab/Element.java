@@ -47,9 +47,9 @@ public enum Element implements CharElement {
 
     ACORN('●'),
 
-        // Flying pill/Angel's wings.
+        // Death cap/Angel's wings.
 
-    FLYING_PILL('©'),
+    DEATH_CAP('©'),
 
         // Fury pill/Devil's mask.
 
