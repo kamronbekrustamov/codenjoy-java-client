@@ -128,6 +128,6 @@ public class BoardTest {
     @Test
     public void shouldIsAt() {
         assertEquals(false, board.isAt(0, 1, Element.BODY_HORIZONTAL));
-        assertEquals(true,  board.isAt(0, 1, Element.WALL));
+        assertEquals(true,  board.isAt(0, 1, Element.ROCK));
     }
 }

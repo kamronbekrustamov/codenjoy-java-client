@@ -42,7 +42,7 @@ public class Board extends AbstractBoard<Element> {
 
     public boolean isBarrierAt(int x, int y) {
         return isAt(x, y,
-                WALL,
+                ROCK,
                 START_FLOOR,
                 ENEMY_HEAD_SLEEP,
                 ENEMY_TAIL_INACTIVE,
