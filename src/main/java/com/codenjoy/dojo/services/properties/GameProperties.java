@@ -158,7 +158,9 @@ public class GameProperties {
         }
         if (!properties.containsKey(key)) {
             throw new RuntimeException(String.format(
-                    "Key not found for either element or setting: [name=%s, game=%s]",
+                    "Key not found for either element or setting: [name=%s, game=%s]. " +
+                    "Please check that you have defined it in the info.properties file " +
+                    "in the resources folder of the game.",
                     name, getGame(canonicalGame)));
         }
         return properties.getProperty(key);
