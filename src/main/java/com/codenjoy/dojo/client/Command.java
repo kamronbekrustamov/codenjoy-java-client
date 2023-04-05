@@ -26,4 +26,5 @@ public class Command {
 
     public static final String START_NEXT_LEVEL = "StartNextLevel";
     public static final String SKIP_THIS_LEVEL = "SkipThisLevel";
+    public static final String RESET_THIS_LEVEL = "ResetThisLevel";
 }
