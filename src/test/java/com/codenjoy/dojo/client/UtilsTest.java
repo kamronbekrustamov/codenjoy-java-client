@@ -133,4 +133,28 @@ public class UtilsTest {
                     "CDEFHIJKLMNO\n",
                 Utils.injectNN("1234567890ABCDEFHIJKLMNO1234567890ABCDEFHIJKLMNO1234567890ABCDEFHIJKLMNO"));
     }
+
+    @Test
+    public void testReplaceApostrophe() {
+        assertEquals("'qwe'asd'", Utils.replaceApostrophe("'qwe\"asd'"));
+        assertEquals("'qwe'asd'", Utils.replaceApostrophe("'qwe\"asd\""));
+        assertEquals("'qwe'asd'", Utils.replaceApostrophe("\"qwe\"asd'"));
+        assertEquals("'qwe'asd'", Utils.replaceApostrophe("\"qwe\"asd'"));
+    }
+
+    @Test
+    public void testEscapeApostrophe() {
+        assertEquals("qwe\\'asd", Utils.escapeApostrophe("qwe'asd"));
+        assertEquals("qwe\\'asd\\'", Utils.escapeApostrophe("qwe'asd'"));
+        assertEquals("\\'qwe\\'asd", Utils.escapeApostrophe("'qwe'asd"));
+        assertEquals("\\'qwe\\'asd\\'", Utils.escapeApostrophe("'qwe'asd'"));
+    }
+
+    @Test
+    public void testReplaceNewLine() {
+        assertEquals("\nqwe\nasd\n", Utils.replaceNewLine("\nqwe\r\nasd\n"));
+        assertEquals("\nqwe\nasd\n", Utils.replaceNewLine("\nqwe\r\nasd\r\n"));
+        assertEquals("\nqwe\nasd\n", Utils.replaceNewLine("\r\nqwe\r\nasd\n"));
+        assertEquals("\nqwe\nasd\n", Utils.replaceNewLine("\r\nqwe\r\nasd\r\n"));
+    }
 }

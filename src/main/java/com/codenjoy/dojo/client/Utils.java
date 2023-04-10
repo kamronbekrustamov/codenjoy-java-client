@@ -39,8 +39,20 @@ public class Utils {
 
     public static final int COUNT_NUMBERS = 3;
 
-    public static String clean(String json) {
-        return json.replace('\"', '\'').replaceAll("\\r\\n", "\n");
+    public static String clean(String input) {
+        return replaceApostrophe(replaceNewLine(input));
+    }
+
+    public static String replaceApostrophe(String input) {
+        return input.replace('\"', '\'');
+    }
+
+    public static String escapeApostrophe(String input) {
+        return input.replaceAll("'", "\\\\'");
+    }
+
+    public static String replaceNewLine(String input) {
+        return input.replaceAll("\\r\\n", "\n");
     }
 
     public static String prettyPrintObject(Object object) {
