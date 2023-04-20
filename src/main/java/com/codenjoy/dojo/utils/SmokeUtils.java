@@ -78,7 +78,8 @@ public class SmokeUtils {
     public static void assertSmokeFile(String fileName, List<String> messages) {
         String actual = String.join("\n", messages);
         String expected;
-        File expectedFile = new File(SOURCE_FOLDER + fileName);
+        String filePath = fileName.startsWith("src") ? fileName : SOURCE_FOLDER + fileName;
+        File expectedFile = new File(filePath);
         File actualFile = new File(TARGET_FOLDER + fileName);
         System.out.println("Expected data is here: " + expectedFile.getAbsolutePath());
         System.out.println("Actual data is here:   " + actualFile.getAbsolutePath());
