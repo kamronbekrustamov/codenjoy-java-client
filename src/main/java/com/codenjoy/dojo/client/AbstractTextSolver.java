@@ -23,7 +23,6 @@ package com.codenjoy.dojo.client;
  */
 
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.Arrays;
@@ -36,6 +35,17 @@ public abstract class AbstractTextSolver<T> implements Solver<AbstractTextBoard>
 
     private AbstractTextBoard board;
     protected JSONObject data;
+    protected QuestionsJsonParser parser = new QuestionsJsonParser() {
+        @Override
+        public int level(JSONObject data) {
+            return data.getInt("level");
+        }
+
+        @Override
+        public List<String> questions(JSONObject data) {
+            return Utils.getStrings(data.getJSONArray("questions"));
+        }
+    };
 
     public abstract Strings getAnswers(int level, Strings questions);
 
@@ -45,10 +55,9 @@ public abstract class AbstractTextSolver<T> implements Solver<AbstractTextBoard>
         if (board.isGameOver()) return "";
 
         data = new JSONObject(board.getData());
-        JSONArray array = data.getJSONArray("questions");
-        int level = data.getInt("level");
+        int level = parser.level(data);
+        List<String> questions = parser.questions(data);
 
-        List<String> questions = Utils.getStrings(array);
         Strings answers = getAnswers(level, new Strings(questions));
         String answersString = answers.toString();
 
