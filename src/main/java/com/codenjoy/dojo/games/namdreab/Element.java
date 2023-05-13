@@ -47,17 +47,19 @@ public enum Element implements CharElement {
 
     ACORN('●'),
 
-        // Death cap/Angel's wings.
+        // Death cap. Brings the player into flight mode, which gives
+        // him the ability to avoid obstacles.
 
     DEATH_CAP('©'),
 
-        // Fly agaric/Devil's mask.
+        // Fly agaric. Brings the player into a fury, which gives him
+        // an advantage when clashing.
 
     FLY_AGARIC('®'),
 
-        // Gold.
+        // Strawberry.
 
-    GOLD('$'),
+    STRAWBERRY('$'),
 
         // Your hero head pointing down.
 
@@ -79,11 +81,11 @@ public enum Element implements CharElement {
 
     HEAD_DEAD('☻'),
 
-        // Your hero head under influence Fly agaric/Devils mask.
+        // Your hero head under influence fly agaric.
 
     HEAD_EVIL('♥'),
 
-        // Your hero head under influence Death cap/Angels wings.
+        // Your hero head under influence death cap.
 
     HEAD_FLY('♠'),
 
@@ -155,11 +157,11 @@ public enum Element implements CharElement {
 
     ENEMY_HEAD_DEAD('☺'),
 
-        // Enemy hero head under influence Fly agaric/Devils mask.
+        // Enemy hero head under influence fly agaric.
 
     ENEMY_HEAD_EVIL('♣'),
 
-        // Enemy hero head under influence Death cap/Angels wings.
+        // Enemy hero head under influence death cap.
 
     ENEMY_HEAD_FLY('♦'),
 
