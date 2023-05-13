@@ -51,9 +51,9 @@ public enum Element implements CharElement {
 
     DEATH_CAP('©'),
 
-        // Fury pill/Devil's mask.
+        // Fly agaric/Devil's mask.
 
-    FURY_PILL('®'),
+    FLY_AGARIC('®'),
 
         // Gold.
 
@@ -79,7 +79,7 @@ public enum Element implements CharElement {
 
     HEAD_DEAD('☻'),
 
-        // Your hero head under influence Fury pill/Devils mask.
+        // Your hero head under influence Fly agaric/Devils mask.
 
     HEAD_EVIL('♥'),
 
@@ -155,7 +155,7 @@ public enum Element implements CharElement {
 
     ENEMY_HEAD_DEAD('☺'),
 
-        // Enemy hero head under influence Fury pill/Devils mask.
+        // Enemy hero head under influence Fly agaric/Devils mask.
 
     ENEMY_HEAD_EVIL('♣'),
 
