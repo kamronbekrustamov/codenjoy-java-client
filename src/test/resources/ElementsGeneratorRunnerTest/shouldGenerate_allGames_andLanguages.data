@@ -1,643 +1,679 @@
 +-----------------------------+
 | Starting elements generator |
 +-----------------------------+
-[44;93mGot from Runner:
-	 'GAMES':   'all'
-	 'CLIENTS': 'all'
-	 'LOCALES': 'all'
-	 'BASE':    ''[0m
-[mGot from Processed:
-	 'GAMES':   'a2048,chess,clifford,collapse,excitebike,expansion,fifteen,football,hex,icancode,japanese,kata,knibert,lemonade,lunolet,moebius,mollymage,namdreab,pong,puzzlebox,quadro,quake2d,rawelbbub,reversi,rubicscube,sample,sampletext,selfdefense,sokoban,spacerace,startandjump,sudoku,tetris,vacuum,verland,xonix'
-	 'CLIENTS': 'md,md_header,md_footer,java,cpp,go,js,php,python,csharp'
-	 'LOCALES': 'en,ru'
-	 'BASE':    '<BASE>\clients\java'[0m
+[44;97mGot from Runner:[0m
+[44;97m	 'GAMES':   'all'[0m
+[44;97m	 'CLIENTS': 'all'[0m
+[44;97m	 'LOCALES': 'all'[0m
+[44;97m	 'BASE':    ''[0m
+[mGot from Processed:[0m
+[m	 'GAMES':   'a2048,chess,clifford,collapse,excitebike,expansion,fifteen,football,hex,icancode,japanese,kata,knibert,lemonade,lunolet,moebius,mollymage,namdreab,pong,puzzlebox,quadro,quake2d,rawelbbub,reversi,rubicscube,sample,sampletext,selfdefense,sokoban,spacerace,startandjump,sudoku,tetris,vacuum,verland,xonix'[0m
+[m	 'CLIENTS': 'md,md_header,md_footer,java,cpp,go,js,php,python,csharp'[0m
+[m	 'LOCALES': 'en,ru'[0m
+[m	 'BASE':    '<BASE>\clients\java'[0m
 
-Store 'a2048-md' in file: '<BASE>\clients\..\games\a2048\src\main\webapp\resources\a2048\help\en\elements.md'
-Store 'a2048-md' in file: '<BASE>\clients\..\games\a2048\src\main\webapp\resources\a2048\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/a2048/help/ru/info.properties'
-		'file:<BASE>\games\a2048\src\main\webapp\resources\a2048\help\ru\info.properties'
-[41;93mError during generate: [game=a2048, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=a2048, language=md]]
-Skipped![0m
-Store 'a2048-md_header' in file: '<BASE>\clients\..\games\a2048\src\main\webapp\resources\a2048\help\header.html'
-Store 'a2048-md_footer' in file: '<BASE>\clients\..\games\a2048\src\main\webapp\resources\a2048\help\footer.html'
-Store 'a2048-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\a2048\Element.java'
-Store 'a2048-cpp' in file: '<BASE>\clients\cpp\src\games\a2048\Element.cpp'
-Store 'a2048-go' in file: '<BASE>\clients\go\games\a2048\element.go'
-Store 'a2048-js' in file: '<BASE>\clients\java-script\games\a2048\elements.js'
-Store 'a2048-php' in file: '<BASE>\clients\php\games\a2048\Element.php'
-Store 'a2048-python' in file: '<BASE>\clients\python\games\a2048\element.py'
-Store 'a2048-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\A2048\A2048Element.cs'
+[44;97mGenerating elements for game 'a2048'[0m
+	[mStore 'a2048:md:en' in file: '<BASE>\clients\..\games\a2048\src\main\webapp\resources\a2048\help\en\elements.md'[0m
+	[mStore 'a2048:md:ru' in file: '<BASE>\clients\..\games\a2048\src\main\webapp\resources\a2048\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/a2048/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\a2048\src\main\webapp\resources\a2048\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=a2048, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=a2048, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'a2048:md_header:en' in file: '<BASE>\clients\..\games\a2048\src\main\webapp\resources\a2048\help\header.html'[0m
+	[mStore 'a2048:md_footer:en' in file: '<BASE>\clients\..\games\a2048\src\main\webapp\resources\a2048\help\footer.html'[0m
+	[mStore 'a2048:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\a2048\Element.java'[0m
+	[mStore 'a2048:cpp:en' in file: '<BASE>\clients\cpp\src\games\a2048\Element.cpp'[0m
+	[mStore 'a2048:go:en' in file: '<BASE>\clients\go\games\a2048\element.go'[0m
+	[mStore 'a2048:js:en' in file: '<BASE>\clients\java-script\games\a2048\elements.js'[0m
+	[mStore 'a2048:php:en' in file: '<BASE>\clients\php\games\a2048\Element.php'[0m
+	[mStore 'a2048:python:en' in file: '<BASE>\clients\python\games\a2048\element.py'[0m
+	[mStore 'a2048:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\A2048\A2048Element.cs'[0m
 
-Store 'chess-md' in file: '<BASE>\clients\..\games\chess\src\main\webapp\resources\chess\help\en\elements.md'
-Store 'chess-md' in file: '<BASE>\clients\..\games\chess\src\main\webapp\resources\chess\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/chess/help/ru/info.properties'
-		'file:<BASE>\games\chess\src\main\webapp\resources\chess\help\ru\info.properties'
-[41;93mError during generate: [game=chess, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=chess, language=md]]
-Skipped![0m
-Store 'chess-md_header' in file: '<BASE>\clients\..\games\chess\src\main\webapp\resources\chess\help\header.html'
-Store 'chess-md_footer' in file: '<BASE>\clients\..\games\chess\src\main\webapp\resources\chess\help\footer.html'
-Store 'chess-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\chess\Element.java'
-Store 'chess-cpp' in file: '<BASE>\clients\cpp\src\games\chess\Element.cpp'
-Store 'chess-go' in file: '<BASE>\clients\go\games\chess\element.go'
-Store 'chess-js' in file: '<BASE>\clients\java-script\games\chess\elements.js'
-Store 'chess-php' in file: '<BASE>\clients\php\games\chess\Element.php'
-Store 'chess-python' in file: '<BASE>\clients\python\games\chess\element.py'
-Store 'chess-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Chess\ChessElement.cs'
+[44;97mGenerating elements for game 'chess'[0m
+	[mStore 'chess:md:en' in file: '<BASE>\clients\..\games\chess\src\main\webapp\resources\chess\help\en\elements.md'[0m
+	[mStore 'chess:md:ru' in file: '<BASE>\clients\..\games\chess\src\main\webapp\resources\chess\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/chess/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\chess\src\main\webapp\resources\chess\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=chess, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=chess, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'chess:md_header:en' in file: '<BASE>\clients\..\games\chess\src\main\webapp\resources\chess\help\header.html'[0m
+	[mStore 'chess:md_footer:en' in file: '<BASE>\clients\..\games\chess\src\main\webapp\resources\chess\help\footer.html'[0m
+	[mStore 'chess:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\chess\Element.java'[0m
+	[mStore 'chess:cpp:en' in file: '<BASE>\clients\cpp\src\games\chess\Element.cpp'[0m
+	[mStore 'chess:go:en' in file: '<BASE>\clients\go\games\chess\element.go'[0m
+	[mStore 'chess:js:en' in file: '<BASE>\clients\java-script\games\chess\elements.js'[0m
+	[mStore 'chess:php:en' in file: '<BASE>\clients\php\games\chess\Element.php'[0m
+	[mStore 'chess:python:en' in file: '<BASE>\clients\python\games\chess\element.py'[0m
+	[mStore 'chess:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Chess\ChessElement.cs'[0m
 
-Store 'clifford-md' in file: '<BASE>\clients\..\games\clifford\src\main\webapp\resources\clifford\help\en\elements.md'
-Store 'clifford-md' in file: '<BASE>\clients\..\games\clifford\src\main\webapp\resources\clifford\help\ru\elements.md'
-Store 'clifford-md_header' in file: '<BASE>\clients\..\games\clifford\src\main\webapp\resources\clifford\help\header.html'
-Store 'clifford-md_footer' in file: '<BASE>\clients\..\games\clifford\src\main\webapp\resources\clifford\help\footer.html'
-Store 'clifford-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\clifford\Element.java'
-Store 'clifford-cpp' in file: '<BASE>\clients\cpp\src\games\clifford\Element.cpp'
-Store 'clifford-go' in file: '<BASE>\clients\go\games\clifford\element.go'
-Store 'clifford-js' in file: '<BASE>\clients\java-script\games\clifford\elements.js'
-Store 'clifford-php' in file: '<BASE>\clients\php\games\clifford\Element.php'
-Store 'clifford-python' in file: '<BASE>\clients\python\games\clifford\element.py'
-Store 'clifford-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Clifford\CliffordElement.cs'
+[44;97mGenerating elements for game 'clifford'[0m
+	[mStore 'clifford:md:en' in file: '<BASE>\clients\..\games\clifford\src\main\webapp\resources\clifford\help\en\elements.md'[0m
+	[mStore 'clifford:md:ru' in file: '<BASE>\clients\..\games\clifford\src\main\webapp\resources\clifford\help\ru\elements.md'[0m
+	[mStore 'clifford:md_header:en' in file: '<BASE>\clients\..\games\clifford\src\main\webapp\resources\clifford\help\header.html'[0m
+	[mStore 'clifford:md_footer:en' in file: '<BASE>\clients\..\games\clifford\src\main\webapp\resources\clifford\help\footer.html'[0m
+	[mStore 'clifford:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\clifford\Element.java'[0m
+	[mStore 'clifford:cpp:en' in file: '<BASE>\clients\cpp\src\games\clifford\Element.cpp'[0m
+	[mStore 'clifford:go:en' in file: '<BASE>\clients\go\games\clifford\element.go'[0m
+	[mStore 'clifford:js:en' in file: '<BASE>\clients\java-script\games\clifford\elements.js'[0m
+	[mStore 'clifford:php:en' in file: '<BASE>\clients\php\games\clifford\Element.php'[0m
+	[mStore 'clifford:python:en' in file: '<BASE>\clients\python\games\clifford\element.py'[0m
+	[mStore 'clifford:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Clifford\CliffordElement.cs'[0m
 
-Store 'collapse-md' in file: '<BASE>\clients\..\games\collapse\src\main\webapp\resources\collapse\help\en\elements.md'
-Store 'collapse-md' in file: '<BASE>\clients\..\games\collapse\src\main\webapp\resources\collapse\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/collapse/help/ru/info.properties'
-		'file:<BASE>\games\collapse\src\main\webapp\resources\collapse\help\ru\info.properties'
-[41;93mError during generate: [game=collapse, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=collapse, language=md]]
-Skipped![0m
-Store 'collapse-md_header' in file: '<BASE>\clients\..\games\collapse\src\main\webapp\resources\collapse\help\header.html'
-Store 'collapse-md_footer' in file: '<BASE>\clients\..\games\collapse\src\main\webapp\resources\collapse\help\footer.html'
-Store 'collapse-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\collapse\Element.java'
-Store 'collapse-cpp' in file: '<BASE>\clients\cpp\src\games\collapse\Element.cpp'
-Store 'collapse-go' in file: '<BASE>\clients\go\games\collapse\element.go'
-Store 'collapse-js' in file: '<BASE>\clients\java-script\games\collapse\elements.js'
-Store 'collapse-php' in file: '<BASE>\clients\php\games\collapse\Element.php'
-Store 'collapse-python' in file: '<BASE>\clients\python\games\collapse\element.py'
-Store 'collapse-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Collapse\CollapseElement.cs'
+[44;97mGenerating elements for game 'collapse'[0m
+	[mStore 'collapse:md:en' in file: '<BASE>\clients\..\games\collapse\src\main\webapp\resources\collapse\help\en\elements.md'[0m
+	[mStore 'collapse:md:ru' in file: '<BASE>\clients\..\games\collapse\src\main\webapp\resources\collapse\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/collapse/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\collapse\src\main\webapp\resources\collapse\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=collapse, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=collapse, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'collapse:md_header:en' in file: '<BASE>\clients\..\games\collapse\src\main\webapp\resources\collapse\help\header.html'[0m
+	[mStore 'collapse:md_footer:en' in file: '<BASE>\clients\..\games\collapse\src\main\webapp\resources\collapse\help\footer.html'[0m
+	[mStore 'collapse:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\collapse\Element.java'[0m
+	[mStore 'collapse:cpp:en' in file: '<BASE>\clients\cpp\src\games\collapse\Element.cpp'[0m
+	[mStore 'collapse:go:en' in file: '<BASE>\clients\go\games\collapse\element.go'[0m
+	[mStore 'collapse:js:en' in file: '<BASE>\clients\java-script\games\collapse\elements.js'[0m
+	[mStore 'collapse:php:en' in file: '<BASE>\clients\php\games\collapse\Element.php'[0m
+	[mStore 'collapse:python:en' in file: '<BASE>\clients\python\games\collapse\element.py'[0m
+	[mStore 'collapse:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Collapse\CollapseElement.cs'[0m
 
-Store 'excitebike-md' in file: '<BASE>\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\en\elements.md'
-Store 'excitebike-md' in file: '<BASE>\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/excitebike/help/ru/info.properties'
-		'file:<BASE>\games\excitebike\src\main\webapp\resources\excitebike\help\ru\info.properties'
-[41;93mError during generate: [game=excitebike, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=excitebike, language=md]]
-Skipped![0m
-Store 'excitebike-md_header' in file: '<BASE>\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\header.html'
-Store 'excitebike-md_footer' in file: '<BASE>\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\footer.html'
-Store 'excitebike-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\excitebike\Element.java'
-Store 'excitebike-cpp' in file: '<BASE>\clients\cpp\src\games\excitebike\Element.cpp'
-Store 'excitebike-go' in file: '<BASE>\clients\go\games\excitebike\element.go'
-Store 'excitebike-js' in file: '<BASE>\clients\java-script\games\excitebike\elements.js'
-Store 'excitebike-php' in file: '<BASE>\clients\php\games\excitebike\Element.php'
-Store 'excitebike-python' in file: '<BASE>\clients\python\games\excitebike\element.py'
-Store 'excitebike-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Excitebike\ExcitebikeElement.cs'
+[44;97mGenerating elements for game 'excitebike'[0m
+	[mStore 'excitebike:md:en' in file: '<BASE>\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\en\elements.md'[0m
+	[mStore 'excitebike:md:ru' in file: '<BASE>\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/excitebike/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\excitebike\src\main\webapp\resources\excitebike\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=excitebike, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=excitebike, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'excitebike:md_header:en' in file: '<BASE>\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\header.html'[0m
+	[mStore 'excitebike:md_footer:en' in file: '<BASE>\clients\..\games\excitebike\src\main\webapp\resources\excitebike\help\footer.html'[0m
+	[mStore 'excitebike:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\excitebike\Element.java'[0m
+	[mStore 'excitebike:cpp:en' in file: '<BASE>\clients\cpp\src\games\excitebike\Element.cpp'[0m
+	[mStore 'excitebike:go:en' in file: '<BASE>\clients\go\games\excitebike\element.go'[0m
+	[mStore 'excitebike:js:en' in file: '<BASE>\clients\java-script\games\excitebike\elements.js'[0m
+	[mStore 'excitebike:php:en' in file: '<BASE>\clients\php\games\excitebike\Element.php'[0m
+	[mStore 'excitebike:python:en' in file: '<BASE>\clients\python\games\excitebike\element.py'[0m
+	[mStore 'excitebike:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Excitebike\ExcitebikeElement.cs'[0m
 
-Store 'expansion-md' in file: '<BASE>\clients\..\games\expansion\src\main\webapp\resources\expansion\help\en\elements.md'
-Store 'expansion-md' in file: '<BASE>\clients\..\games\expansion\src\main\webapp\resources\expansion\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/expansion/help/ru/info.properties'
-		'file:<BASE>\games\expansion\src\main\webapp\resources\expansion\help\ru\info.properties'
-[41;93mError during generate: [game=expansion, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=expansion, language=md]]
-Skipped![0m
-Store 'expansion-md_header' in file: '<BASE>\clients\..\games\expansion\src\main\webapp\resources\expansion\help\header.html'
-Store 'expansion-md_footer' in file: '<BASE>\clients\..\games\expansion\src\main\webapp\resources\expansion\help\footer.html'
-Store 'expansion-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\expansion\Element.java'
-Store 'expansion-cpp' in file: '<BASE>\clients\cpp\src\games\expansion\Element.cpp'
-Store 'expansion-go' in file: '<BASE>\clients\go\games\expansion\element.go'
-Store 'expansion-js' in file: '<BASE>\clients\java-script\games\expansion\elements.js'
-Store 'expansion-php' in file: '<BASE>\clients\php\games\expansion\Element.php'
-Store 'expansion-python' in file: '<BASE>\clients\python\games\expansion\element.py'
-Store 'expansion-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Expansion\ExpansionElement.cs'
+[44;97mGenerating elements for game 'expansion'[0m
+	[mStore 'expansion:md:en' in file: '<BASE>\clients\..\games\expansion\src\main\webapp\resources\expansion\help\en\elements.md'[0m
+	[mStore 'expansion:md:ru' in file: '<BASE>\clients\..\games\expansion\src\main\webapp\resources\expansion\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/expansion/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\expansion\src\main\webapp\resources\expansion\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=expansion, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=expansion, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'expansion:md_header:en' in file: '<BASE>\clients\..\games\expansion\src\main\webapp\resources\expansion\help\header.html'[0m
+	[mStore 'expansion:md_footer:en' in file: '<BASE>\clients\..\games\expansion\src\main\webapp\resources\expansion\help\footer.html'[0m
+	[mStore 'expansion:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\expansion\Element.java'[0m
+	[mStore 'expansion:cpp:en' in file: '<BASE>\clients\cpp\src\games\expansion\Element.cpp'[0m
+	[mStore 'expansion:go:en' in file: '<BASE>\clients\go\games\expansion\element.go'[0m
+	[mStore 'expansion:js:en' in file: '<BASE>\clients\java-script\games\expansion\elements.js'[0m
+	[mStore 'expansion:php:en' in file: '<BASE>\clients\php\games\expansion\Element.php'[0m
+	[mStore 'expansion:python:en' in file: '<BASE>\clients\python\games\expansion\element.py'[0m
+	[mStore 'expansion:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Expansion\ExpansionElement.cs'[0m
 
-Store 'fifteen-md' in file: '<BASE>\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\en\elements.md'
-Store 'fifteen-md' in file: '<BASE>\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/fifteen/help/ru/info.properties'
-		'file:<BASE>\games\fifteen\src\main\webapp\resources\fifteen\help\ru\info.properties'
-[41;93mError during generate: [game=fifteen, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=fifteen, language=md]]
-Skipped![0m
-Store 'fifteen-md_header' in file: '<BASE>\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\header.html'
-Store 'fifteen-md_footer' in file: '<BASE>\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\footer.html'
-Store 'fifteen-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\fifteen\Element.java'
-Store 'fifteen-cpp' in file: '<BASE>\clients\cpp\src\games\fifteen\Element.cpp'
-Store 'fifteen-go' in file: '<BASE>\clients\go\games\fifteen\element.go'
-Store 'fifteen-js' in file: '<BASE>\clients\java-script\games\fifteen\elements.js'
-Store 'fifteen-php' in file: '<BASE>\clients\php\games\fifteen\Element.php'
-Store 'fifteen-python' in file: '<BASE>\clients\python\games\fifteen\element.py'
-Store 'fifteen-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Fifteen\FifteenElement.cs'
+[44;97mGenerating elements for game 'fifteen'[0m
+	[mStore 'fifteen:md:en' in file: '<BASE>\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\en\elements.md'[0m
+	[mStore 'fifteen:md:ru' in file: '<BASE>\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/fifteen/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\fifteen\src\main\webapp\resources\fifteen\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=fifteen, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=fifteen, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'fifteen:md_header:en' in file: '<BASE>\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\header.html'[0m
+	[mStore 'fifteen:md_footer:en' in file: '<BASE>\clients\..\games\fifteen\src\main\webapp\resources\fifteen\help\footer.html'[0m
+	[mStore 'fifteen:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\fifteen\Element.java'[0m
+	[mStore 'fifteen:cpp:en' in file: '<BASE>\clients\cpp\src\games\fifteen\Element.cpp'[0m
+	[mStore 'fifteen:go:en' in file: '<BASE>\clients\go\games\fifteen\element.go'[0m
+	[mStore 'fifteen:js:en' in file: '<BASE>\clients\java-script\games\fifteen\elements.js'[0m
+	[mStore 'fifteen:php:en' in file: '<BASE>\clients\php\games\fifteen\Element.php'[0m
+	[mStore 'fifteen:python:en' in file: '<BASE>\clients\python\games\fifteen\element.py'[0m
+	[mStore 'fifteen:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Fifteen\FifteenElement.cs'[0m
 
-Store 'football-md' in file: '<BASE>\clients\..\games\football\src\main\webapp\resources\football\help\en\elements.md'
-Store 'football-md' in file: '<BASE>\clients\..\games\football\src\main\webapp\resources\football\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/football/help/ru/info.properties'
-		'file:<BASE>\games\football\src\main\webapp\resources\football\help\ru\info.properties'
-[41;93mError during generate: [game=football, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=football, language=md]]
-Skipped![0m
-Store 'football-md_header' in file: '<BASE>\clients\..\games\football\src\main\webapp\resources\football\help\header.html'
-Store 'football-md_footer' in file: '<BASE>\clients\..\games\football\src\main\webapp\resources\football\help\footer.html'
-Store 'football-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\football\Element.java'
-Store 'football-cpp' in file: '<BASE>\clients\cpp\src\games\football\Element.cpp'
-Store 'football-go' in file: '<BASE>\clients\go\games\football\element.go'
-Store 'football-js' in file: '<BASE>\clients\java-script\games\football\elements.js'
-Store 'football-php' in file: '<BASE>\clients\php\games\football\Element.php'
-Store 'football-python' in file: '<BASE>\clients\python\games\football\element.py'
-Store 'football-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Football\FootballElement.cs'
+[44;97mGenerating elements for game 'football'[0m
+	[mStore 'football:md:en' in file: '<BASE>\clients\..\games\football\src\main\webapp\resources\football\help\en\elements.md'[0m
+	[mStore 'football:md:ru' in file: '<BASE>\clients\..\games\football\src\main\webapp\resources\football\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/football/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\football\src\main\webapp\resources\football\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=football, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=football, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'football:md_header:en' in file: '<BASE>\clients\..\games\football\src\main\webapp\resources\football\help\header.html'[0m
+	[mStore 'football:md_footer:en' in file: '<BASE>\clients\..\games\football\src\main\webapp\resources\football\help\footer.html'[0m
+	[mStore 'football:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\football\Element.java'[0m
+	[mStore 'football:cpp:en' in file: '<BASE>\clients\cpp\src\games\football\Element.cpp'[0m
+	[mStore 'football:go:en' in file: '<BASE>\clients\go\games\football\element.go'[0m
+	[mStore 'football:js:en' in file: '<BASE>\clients\java-script\games\football\elements.js'[0m
+	[mStore 'football:php:en' in file: '<BASE>\clients\php\games\football\Element.php'[0m
+	[mStore 'football:python:en' in file: '<BASE>\clients\python\games\football\element.py'[0m
+	[mStore 'football:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Football\FootballElement.cs'[0m
 
-Store 'hex-md' in file: '<BASE>\clients\..\games\hex\src\main\webapp\resources\hex\help\en\elements.md'
-Store 'hex-md' in file: '<BASE>\clients\..\games\hex\src\main\webapp\resources\hex\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/hex/help/ru/info.properties'
-		'file:<BASE>\games\hex\src\main\webapp\resources\hex\help\ru\info.properties'
-[41;93mError during generate: [game=hex, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=hex, language=md]]
-Skipped![0m
-Store 'hex-md_header' in file: '<BASE>\clients\..\games\hex\src\main\webapp\resources\hex\help\header.html'
-Store 'hex-md_footer' in file: '<BASE>\clients\..\games\hex\src\main\webapp\resources\hex\help\footer.html'
-Store 'hex-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\hex\Element.java'
-Store 'hex-cpp' in file: '<BASE>\clients\cpp\src\games\hex\Element.cpp'
-Store 'hex-go' in file: '<BASE>\clients\go\games\hex\element.go'
-Store 'hex-js' in file: '<BASE>\clients\java-script\games\hex\elements.js'
-Store 'hex-php' in file: '<BASE>\clients\php\games\hex\Element.php'
-Store 'hex-python' in file: '<BASE>\clients\python\games\hex\element.py'
-Store 'hex-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Hex\HexElement.cs'
+[44;97mGenerating elements for game 'hex'[0m
+	[mStore 'hex:md:en' in file: '<BASE>\clients\..\games\hex\src\main\webapp\resources\hex\help\en\elements.md'[0m
+	[mStore 'hex:md:ru' in file: '<BASE>\clients\..\games\hex\src\main\webapp\resources\hex\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/hex/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\hex\src\main\webapp\resources\hex\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=hex, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=hex, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'hex:md_header:en' in file: '<BASE>\clients\..\games\hex\src\main\webapp\resources\hex\help\header.html'[0m
+	[mStore 'hex:md_footer:en' in file: '<BASE>\clients\..\games\hex\src\main\webapp\resources\hex\help\footer.html'[0m
+	[mStore 'hex:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\hex\Element.java'[0m
+	[mStore 'hex:cpp:en' in file: '<BASE>\clients\cpp\src\games\hex\Element.cpp'[0m
+	[mStore 'hex:go:en' in file: '<BASE>\clients\go\games\hex\element.go'[0m
+	[mStore 'hex:js:en' in file: '<BASE>\clients\java-script\games\hex\elements.js'[0m
+	[mStore 'hex:php:en' in file: '<BASE>\clients\php\games\hex\Element.php'[0m
+	[mStore 'hex:python:en' in file: '<BASE>\clients\python\games\hex\element.py'[0m
+	[mStore 'hex:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Hex\HexElement.cs'[0m
 
-Store 'icancode-md' in file: '<BASE>\clients\..\games\icancode\src\main\webapp\resources\icancode\help\en\elements.md'
-Store 'icancode-md' in file: '<BASE>\clients\..\games\icancode\src\main\webapp\resources\icancode\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/icancode/help/ru/info.properties'
-		'file:<BASE>\games\icancode\src\main\webapp\resources\icancode\help\ru\info.properties'
-[41;93mError during generate: [game=icancode, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=icancode, language=md]]
-Skipped![0m
-Store 'icancode-md_header' in file: '<BASE>\clients\..\games\icancode\src\main\webapp\resources\icancode\help\header.html'
-Store 'icancode-md_footer' in file: '<BASE>\clients\..\games\icancode\src\main\webapp\resources\icancode\help\footer.html'
-Store 'icancode-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\icancode\Element.java'
-Store 'icancode-cpp' in file: '<BASE>\clients\cpp\src\games\icancode\Element.cpp'
-Store 'icancode-go' in file: '<BASE>\clients\go\games\icancode\element.go'
-Store 'icancode-js' in file: '<BASE>\clients\java-script\games\icancode\elements.js'
-Store 'icancode-php' in file: '<BASE>\clients\php\games\icancode\Element.php'
-Store 'icancode-python' in file: '<BASE>\clients\python\games\icancode\element.py'
-Store 'icancode-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Icancode\IcancodeElement.cs'
+[44;97mGenerating elements for game 'icancode'[0m
+	[mStore 'icancode:md:en' in file: '<BASE>\clients\..\games\icancode\src\main\webapp\resources\icancode\help\en\elements.md'[0m
+	[mStore 'icancode:md:ru' in file: '<BASE>\clients\..\games\icancode\src\main\webapp\resources\icancode\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/icancode/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\icancode\src\main\webapp\resources\icancode\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=icancode, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=icancode, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'icancode:md_header:en' in file: '<BASE>\clients\..\games\icancode\src\main\webapp\resources\icancode\help\header.html'[0m
+	[mStore 'icancode:md_footer:en' in file: '<BASE>\clients\..\games\icancode\src\main\webapp\resources\icancode\help\footer.html'[0m
+	[mStore 'icancode:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\icancode\Element.java'[0m
+	[mStore 'icancode:cpp:en' in file: '<BASE>\clients\cpp\src\games\icancode\Element.cpp'[0m
+	[mStore 'icancode:go:en' in file: '<BASE>\clients\go\games\icancode\element.go'[0m
+	[mStore 'icancode:js:en' in file: '<BASE>\clients\java-script\games\icancode\elements.js'[0m
+	[mStore 'icancode:php:en' in file: '<BASE>\clients\php\games\icancode\Element.php'[0m
+	[mStore 'icancode:python:en' in file: '<BASE>\clients\python\games\icancode\element.py'[0m
+	[mStore 'icancode:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Icancode\IcancodeElement.cs'[0m
 
-Store 'japanese-md' in file: '<BASE>\clients\..\games\japanese\src\main\webapp\resources\japanese\help\en\elements.md'
-Store 'japanese-md' in file: '<BASE>\clients\..\games\japanese\src\main\webapp\resources\japanese\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/japanese/help/ru/info.properties'
-		'file:<BASE>\games\japanese\src\main\webapp\resources\japanese\help\ru\info.properties'
-[41;93mError during generate: [game=japanese, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=japanese, language=md]]
-Skipped![0m
-Store 'japanese-md_header' in file: '<BASE>\clients\..\games\japanese\src\main\webapp\resources\japanese\help\header.html'
-Store 'japanese-md_footer' in file: '<BASE>\clients\..\games\japanese\src\main\webapp\resources\japanese\help\footer.html'
-Store 'japanese-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\japanese\Element.java'
-Store 'japanese-cpp' in file: '<BASE>\clients\cpp\src\games\japanese\Element.cpp'
-Store 'japanese-go' in file: '<BASE>\clients\go\games\japanese\element.go'
-Store 'japanese-js' in file: '<BASE>\clients\java-script\games\japanese\elements.js'
-Store 'japanese-php' in file: '<BASE>\clients\php\games\japanese\Element.php'
-Store 'japanese-python' in file: '<BASE>\clients\python\games\japanese\element.py'
-Store 'japanese-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Japanese\JapaneseElement.cs'
+[44;97mGenerating elements for game 'japanese'[0m
+	[mStore 'japanese:md:en' in file: '<BASE>\clients\..\games\japanese\src\main\webapp\resources\japanese\help\en\elements.md'[0m
+	[mStore 'japanese:md:ru' in file: '<BASE>\clients\..\games\japanese\src\main\webapp\resources\japanese\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/japanese/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\japanese\src\main\webapp\resources\japanese\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=japanese, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=japanese, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'japanese:md_header:en' in file: '<BASE>\clients\..\games\japanese\src\main\webapp\resources\japanese\help\header.html'[0m
+	[mStore 'japanese:md_footer:en' in file: '<BASE>\clients\..\games\japanese\src\main\webapp\resources\japanese\help\footer.html'[0m
+	[mStore 'japanese:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\japanese\Element.java'[0m
+	[mStore 'japanese:cpp:en' in file: '<BASE>\clients\cpp\src\games\japanese\Element.cpp'[0m
+	[mStore 'japanese:go:en' in file: '<BASE>\clients\go\games\japanese\element.go'[0m
+	[mStore 'japanese:js:en' in file: '<BASE>\clients\java-script\games\japanese\elements.js'[0m
+	[mStore 'japanese:php:en' in file: '<BASE>\clients\php\games\japanese\Element.php'[0m
+	[mStore 'japanese:python:en' in file: '<BASE>\clients\python\games\japanese\element.py'[0m
+	[mStore 'japanese:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Japanese\JapaneseElement.cs'[0m
 
-Store 'kata-md' in file: '<BASE>\clients\..\games\kata\src\main\webapp\resources\kata\help\en\elements.md'
-Store 'kata-md' in file: '<BASE>\clients\..\games\kata\src\main\webapp\resources\kata\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/kata/help/ru/info.properties'
-		'file:<BASE>\games\kata\src\main\webapp\resources\kata\help\ru\info.properties'
-[41;93mError during generate: [game=kata, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=kata, language=md]]
-Skipped![0m
-Store 'kata-md_header' in file: '<BASE>\clients\..\games\kata\src\main\webapp\resources\kata\help\header.html'
-Store 'kata-md_footer' in file: '<BASE>\clients\..\games\kata\src\main\webapp\resources\kata\help\footer.html'
-Store 'kata-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\kata\Element.java'
-Store 'kata-cpp' in file: '<BASE>\clients\cpp\src\games\kata\Element.cpp'
-Store 'kata-go' in file: '<BASE>\clients\go\games\kata\element.go'
-Store 'kata-js' in file: '<BASE>\clients\java-script\games\kata\elements.js'
-Store 'kata-php' in file: '<BASE>\clients\php\games\kata\Element.php'
-Store 'kata-python' in file: '<BASE>\clients\python\games\kata\element.py'
-Store 'kata-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Kata\KataElement.cs'
+[44;97mGenerating elements for game 'kata'[0m
+	[mStore 'kata:md:en' in file: '<BASE>\clients\..\games\kata\src\main\webapp\resources\kata\help\en\elements.md'[0m
+	[mStore 'kata:md:ru' in file: '<BASE>\clients\..\games\kata\src\main\webapp\resources\kata\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/kata/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\kata\src\main\webapp\resources\kata\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=kata, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=kata, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'kata:md_header:en' in file: '<BASE>\clients\..\games\kata\src\main\webapp\resources\kata\help\header.html'[0m
+	[mStore 'kata:md_footer:en' in file: '<BASE>\clients\..\games\kata\src\main\webapp\resources\kata\help\footer.html'[0m
+	[mStore 'kata:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\kata\Element.java'[0m
+	[mStore 'kata:cpp:en' in file: '<BASE>\clients\cpp\src\games\kata\Element.cpp'[0m
+	[mStore 'kata:go:en' in file: '<BASE>\clients\go\games\kata\element.go'[0m
+	[mStore 'kata:js:en' in file: '<BASE>\clients\java-script\games\kata\elements.js'[0m
+	[mStore 'kata:php:en' in file: '<BASE>\clients\php\games\kata\Element.php'[0m
+	[mStore 'kata:python:en' in file: '<BASE>\clients\python\games\kata\element.py'[0m
+	[mStore 'kata:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Kata\KataElement.cs'[0m
 
-Store 'knibert-md' in file: '<BASE>\clients\..\games\knibert\src\main\webapp\resources\knibert\help\en\elements.md'
-Store 'knibert-md' in file: '<BASE>\clients\..\games\knibert\src\main\webapp\resources\knibert\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/knibert/help/ru/info.properties'
-		'file:<BASE>\games\knibert\src\main\webapp\resources\knibert\help\ru\info.properties'
-[41;93mError during generate: [game=knibert, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=knibert, language=md]]
-Skipped![0m
-Store 'knibert-md_header' in file: '<BASE>\clients\..\games\knibert\src\main\webapp\resources\knibert\help\header.html'
-Store 'knibert-md_footer' in file: '<BASE>\clients\..\games\knibert\src\main\webapp\resources\knibert\help\footer.html'
-Store 'knibert-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\knibert\Element.java'
-Store 'knibert-cpp' in file: '<BASE>\clients\cpp\src\games\knibert\Element.cpp'
-Store 'knibert-go' in file: '<BASE>\clients\go\games\knibert\element.go'
-Store 'knibert-js' in file: '<BASE>\clients\java-script\games\knibert\elements.js'
-Store 'knibert-php' in file: '<BASE>\clients\php\games\knibert\Element.php'
-Store 'knibert-python' in file: '<BASE>\clients\python\games\knibert\element.py'
-Store 'knibert-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Knibert\KnibertElement.cs'
+[44;97mGenerating elements for game 'knibert'[0m
+	[mStore 'knibert:md:en' in file: '<BASE>\clients\..\games\knibert\src\main\webapp\resources\knibert\help\en\elements.md'[0m
+	[mStore 'knibert:md:ru' in file: '<BASE>\clients\..\games\knibert\src\main\webapp\resources\knibert\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/knibert/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\knibert\src\main\webapp\resources\knibert\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=knibert, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=knibert, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'knibert:md_header:en' in file: '<BASE>\clients\..\games\knibert\src\main\webapp\resources\knibert\help\header.html'[0m
+	[mStore 'knibert:md_footer:en' in file: '<BASE>\clients\..\games\knibert\src\main\webapp\resources\knibert\help\footer.html'[0m
+	[mStore 'knibert:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\knibert\Element.java'[0m
+	[mStore 'knibert:cpp:en' in file: '<BASE>\clients\cpp\src\games\knibert\Element.cpp'[0m
+	[mStore 'knibert:go:en' in file: '<BASE>\clients\go\games\knibert\element.go'[0m
+	[mStore 'knibert:js:en' in file: '<BASE>\clients\java-script\games\knibert\elements.js'[0m
+	[mStore 'knibert:php:en' in file: '<BASE>\clients\php\games\knibert\Element.php'[0m
+	[mStore 'knibert:python:en' in file: '<BASE>\clients\python\games\knibert\element.py'[0m
+	[mStore 'knibert:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Knibert\KnibertElement.cs'[0m
 
-Store 'lemonade-md' in file: '<BASE>\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\en\elements.md'
-Store 'lemonade-md' in file: '<BASE>\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/lemonade/help/ru/info.properties'
-		'file:<BASE>\games\lemonade\src\main\webapp\resources\lemonade\help\ru\info.properties'
-[41;93mError during generate: [game=lemonade, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=lemonade, language=md]]
-Skipped![0m
-Store 'lemonade-md_header' in file: '<BASE>\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\header.html'
-Store 'lemonade-md_footer' in file: '<BASE>\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\footer.html'
-Store 'lemonade-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\lemonade\Element.java'
-Store 'lemonade-cpp' in file: '<BASE>\clients\cpp\src\games\lemonade\Element.cpp'
-Store 'lemonade-go' in file: '<BASE>\clients\go\games\lemonade\element.go'
-Store 'lemonade-js' in file: '<BASE>\clients\java-script\games\lemonade\elements.js'
-Store 'lemonade-php' in file: '<BASE>\clients\php\games\lemonade\Element.php'
-Store 'lemonade-python' in file: '<BASE>\clients\python\games\lemonade\element.py'
-Store 'lemonade-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Lemonade\LemonadeElement.cs'
+[44;97mGenerating elements for game 'lemonade'[0m
+	[mStore 'lemonade:md:en' in file: '<BASE>\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\en\elements.md'[0m
+	[mStore 'lemonade:md:ru' in file: '<BASE>\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/lemonade/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\lemonade\src\main\webapp\resources\lemonade\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=lemonade, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=lemonade, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'lemonade:md_header:en' in file: '<BASE>\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\header.html'[0m
+	[mStore 'lemonade:md_footer:en' in file: '<BASE>\clients\..\games\lemonade\src\main\webapp\resources\lemonade\help\footer.html'[0m
+	[mStore 'lemonade:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\lemonade\Element.java'[0m
+	[mStore 'lemonade:cpp:en' in file: '<BASE>\clients\cpp\src\games\lemonade\Element.cpp'[0m
+	[mStore 'lemonade:go:en' in file: '<BASE>\clients\go\games\lemonade\element.go'[0m
+	[mStore 'lemonade:js:en' in file: '<BASE>\clients\java-script\games\lemonade\elements.js'[0m
+	[mStore 'lemonade:php:en' in file: '<BASE>\clients\php\games\lemonade\Element.php'[0m
+	[mStore 'lemonade:python:en' in file: '<BASE>\clients\python\games\lemonade\element.py'[0m
+	[mStore 'lemonade:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Lemonade\LemonadeElement.cs'[0m
 
-Store 'lunolet-md' in file: '<BASE>\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\en\elements.md'
-Store 'lunolet-md' in file: '<BASE>\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/lunolet/help/ru/info.properties'
-		'file:<BASE>\games\lunolet\src\main\webapp\resources\lunolet\help\ru\info.properties'
-[41;93mError during generate: [game=lunolet, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=lunolet, language=md]]
-Skipped![0m
-Store 'lunolet-md_header' in file: '<BASE>\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\header.html'
-Store 'lunolet-md_footer' in file: '<BASE>\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\footer.html'
-Store 'lunolet-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\lunolet\Element.java'
-Store 'lunolet-cpp' in file: '<BASE>\clients\cpp\src\games\lunolet\Element.cpp'
-Store 'lunolet-go' in file: '<BASE>\clients\go\games\lunolet\element.go'
-Store 'lunolet-js' in file: '<BASE>\clients\java-script\games\lunolet\elements.js'
-Store 'lunolet-php' in file: '<BASE>\clients\php\games\lunolet\Element.php'
-Store 'lunolet-python' in file: '<BASE>\clients\python\games\lunolet\element.py'
-Store 'lunolet-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Lunolet\LunoletElement.cs'
+[44;97mGenerating elements for game 'lunolet'[0m
+	[mStore 'lunolet:md:en' in file: '<BASE>\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\en\elements.md'[0m
+	[mStore 'lunolet:md:ru' in file: '<BASE>\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/lunolet/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\lunolet\src\main\webapp\resources\lunolet\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=lunolet, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=lunolet, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'lunolet:md_header:en' in file: '<BASE>\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\header.html'[0m
+	[mStore 'lunolet:md_footer:en' in file: '<BASE>\clients\..\games\lunolet\src\main\webapp\resources\lunolet\help\footer.html'[0m
+	[mStore 'lunolet:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\lunolet\Element.java'[0m
+	[mStore 'lunolet:cpp:en' in file: '<BASE>\clients\cpp\src\games\lunolet\Element.cpp'[0m
+	[mStore 'lunolet:go:en' in file: '<BASE>\clients\go\games\lunolet\element.go'[0m
+	[mStore 'lunolet:js:en' in file: '<BASE>\clients\java-script\games\lunolet\elements.js'[0m
+	[mStore 'lunolet:php:en' in file: '<BASE>\clients\php\games\lunolet\Element.php'[0m
+	[mStore 'lunolet:python:en' in file: '<BASE>\clients\python\games\lunolet\element.py'[0m
+	[mStore 'lunolet:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Lunolet\LunoletElement.cs'[0m
 
-Store 'moebius-md' in file: '<BASE>\clients\..\games\moebius\src\main\webapp\resources\moebius\help\en\elements.md'
-Store 'moebius-md' in file: '<BASE>\clients\..\games\moebius\src\main\webapp\resources\moebius\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/moebius/help/ru/info.properties'
-		'file:<BASE>\games\moebius\src\main\webapp\resources\moebius\help\ru\info.properties'
-[41;93mError during generate: [game=moebius, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=moebius, language=md]]
-Skipped![0m
-Store 'moebius-md_header' in file: '<BASE>\clients\..\games\moebius\src\main\webapp\resources\moebius\help\header.html'
-Store 'moebius-md_footer' in file: '<BASE>\clients\..\games\moebius\src\main\webapp\resources\moebius\help\footer.html'
-Store 'moebius-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\moebius\Element.java'
-Store 'moebius-cpp' in file: '<BASE>\clients\cpp\src\games\moebius\Element.cpp'
-Store 'moebius-go' in file: '<BASE>\clients\go\games\moebius\element.go'
-Store 'moebius-js' in file: '<BASE>\clients\java-script\games\moebius\elements.js'
-Store 'moebius-php' in file: '<BASE>\clients\php\games\moebius\Element.php'
-Store 'moebius-python' in file: '<BASE>\clients\python\games\moebius\element.py'
-Store 'moebius-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Moebius\MoebiusElement.cs'
+[44;97mGenerating elements for game 'moebius'[0m
+	[mStore 'moebius:md:en' in file: '<BASE>\clients\..\games\moebius\src\main\webapp\resources\moebius\help\en\elements.md'[0m
+	[mStore 'moebius:md:ru' in file: '<BASE>\clients\..\games\moebius\src\main\webapp\resources\moebius\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/moebius/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\moebius\src\main\webapp\resources\moebius\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=moebius, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=moebius, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'moebius:md_header:en' in file: '<BASE>\clients\..\games\moebius\src\main\webapp\resources\moebius\help\header.html'[0m
+	[mStore 'moebius:md_footer:en' in file: '<BASE>\clients\..\games\moebius\src\main\webapp\resources\moebius\help\footer.html'[0m
+	[mStore 'moebius:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\moebius\Element.java'[0m
+	[mStore 'moebius:cpp:en' in file: '<BASE>\clients\cpp\src\games\moebius\Element.cpp'[0m
+	[mStore 'moebius:go:en' in file: '<BASE>\clients\go\games\moebius\element.go'[0m
+	[mStore 'moebius:js:en' in file: '<BASE>\clients\java-script\games\moebius\elements.js'[0m
+	[mStore 'moebius:php:en' in file: '<BASE>\clients\php\games\moebius\Element.php'[0m
+	[mStore 'moebius:python:en' in file: '<BASE>\clients\python\games\moebius\element.py'[0m
+	[mStore 'moebius:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Moebius\MoebiusElement.cs'[0m
 
-Store 'mollymage-md' in file: '<BASE>\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\en\elements.md'
-Store 'mollymage-md' in file: '<BASE>\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\ru\elements.md'
-Store 'mollymage-md_header' in file: '<BASE>\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\header.html'
-Store 'mollymage-md_footer' in file: '<BASE>\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\footer.html'
-Store 'mollymage-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\mollymage\Element.java'
-Store 'mollymage-cpp' in file: '<BASE>\clients\cpp\src\games\mollymage\Element.cpp'
-Store 'mollymage-go' in file: '<BASE>\clients\go\games\mollymage\element.go'
-Store 'mollymage-js' in file: '<BASE>\clients\java-script\games\mollymage\elements.js'
-Store 'mollymage-php' in file: '<BASE>\clients\php\games\mollymage\Element.php'
-Store 'mollymage-python' in file: '<BASE>\clients\python\games\mollymage\element.py'
-Store 'mollymage-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Mollymage\MollymageElement.cs'
+[44;97mGenerating elements for game 'mollymage'[0m
+	[mStore 'mollymage:md:en' in file: '<BASE>\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\en\elements.md'[0m
+	[mStore 'mollymage:md:ru' in file: '<BASE>\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\ru\elements.md'[0m
+	[mStore 'mollymage:md_header:en' in file: '<BASE>\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\header.html'[0m
+	[mStore 'mollymage:md_footer:en' in file: '<BASE>\clients\..\games\mollymage\src\main\webapp\resources\mollymage\help\footer.html'[0m
+	[mStore 'mollymage:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\mollymage\Element.java'[0m
+	[mStore 'mollymage:cpp:en' in file: '<BASE>\clients\cpp\src\games\mollymage\Element.cpp'[0m
+	[mStore 'mollymage:go:en' in file: '<BASE>\clients\go\games\mollymage\element.go'[0m
+	[mStore 'mollymage:js:en' in file: '<BASE>\clients\java-script\games\mollymage\elements.js'[0m
+	[mStore 'mollymage:php:en' in file: '<BASE>\clients\php\games\mollymage\Element.php'[0m
+	[mStore 'mollymage:python:en' in file: '<BASE>\clients\python\games\mollymage\element.py'[0m
+	[mStore 'mollymage:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Mollymage\MollymageElement.cs'[0m
 
-Store 'namdreab-md' in file: '<BASE>\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\en\elements.md'
-Store 'namdreab-md' in file: '<BASE>\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/namdreab/help/ru/info.properties'
-		'file:<BASE>\games\namdreab\src\main\webapp\resources\namdreab\help\ru\info.properties'
-[41;93mError during generate: [game=namdreab, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=namdreab, language=md]]
-Skipped![0m
-Store 'namdreab-md_header' in file: '<BASE>\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\header.html'
-Store 'namdreab-md_footer' in file: '<BASE>\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\footer.html'
-Store 'namdreab-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\namdreab\Element.java'
-Store 'namdreab-cpp' in file: '<BASE>\clients\cpp\src\games\namdreab\Element.cpp'
-Store 'namdreab-go' in file: '<BASE>\clients\go\games\namdreab\element.go'
-Store 'namdreab-js' in file: '<BASE>\clients\java-script\games\namdreab\elements.js'
-Store 'namdreab-php' in file: '<BASE>\clients\php\games\namdreab\Element.php'
-Store 'namdreab-python' in file: '<BASE>\clients\python\games\namdreab\element.py'
-Store 'namdreab-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Namdreab\NamdreabElement.cs'
+[44;97mGenerating elements for game 'namdreab'[0m
+	[mStore 'namdreab:md:en' in file: '<BASE>\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\en\elements.md'[0m
+	[mStore 'namdreab:md:ru' in file: '<BASE>\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/namdreab/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\namdreab\src\main\webapp\resources\namdreab\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=namdreab, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=namdreab, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'namdreab:md_header:en' in file: '<BASE>\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\header.html'[0m
+	[mStore 'namdreab:md_footer:en' in file: '<BASE>\clients\..\games\namdreab\src\main\webapp\resources\namdreab\help\footer.html'[0m
+	[mStore 'namdreab:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\namdreab\Element.java'[0m
+	[mStore 'namdreab:cpp:en' in file: '<BASE>\clients\cpp\src\games\namdreab\Element.cpp'[0m
+	[mStore 'namdreab:go:en' in file: '<BASE>\clients\go\games\namdreab\element.go'[0m
+	[mStore 'namdreab:js:en' in file: '<BASE>\clients\java-script\games\namdreab\elements.js'[0m
+	[mStore 'namdreab:php:en' in file: '<BASE>\clients\php\games\namdreab\Element.php'[0m
+	[mStore 'namdreab:python:en' in file: '<BASE>\clients\python\games\namdreab\element.py'[0m
+	[mStore 'namdreab:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Namdreab\NamdreabElement.cs'[0m
 
-Store 'pong-md' in file: '<BASE>\clients\..\games\pong\src\main\webapp\resources\pong\help\en\elements.md'
-Store 'pong-md' in file: '<BASE>\clients\..\games\pong\src\main\webapp\resources\pong\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/pong/help/ru/info.properties'
-		'file:<BASE>\games\pong\src\main\webapp\resources\pong\help\ru\info.properties'
-[41;93mError during generate: [game=pong, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=pong, language=md]]
-Skipped![0m
-Store 'pong-md_header' in file: '<BASE>\clients\..\games\pong\src\main\webapp\resources\pong\help\header.html'
-Store 'pong-md_footer' in file: '<BASE>\clients\..\games\pong\src\main\webapp\resources\pong\help\footer.html'
-Store 'pong-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\pong\Element.java'
-Store 'pong-cpp' in file: '<BASE>\clients\cpp\src\games\pong\Element.cpp'
-Store 'pong-go' in file: '<BASE>\clients\go\games\pong\element.go'
-Store 'pong-js' in file: '<BASE>\clients\java-script\games\pong\elements.js'
-Store 'pong-php' in file: '<BASE>\clients\php\games\pong\Element.php'
-Store 'pong-python' in file: '<BASE>\clients\python\games\pong\element.py'
-Store 'pong-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Pong\PongElement.cs'
+[44;97mGenerating elements for game 'pong'[0m
+	[mStore 'pong:md:en' in file: '<BASE>\clients\..\games\pong\src\main\webapp\resources\pong\help\en\elements.md'[0m
+	[mStore 'pong:md:ru' in file: '<BASE>\clients\..\games\pong\src\main\webapp\resources\pong\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/pong/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\pong\src\main\webapp\resources\pong\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=pong, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=pong, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'pong:md_header:en' in file: '<BASE>\clients\..\games\pong\src\main\webapp\resources\pong\help\header.html'[0m
+	[mStore 'pong:md_footer:en' in file: '<BASE>\clients\..\games\pong\src\main\webapp\resources\pong\help\footer.html'[0m
+	[mStore 'pong:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\pong\Element.java'[0m
+	[mStore 'pong:cpp:en' in file: '<BASE>\clients\cpp\src\games\pong\Element.cpp'[0m
+	[mStore 'pong:go:en' in file: '<BASE>\clients\go\games\pong\element.go'[0m
+	[mStore 'pong:js:en' in file: '<BASE>\clients\java-script\games\pong\elements.js'[0m
+	[mStore 'pong:php:en' in file: '<BASE>\clients\php\games\pong\Element.php'[0m
+	[mStore 'pong:python:en' in file: '<BASE>\clients\python\games\pong\element.py'[0m
+	[mStore 'pong:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Pong\PongElement.cs'[0m
 
-Store 'puzzlebox-md' in file: '<BASE>\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\en\elements.md'
-Store 'puzzlebox-md' in file: '<BASE>\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/puzzlebox/help/ru/info.properties'
-		'file:<BASE>\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\ru\info.properties'
-[41;93mError during generate: [game=puzzlebox, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=puzzlebox, language=md]]
-Skipped![0m
-Store 'puzzlebox-md_header' in file: '<BASE>\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\header.html'
-Store 'puzzlebox-md_footer' in file: '<BASE>\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\footer.html'
-Store 'puzzlebox-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\puzzlebox\Element.java'
-Store 'puzzlebox-cpp' in file: '<BASE>\clients\cpp\src\games\puzzlebox\Element.cpp'
-Store 'puzzlebox-go' in file: '<BASE>\clients\go\games\puzzlebox\element.go'
-Store 'puzzlebox-js' in file: '<BASE>\clients\java-script\games\puzzlebox\elements.js'
-Store 'puzzlebox-php' in file: '<BASE>\clients\php\games\puzzlebox\Element.php'
-Store 'puzzlebox-python' in file: '<BASE>\clients\python\games\puzzlebox\element.py'
-Store 'puzzlebox-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Puzzlebox\PuzzleboxElement.cs'
+[44;97mGenerating elements for game 'puzzlebox'[0m
+	[mStore 'puzzlebox:md:en' in file: '<BASE>\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\en\elements.md'[0m
+	[mStore 'puzzlebox:md:ru' in file: '<BASE>\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/puzzlebox/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=puzzlebox, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=puzzlebox, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'puzzlebox:md_header:en' in file: '<BASE>\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\header.html'[0m
+	[mStore 'puzzlebox:md_footer:en' in file: '<BASE>\clients\..\games\puzzlebox\src\main\webapp\resources\puzzlebox\help\footer.html'[0m
+	[mStore 'puzzlebox:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\puzzlebox\Element.java'[0m
+	[mStore 'puzzlebox:cpp:en' in file: '<BASE>\clients\cpp\src\games\puzzlebox\Element.cpp'[0m
+	[mStore 'puzzlebox:go:en' in file: '<BASE>\clients\go\games\puzzlebox\element.go'[0m
+	[mStore 'puzzlebox:js:en' in file: '<BASE>\clients\java-script\games\puzzlebox\elements.js'[0m
+	[mStore 'puzzlebox:php:en' in file: '<BASE>\clients\php\games\puzzlebox\Element.php'[0m
+	[mStore 'puzzlebox:python:en' in file: '<BASE>\clients\python\games\puzzlebox\element.py'[0m
+	[mStore 'puzzlebox:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Puzzlebox\PuzzleboxElement.cs'[0m
 
-Store 'quadro-md' in file: '<BASE>\clients\..\games\quadro\src\main\webapp\resources\quadro\help\en\elements.md'
-Store 'quadro-md' in file: '<BASE>\clients\..\games\quadro\src\main\webapp\resources\quadro\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/quadro/help/ru/info.properties'
-		'file:<BASE>\games\quadro\src\main\webapp\resources\quadro\help\ru\info.properties'
-[41;93mError during generate: [game=quadro, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=quadro, language=md]]
-Skipped![0m
-Store 'quadro-md_header' in file: '<BASE>\clients\..\games\quadro\src\main\webapp\resources\quadro\help\header.html'
-Store 'quadro-md_footer' in file: '<BASE>\clients\..\games\quadro\src\main\webapp\resources\quadro\help\footer.html'
-Store 'quadro-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\quadro\Element.java'
-Store 'quadro-cpp' in file: '<BASE>\clients\cpp\src\games\quadro\Element.cpp'
-Store 'quadro-go' in file: '<BASE>\clients\go\games\quadro\element.go'
-Store 'quadro-js' in file: '<BASE>\clients\java-script\games\quadro\elements.js'
-Store 'quadro-php' in file: '<BASE>\clients\php\games\quadro\Element.php'
-Store 'quadro-python' in file: '<BASE>\clients\python\games\quadro\element.py'
-Store 'quadro-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Quadro\QuadroElement.cs'
+[44;97mGenerating elements for game 'quadro'[0m
+	[mStore 'quadro:md:en' in file: '<BASE>\clients\..\games\quadro\src\main\webapp\resources\quadro\help\en\elements.md'[0m
+	[mStore 'quadro:md:ru' in file: '<BASE>\clients\..\games\quadro\src\main\webapp\resources\quadro\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/quadro/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\quadro\src\main\webapp\resources\quadro\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=quadro, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=quadro, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'quadro:md_header:en' in file: '<BASE>\clients\..\games\quadro\src\main\webapp\resources\quadro\help\header.html'[0m
+	[mStore 'quadro:md_footer:en' in file: '<BASE>\clients\..\games\quadro\src\main\webapp\resources\quadro\help\footer.html'[0m
+	[mStore 'quadro:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\quadro\Element.java'[0m
+	[mStore 'quadro:cpp:en' in file: '<BASE>\clients\cpp\src\games\quadro\Element.cpp'[0m
+	[mStore 'quadro:go:en' in file: '<BASE>\clients\go\games\quadro\element.go'[0m
+	[mStore 'quadro:js:en' in file: '<BASE>\clients\java-script\games\quadro\elements.js'[0m
+	[mStore 'quadro:php:en' in file: '<BASE>\clients\php\games\quadro\Element.php'[0m
+	[mStore 'quadro:python:en' in file: '<BASE>\clients\python\games\quadro\element.py'[0m
+	[mStore 'quadro:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Quadro\QuadroElement.cs'[0m
 
-Store 'quake2d-md' in file: '<BASE>\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\en\elements.md'
-Store 'quake2d-md' in file: '<BASE>\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/quake2d/help/ru/info.properties'
-		'file:<BASE>\games\quake2d\src\main\webapp\resources\quake2d\help\ru\info.properties'
-[41;93mError during generate: [game=quake2d, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=quake2d, language=md]]
-Skipped![0m
-Store 'quake2d-md_header' in file: '<BASE>\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\header.html'
-Store 'quake2d-md_footer' in file: '<BASE>\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\footer.html'
-Store 'quake2d-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\quake2d\Element.java'
-Store 'quake2d-cpp' in file: '<BASE>\clients\cpp\src\games\quake2d\Element.cpp'
-Store 'quake2d-go' in file: '<BASE>\clients\go\games\quake2d\element.go'
-Store 'quake2d-js' in file: '<BASE>\clients\java-script\games\quake2d\elements.js'
-Store 'quake2d-php' in file: '<BASE>\clients\php\games\quake2d\Element.php'
-Store 'quake2d-python' in file: '<BASE>\clients\python\games\quake2d\element.py'
-Store 'quake2d-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Quake2d\Quake2dElement.cs'
+[44;97mGenerating elements for game 'quake2d'[0m
+	[mStore 'quake2d:md:en' in file: '<BASE>\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\en\elements.md'[0m
+	[mStore 'quake2d:md:ru' in file: '<BASE>\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/quake2d/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\quake2d\src\main\webapp\resources\quake2d\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=quake2d, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=quake2d, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'quake2d:md_header:en' in file: '<BASE>\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\header.html'[0m
+	[mStore 'quake2d:md_footer:en' in file: '<BASE>\clients\..\games\quake2d\src\main\webapp\resources\quake2d\help\footer.html'[0m
+	[mStore 'quake2d:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\quake2d\Element.java'[0m
+	[mStore 'quake2d:cpp:en' in file: '<BASE>\clients\cpp\src\games\quake2d\Element.cpp'[0m
+	[mStore 'quake2d:go:en' in file: '<BASE>\clients\go\games\quake2d\element.go'[0m
+	[mStore 'quake2d:js:en' in file: '<BASE>\clients\java-script\games\quake2d\elements.js'[0m
+	[mStore 'quake2d:php:en' in file: '<BASE>\clients\php\games\quake2d\Element.php'[0m
+	[mStore 'quake2d:python:en' in file: '<BASE>\clients\python\games\quake2d\element.py'[0m
+	[mStore 'quake2d:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Quake2d\Quake2dElement.cs'[0m
 
-Store 'rawelbbub-md' in file: '<BASE>\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\en\elements.md'
-Store 'rawelbbub-md' in file: '<BASE>\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/rawelbbub/help/ru/info.properties'
-		'file:<BASE>\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\ru\info.properties'
-[41;93mError during generate: [game=rawelbbub, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=rawelbbub, language=md]]
-Skipped![0m
-Store 'rawelbbub-md_header' in file: '<BASE>\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\header.html'
-Store 'rawelbbub-md_footer' in file: '<BASE>\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\footer.html'
-Store 'rawelbbub-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\rawelbbub\Element.java'
-Store 'rawelbbub-cpp' in file: '<BASE>\clients\cpp\src\games\rawelbbub\Element.cpp'
-Store 'rawelbbub-go' in file: '<BASE>\clients\go\games\rawelbbub\element.go'
-Store 'rawelbbub-js' in file: '<BASE>\clients\java-script\games\rawelbbub\elements.js'
-Store 'rawelbbub-php' in file: '<BASE>\clients\php\games\rawelbbub\Element.php'
-Store 'rawelbbub-python' in file: '<BASE>\clients\python\games\rawelbbub\element.py'
-Store 'rawelbbub-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Rawelbbub\RawelbbubElement.cs'
+[44;97mGenerating elements for game 'rawelbbub'[0m
+	[mStore 'rawelbbub:md:en' in file: '<BASE>\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\en\elements.md'[0m
+	[mStore 'rawelbbub:md:ru' in file: '<BASE>\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/rawelbbub/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=rawelbbub, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=rawelbbub, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'rawelbbub:md_header:en' in file: '<BASE>\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\header.html'[0m
+	[mStore 'rawelbbub:md_footer:en' in file: '<BASE>\clients\..\games\rawelbbub\src\main\webapp\resources\rawelbbub\help\footer.html'[0m
+	[mStore 'rawelbbub:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\rawelbbub\Element.java'[0m
+	[mStore 'rawelbbub:cpp:en' in file: '<BASE>\clients\cpp\src\games\rawelbbub\Element.cpp'[0m
+	[mStore 'rawelbbub:go:en' in file: '<BASE>\clients\go\games\rawelbbub\element.go'[0m
+	[mStore 'rawelbbub:js:en' in file: '<BASE>\clients\java-script\games\rawelbbub\elements.js'[0m
+	[mStore 'rawelbbub:php:en' in file: '<BASE>\clients\php\games\rawelbbub\Element.php'[0m
+	[mStore 'rawelbbub:python:en' in file: '<BASE>\clients\python\games\rawelbbub\element.py'[0m
+	[mStore 'rawelbbub:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Rawelbbub\RawelbbubElement.cs'[0m
 
-Store 'reversi-md' in file: '<BASE>\clients\..\games\reversi\src\main\webapp\resources\reversi\help\en\elements.md'
-Store 'reversi-md' in file: '<BASE>\clients\..\games\reversi\src\main\webapp\resources\reversi\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/reversi/help/ru/info.properties'
-		'file:<BASE>\games\reversi\src\main\webapp\resources\reversi\help\ru\info.properties'
-[41;93mError during generate: [game=reversi, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=reversi, language=md]]
-Skipped![0m
-Store 'reversi-md_header' in file: '<BASE>\clients\..\games\reversi\src\main\webapp\resources\reversi\help\header.html'
-Store 'reversi-md_footer' in file: '<BASE>\clients\..\games\reversi\src\main\webapp\resources\reversi\help\footer.html'
-Store 'reversi-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\reversi\Element.java'
-Store 'reversi-cpp' in file: '<BASE>\clients\cpp\src\games\reversi\Element.cpp'
-Store 'reversi-go' in file: '<BASE>\clients\go\games\reversi\element.go'
-Store 'reversi-js' in file: '<BASE>\clients\java-script\games\reversi\elements.js'
-Store 'reversi-php' in file: '<BASE>\clients\php\games\reversi\Element.php'
-Store 'reversi-python' in file: '<BASE>\clients\python\games\reversi\element.py'
-Store 'reversi-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Reversi\ReversiElement.cs'
+[44;97mGenerating elements for game 'reversi'[0m
+	[mStore 'reversi:md:en' in file: '<BASE>\clients\..\games\reversi\src\main\webapp\resources\reversi\help\en\elements.md'[0m
+	[mStore 'reversi:md:ru' in file: '<BASE>\clients\..\games\reversi\src\main\webapp\resources\reversi\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/reversi/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\reversi\src\main\webapp\resources\reversi\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=reversi, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=reversi, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'reversi:md_header:en' in file: '<BASE>\clients\..\games\reversi\src\main\webapp\resources\reversi\help\header.html'[0m
+	[mStore 'reversi:md_footer:en' in file: '<BASE>\clients\..\games\reversi\src\main\webapp\resources\reversi\help\footer.html'[0m
+	[mStore 'reversi:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\reversi\Element.java'[0m
+	[mStore 'reversi:cpp:en' in file: '<BASE>\clients\cpp\src\games\reversi\Element.cpp'[0m
+	[mStore 'reversi:go:en' in file: '<BASE>\clients\go\games\reversi\element.go'[0m
+	[mStore 'reversi:js:en' in file: '<BASE>\clients\java-script\games\reversi\elements.js'[0m
+	[mStore 'reversi:php:en' in file: '<BASE>\clients\php\games\reversi\Element.php'[0m
+	[mStore 'reversi:python:en' in file: '<BASE>\clients\python\games\reversi\element.py'[0m
+	[mStore 'reversi:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Reversi\ReversiElement.cs'[0m
 
-Store 'rubicscube-md' in file: '<BASE>\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\en\elements.md'
-Store 'rubicscube-md' in file: '<BASE>\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/rubicscube/help/ru/info.properties'
-		'file:<BASE>\games\rubicscube\src\main\webapp\resources\rubicscube\help\ru\info.properties'
-[41;93mError during generate: [game=rubicscube, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=rubicscube, language=md]]
-Skipped![0m
-Store 'rubicscube-md_header' in file: '<BASE>\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\header.html'
-Store 'rubicscube-md_footer' in file: '<BASE>\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\footer.html'
-Store 'rubicscube-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\rubicscube\Element.java'
-Store 'rubicscube-cpp' in file: '<BASE>\clients\cpp\src\games\rubicscube\Element.cpp'
-Store 'rubicscube-go' in file: '<BASE>\clients\go\games\rubicscube\element.go'
-Store 'rubicscube-js' in file: '<BASE>\clients\java-script\games\rubicscube\elements.js'
-Store 'rubicscube-php' in file: '<BASE>\clients\php\games\rubicscube\Element.php'
-Store 'rubicscube-python' in file: '<BASE>\clients\python\games\rubicscube\element.py'
-Store 'rubicscube-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Rubicscube\RubicscubeElement.cs'
+[44;97mGenerating elements for game 'rubicscube'[0m
+	[mStore 'rubicscube:md:en' in file: '<BASE>\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\en\elements.md'[0m
+	[mStore 'rubicscube:md:ru' in file: '<BASE>\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/rubicscube/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\rubicscube\src\main\webapp\resources\rubicscube\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=rubicscube, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=rubicscube, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'rubicscube:md_header:en' in file: '<BASE>\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\header.html'[0m
+	[mStore 'rubicscube:md_footer:en' in file: '<BASE>\clients\..\games\rubicscube\src\main\webapp\resources\rubicscube\help\footer.html'[0m
+	[mStore 'rubicscube:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\rubicscube\Element.java'[0m
+	[mStore 'rubicscube:cpp:en' in file: '<BASE>\clients\cpp\src\games\rubicscube\Element.cpp'[0m
+	[mStore 'rubicscube:go:en' in file: '<BASE>\clients\go\games\rubicscube\element.go'[0m
+	[mStore 'rubicscube:js:en' in file: '<BASE>\clients\java-script\games\rubicscube\elements.js'[0m
+	[mStore 'rubicscube:php:en' in file: '<BASE>\clients\php\games\rubicscube\Element.php'[0m
+	[mStore 'rubicscube:python:en' in file: '<BASE>\clients\python\games\rubicscube\element.py'[0m
+	[mStore 'rubicscube:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Rubicscube\RubicscubeElement.cs'[0m
 
-Store 'sample-md' in file: '<BASE>\clients\..\games\sample\src\main\webapp\resources\sample\help\en\elements.md'
-Store 'sample-md' in file: '<BASE>\clients\..\games\sample\src\main\webapp\resources\sample\help\ru\elements.md'
-Store 'sample-md_header' in file: '<BASE>\clients\..\games\sample\src\main\webapp\resources\sample\help\header.html'
-Store 'sample-md_footer' in file: '<BASE>\clients\..\games\sample\src\main\webapp\resources\sample\help\footer.html'
-Store 'sample-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\sample\Element.java'
-Store 'sample-cpp' in file: '<BASE>\clients\cpp\src\games\sample\Element.cpp'
-Store 'sample-go' in file: '<BASE>\clients\go\games\sample\element.go'
-Store 'sample-js' in file: '<BASE>\clients\java-script\games\sample\elements.js'
-Store 'sample-php' in file: '<BASE>\clients\php\games\sample\Element.php'
-Store 'sample-python' in file: '<BASE>\clients\python\games\sample\element.py'
-Store 'sample-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Sample\SampleElement.cs'
+[44;97mGenerating elements for game 'sample'[0m
+	[mStore 'sample:md:en' in file: '<BASE>\clients\..\games\sample\src\main\webapp\resources\sample\help\en\elements.md'[0m
+	[mStore 'sample:md:ru' in file: '<BASE>\clients\..\games\sample\src\main\webapp\resources\sample\help\ru\elements.md'[0m
+	[mStore 'sample:md_header:en' in file: '<BASE>\clients\..\games\sample\src\main\webapp\resources\sample\help\header.html'[0m
+	[mStore 'sample:md_footer:en' in file: '<BASE>\clients\..\games\sample\src\main\webapp\resources\sample\help\footer.html'[0m
+	[mStore 'sample:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\sample\Element.java'[0m
+	[mStore 'sample:cpp:en' in file: '<BASE>\clients\cpp\src\games\sample\Element.cpp'[0m
+	[mStore 'sample:go:en' in file: '<BASE>\clients\go\games\sample\element.go'[0m
+	[mStore 'sample:js:en' in file: '<BASE>\clients\java-script\games\sample\elements.js'[0m
+	[mStore 'sample:php:en' in file: '<BASE>\clients\php\games\sample\Element.php'[0m
+	[mStore 'sample:python:en' in file: '<BASE>\clients\python\games\sample\element.py'[0m
+	[mStore 'sample:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Sample\SampleElement.cs'[0m
 
-Store 'sampletext-md' in file: '<BASE>\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\en\elements.md'
-Store 'sampletext-md' in file: '<BASE>\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/sampletext/help/ru/info.properties'
-		'file:<BASE>\games\sampletext\src\main\webapp\resources\sampletext\help\ru\info.properties'
-[41;93mError during generate: [game=sampletext, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=sampletext, language=md]]
-Skipped![0m
-Store 'sampletext-md_header' in file: '<BASE>\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\header.html'
-Store 'sampletext-md_footer' in file: '<BASE>\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\footer.html'
-Store 'sampletext-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\sampletext\Element.java'
-Store 'sampletext-cpp' in file: '<BASE>\clients\cpp\src\games\sampletext\Element.cpp'
-Store 'sampletext-go' in file: '<BASE>\clients\go\games\sampletext\element.go'
-Store 'sampletext-js' in file: '<BASE>\clients\java-script\games\sampletext\elements.js'
-Store 'sampletext-php' in file: '<BASE>\clients\php\games\sampletext\Element.php'
-Store 'sampletext-python' in file: '<BASE>\clients\python\games\sampletext\element.py'
-Store 'sampletext-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Sampletext\SampletextElement.cs'
+[44;97mGenerating elements for game 'sampletext'[0m
+	[mStore 'sampletext:md:en' in file: '<BASE>\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\en\elements.md'[0m
+	[mStore 'sampletext:md:ru' in file: '<BASE>\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/sampletext/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\sampletext\src\main\webapp\resources\sampletext\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=sampletext, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=sampletext, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'sampletext:md_header:en' in file: '<BASE>\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\header.html'[0m
+	[mStore 'sampletext:md_footer:en' in file: '<BASE>\clients\..\games\sampletext\src\main\webapp\resources\sampletext\help\footer.html'[0m
+	[mStore 'sampletext:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\sampletext\Element.java'[0m
+	[mStore 'sampletext:cpp:en' in file: '<BASE>\clients\cpp\src\games\sampletext\Element.cpp'[0m
+	[mStore 'sampletext:go:en' in file: '<BASE>\clients\go\games\sampletext\element.go'[0m
+	[mStore 'sampletext:js:en' in file: '<BASE>\clients\java-script\games\sampletext\elements.js'[0m
+	[mStore 'sampletext:php:en' in file: '<BASE>\clients\php\games\sampletext\Element.php'[0m
+	[mStore 'sampletext:python:en' in file: '<BASE>\clients\python\games\sampletext\element.py'[0m
+	[mStore 'sampletext:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Sampletext\SampletextElement.cs'[0m
 
-Store 'selfdefense-md' in file: '<BASE>\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\en\elements.md'
-Store 'selfdefense-md' in file: '<BASE>\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/selfdefense/help/ru/info.properties'
-		'file:<BASE>\games\selfdefense\src\main\webapp\resources\selfdefense\help\ru\info.properties'
-[41;93mError during generate: [game=selfdefense, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=selfdefense, language=md]]
-Skipped![0m
-Store 'selfdefense-md_header' in file: '<BASE>\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\header.html'
-Store 'selfdefense-md_footer' in file: '<BASE>\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\footer.html'
-Store 'selfdefense-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\selfdefense\Element.java'
-Store 'selfdefense-cpp' in file: '<BASE>\clients\cpp\src\games\selfdefense\Element.cpp'
-Store 'selfdefense-go' in file: '<BASE>\clients\go\games\selfdefense\element.go'
-Store 'selfdefense-js' in file: '<BASE>\clients\java-script\games\selfdefense\elements.js'
-Store 'selfdefense-php' in file: '<BASE>\clients\php\games\selfdefense\Element.php'
-Store 'selfdefense-python' in file: '<BASE>\clients\python\games\selfdefense\element.py'
-Store 'selfdefense-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Selfdefense\SelfdefenseElement.cs'
+[44;97mGenerating elements for game 'selfdefense'[0m
+	[mStore 'selfdefense:md:en' in file: '<BASE>\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\en\elements.md'[0m
+	[mStore 'selfdefense:md:ru' in file: '<BASE>\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/selfdefense/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\selfdefense\src\main\webapp\resources\selfdefense\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=selfdefense, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=selfdefense, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'selfdefense:md_header:en' in file: '<BASE>\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\header.html'[0m
+	[mStore 'selfdefense:md_footer:en' in file: '<BASE>\clients\..\games\selfdefense\src\main\webapp\resources\selfdefense\help\footer.html'[0m
+	[mStore 'selfdefense:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\selfdefense\Element.java'[0m
+	[mStore 'selfdefense:cpp:en' in file: '<BASE>\clients\cpp\src\games\selfdefense\Element.cpp'[0m
+	[mStore 'selfdefense:go:en' in file: '<BASE>\clients\go\games\selfdefense\element.go'[0m
+	[mStore 'selfdefense:js:en' in file: '<BASE>\clients\java-script\games\selfdefense\elements.js'[0m
+	[mStore 'selfdefense:php:en' in file: '<BASE>\clients\php\games\selfdefense\Element.php'[0m
+	[mStore 'selfdefense:python:en' in file: '<BASE>\clients\python\games\selfdefense\element.py'[0m
+	[mStore 'selfdefense:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Selfdefense\SelfdefenseElement.cs'[0m
 
-Store 'sokoban-md' in file: '<BASE>\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\en\elements.md'
-Store 'sokoban-md' in file: '<BASE>\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/sokoban/help/ru/info.properties'
-		'file:<BASE>\games\sokoban\src\main\webapp\resources\sokoban\help\ru\info.properties'
-[41;93mError during generate: [game=sokoban, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=sokoban, language=md]]
-Skipped![0m
-Store 'sokoban-md_header' in file: '<BASE>\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\header.html'
-Store 'sokoban-md_footer' in file: '<BASE>\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\footer.html'
-Store 'sokoban-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\sokoban\Element.java'
-Store 'sokoban-cpp' in file: '<BASE>\clients\cpp\src\games\sokoban\Element.cpp'
-Store 'sokoban-go' in file: '<BASE>\clients\go\games\sokoban\element.go'
-Store 'sokoban-js' in file: '<BASE>\clients\java-script\games\sokoban\elements.js'
-Store 'sokoban-php' in file: '<BASE>\clients\php\games\sokoban\Element.php'
-Store 'sokoban-python' in file: '<BASE>\clients\python\games\sokoban\element.py'
-Store 'sokoban-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Sokoban\SokobanElement.cs'
+[44;97mGenerating elements for game 'sokoban'[0m
+	[mStore 'sokoban:md:en' in file: '<BASE>\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\en\elements.md'[0m
+	[mStore 'sokoban:md:ru' in file: '<BASE>\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/sokoban/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\sokoban\src\main\webapp\resources\sokoban\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=sokoban, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=sokoban, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'sokoban:md_header:en' in file: '<BASE>\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\header.html'[0m
+	[mStore 'sokoban:md_footer:en' in file: '<BASE>\clients\..\games\sokoban\src\main\webapp\resources\sokoban\help\footer.html'[0m
+	[mStore 'sokoban:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\sokoban\Element.java'[0m
+	[mStore 'sokoban:cpp:en' in file: '<BASE>\clients\cpp\src\games\sokoban\Element.cpp'[0m
+	[mStore 'sokoban:go:en' in file: '<BASE>\clients\go\games\sokoban\element.go'[0m
+	[mStore 'sokoban:js:en' in file: '<BASE>\clients\java-script\games\sokoban\elements.js'[0m
+	[mStore 'sokoban:php:en' in file: '<BASE>\clients\php\games\sokoban\Element.php'[0m
+	[mStore 'sokoban:python:en' in file: '<BASE>\clients\python\games\sokoban\element.py'[0m
+	[mStore 'sokoban:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Sokoban\SokobanElement.cs'[0m
 
-Store 'spacerace-md' in file: '<BASE>\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\en\elements.md'
-Store 'spacerace-md' in file: '<BASE>\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/spacerace/help/ru/info.properties'
-		'file:<BASE>\games\spacerace\src\main\webapp\resources\spacerace\help\ru\info.properties'
-[41;93mError during generate: [game=spacerace, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=spacerace, language=md]]
-Skipped![0m
-Store 'spacerace-md_header' in file: '<BASE>\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\header.html'
-Store 'spacerace-md_footer' in file: '<BASE>\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\footer.html'
-Store 'spacerace-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\spacerace\Element.java'
-Store 'spacerace-cpp' in file: '<BASE>\clients\cpp\src\games\spacerace\Element.cpp'
-Store 'spacerace-go' in file: '<BASE>\clients\go\games\spacerace\element.go'
-Store 'spacerace-js' in file: '<BASE>\clients\java-script\games\spacerace\elements.js'
-Store 'spacerace-php' in file: '<BASE>\clients\php\games\spacerace\Element.php'
-Store 'spacerace-python' in file: '<BASE>\clients\python\games\spacerace\element.py'
-Store 'spacerace-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Spacerace\SpaceraceElement.cs'
+[44;97mGenerating elements for game 'spacerace'[0m
+	[mStore 'spacerace:md:en' in file: '<BASE>\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\en\elements.md'[0m
+	[mStore 'spacerace:md:ru' in file: '<BASE>\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/spacerace/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\spacerace\src\main\webapp\resources\spacerace\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=spacerace, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=spacerace, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'spacerace:md_header:en' in file: '<BASE>\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\header.html'[0m
+	[mStore 'spacerace:md_footer:en' in file: '<BASE>\clients\..\games\spacerace\src\main\webapp\resources\spacerace\help\footer.html'[0m
+	[mStore 'spacerace:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\spacerace\Element.java'[0m
+	[mStore 'spacerace:cpp:en' in file: '<BASE>\clients\cpp\src\games\spacerace\Element.cpp'[0m
+	[mStore 'spacerace:go:en' in file: '<BASE>\clients\go\games\spacerace\element.go'[0m
+	[mStore 'spacerace:js:en' in file: '<BASE>\clients\java-script\games\spacerace\elements.js'[0m
+	[mStore 'spacerace:php:en' in file: '<BASE>\clients\php\games\spacerace\Element.php'[0m
+	[mStore 'spacerace:python:en' in file: '<BASE>\clients\python\games\spacerace\element.py'[0m
+	[mStore 'spacerace:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Spacerace\SpaceraceElement.cs'[0m
 
-Store 'startandjump-md' in file: '<BASE>\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\en\elements.md'
-Store 'startandjump-md' in file: '<BASE>\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/startandjump/help/ru/info.properties'
-		'file:<BASE>\games\startandjump\src\main\webapp\resources\startandjump\help\ru\info.properties'
-[41;93mError during generate: [game=startandjump, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=startandjump, language=md]]
-Skipped![0m
-Store 'startandjump-md_header' in file: '<BASE>\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\header.html'
-Store 'startandjump-md_footer' in file: '<BASE>\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\footer.html'
-Store 'startandjump-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\startandjump\Element.java'
-Store 'startandjump-cpp' in file: '<BASE>\clients\cpp\src\games\startandjump\Element.cpp'
-Store 'startandjump-go' in file: '<BASE>\clients\go\games\startandjump\element.go'
-Store 'startandjump-js' in file: '<BASE>\clients\java-script\games\startandjump\elements.js'
-Store 'startandjump-php' in file: '<BASE>\clients\php\games\startandjump\Element.php'
-Store 'startandjump-python' in file: '<BASE>\clients\python\games\startandjump\element.py'
-Store 'startandjump-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Startandjump\StartandjumpElement.cs'
+[44;97mGenerating elements for game 'startandjump'[0m
+	[mStore 'startandjump:md:en' in file: '<BASE>\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\en\elements.md'[0m
+	[mStore 'startandjump:md:ru' in file: '<BASE>\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/startandjump/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\startandjump\src\main\webapp\resources\startandjump\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=startandjump, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=startandjump, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'startandjump:md_header:en' in file: '<BASE>\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\header.html'[0m
+	[mStore 'startandjump:md_footer:en' in file: '<BASE>\clients\..\games\startandjump\src\main\webapp\resources\startandjump\help\footer.html'[0m
+	[mStore 'startandjump:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\startandjump\Element.java'[0m
+	[mStore 'startandjump:cpp:en' in file: '<BASE>\clients\cpp\src\games\startandjump\Element.cpp'[0m
+	[mStore 'startandjump:go:en' in file: '<BASE>\clients\go\games\startandjump\element.go'[0m
+	[mStore 'startandjump:js:en' in file: '<BASE>\clients\java-script\games\startandjump\elements.js'[0m
+	[mStore 'startandjump:php:en' in file: '<BASE>\clients\php\games\startandjump\Element.php'[0m
+	[mStore 'startandjump:python:en' in file: '<BASE>\clients\python\games\startandjump\element.py'[0m
+	[mStore 'startandjump:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Startandjump\StartandjumpElement.cs'[0m
 
-Store 'sudoku-md' in file: '<BASE>\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\en\elements.md'
-Store 'sudoku-md' in file: '<BASE>\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/sudoku/help/ru/info.properties'
-		'file:<BASE>\games\sudoku\src\main\webapp\resources\sudoku\help\ru\info.properties'
-[41;93mError during generate: [game=sudoku, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=sudoku, language=md]]
-Skipped![0m
-Store 'sudoku-md_header' in file: '<BASE>\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\header.html'
-Store 'sudoku-md_footer' in file: '<BASE>\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\footer.html'
-Store 'sudoku-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\sudoku\Element.java'
-Store 'sudoku-cpp' in file: '<BASE>\clients\cpp\src\games\sudoku\Element.cpp'
-Store 'sudoku-go' in file: '<BASE>\clients\go\games\sudoku\element.go'
-Store 'sudoku-js' in file: '<BASE>\clients\java-script\games\sudoku\elements.js'
-Store 'sudoku-php' in file: '<BASE>\clients\php\games\sudoku\Element.php'
-Store 'sudoku-python' in file: '<BASE>\clients\python\games\sudoku\element.py'
-Store 'sudoku-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Sudoku\SudokuElement.cs'
+[44;97mGenerating elements for game 'sudoku'[0m
+	[mStore 'sudoku:md:en' in file: '<BASE>\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\en\elements.md'[0m
+	[mStore 'sudoku:md:ru' in file: '<BASE>\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/sudoku/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\sudoku\src\main\webapp\resources\sudoku\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=sudoku, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=sudoku, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'sudoku:md_header:en' in file: '<BASE>\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\header.html'[0m
+	[mStore 'sudoku:md_footer:en' in file: '<BASE>\clients\..\games\sudoku\src\main\webapp\resources\sudoku\help\footer.html'[0m
+	[mStore 'sudoku:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\sudoku\Element.java'[0m
+	[mStore 'sudoku:cpp:en' in file: '<BASE>\clients\cpp\src\games\sudoku\Element.cpp'[0m
+	[mStore 'sudoku:go:en' in file: '<BASE>\clients\go\games\sudoku\element.go'[0m
+	[mStore 'sudoku:js:en' in file: '<BASE>\clients\java-script\games\sudoku\elements.js'[0m
+	[mStore 'sudoku:php:en' in file: '<BASE>\clients\php\games\sudoku\Element.php'[0m
+	[mStore 'sudoku:python:en' in file: '<BASE>\clients\python\games\sudoku\element.py'[0m
+	[mStore 'sudoku:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Sudoku\SudokuElement.cs'[0m
 
-Store 'tetris-md' in file: '<BASE>\clients\..\games\tetris\src\main\webapp\resources\tetris\help\en\elements.md'
-Store 'tetris-md' in file: '<BASE>\clients\..\games\tetris\src\main\webapp\resources\tetris\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/tetris/help/ru/info.properties'
-		'file:<BASE>\games\tetris\src\main\webapp\resources\tetris\help\ru\info.properties'
-[41;93mError during generate: [game=tetris, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=tetris, language=md]]
-Skipped![0m
-Store 'tetris-md_header' in file: '<BASE>\clients\..\games\tetris\src\main\webapp\resources\tetris\help\header.html'
-Store 'tetris-md_footer' in file: '<BASE>\clients\..\games\tetris\src\main\webapp\resources\tetris\help\footer.html'
-Store 'tetris-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\tetris\Element.java'
-Store 'tetris-cpp' in file: '<BASE>\clients\cpp\src\games\tetris\Element.cpp'
-Store 'tetris-go' in file: '<BASE>\clients\go\games\tetris\element.go'
-Store 'tetris-js' in file: '<BASE>\clients\java-script\games\tetris\elements.js'
-Store 'tetris-php' in file: '<BASE>\clients\php\games\tetris\Element.php'
-Store 'tetris-python' in file: '<BASE>\clients\python\games\tetris\element.py'
-Store 'tetris-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Tetris\TetrisElement.cs'
+[44;97mGenerating elements for game 'tetris'[0m
+	[mStore 'tetris:md:en' in file: '<BASE>\clients\..\games\tetris\src\main\webapp\resources\tetris\help\en\elements.md'[0m
+	[mStore 'tetris:md:ru' in file: '<BASE>\clients\..\games\tetris\src\main\webapp\resources\tetris\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/tetris/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\tetris\src\main\webapp\resources\tetris\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=tetris, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=tetris, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'tetris:md_header:en' in file: '<BASE>\clients\..\games\tetris\src\main\webapp\resources\tetris\help\header.html'[0m
+	[mStore 'tetris:md_footer:en' in file: '<BASE>\clients\..\games\tetris\src\main\webapp\resources\tetris\help\footer.html'[0m
+	[mStore 'tetris:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\tetris\Element.java'[0m
+	[mStore 'tetris:cpp:en' in file: '<BASE>\clients\cpp\src\games\tetris\Element.cpp'[0m
+	[mStore 'tetris:go:en' in file: '<BASE>\clients\go\games\tetris\element.go'[0m
+	[mStore 'tetris:js:en' in file: '<BASE>\clients\java-script\games\tetris\elements.js'[0m
+	[mStore 'tetris:php:en' in file: '<BASE>\clients\php\games\tetris\Element.php'[0m
+	[mStore 'tetris:python:en' in file: '<BASE>\clients\python\games\tetris\element.py'[0m
+	[mStore 'tetris:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Tetris\TetrisElement.cs'[0m
 
-Store 'vacuum-md' in file: '<BASE>\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\en\elements.md'
-Store 'vacuum-md' in file: '<BASE>\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/vacuum/help/ru/info.properties'
-		'file:<BASE>\games\vacuum\src\main\webapp\resources\vacuum\help\ru\info.properties'
-[41;93mError during generate: [game=vacuum, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=vacuum, language=md]]
-Skipped![0m
-Store 'vacuum-md_header' in file: '<BASE>\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\header.html'
-Store 'vacuum-md_footer' in file: '<BASE>\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\footer.html'
-Store 'vacuum-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\vacuum\Element.java'
-Store 'vacuum-cpp' in file: '<BASE>\clients\cpp\src\games\vacuum\Element.cpp'
-Store 'vacuum-go' in file: '<BASE>\clients\go\games\vacuum\element.go'
-Store 'vacuum-js' in file: '<BASE>\clients\java-script\games\vacuum\elements.js'
-Store 'vacuum-php' in file: '<BASE>\clients\php\games\vacuum\Element.php'
-Store 'vacuum-python' in file: '<BASE>\clients\python\games\vacuum\element.py'
-Store 'vacuum-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Vacuum\VacuumElement.cs'
+[44;97mGenerating elements for game 'vacuum'[0m
+	[mStore 'vacuum:md:en' in file: '<BASE>\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\en\elements.md'[0m
+	[mStore 'vacuum:md:ru' in file: '<BASE>\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/vacuum/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\vacuum\src\main\webapp\resources\vacuum\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=vacuum, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=vacuum, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'vacuum:md_header:en' in file: '<BASE>\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\header.html'[0m
+	[mStore 'vacuum:md_footer:en' in file: '<BASE>\clients\..\games\vacuum\src\main\webapp\resources\vacuum\help\footer.html'[0m
+	[mStore 'vacuum:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\vacuum\Element.java'[0m
+	[mStore 'vacuum:cpp:en' in file: '<BASE>\clients\cpp\src\games\vacuum\Element.cpp'[0m
+	[mStore 'vacuum:go:en' in file: '<BASE>\clients\go\games\vacuum\element.go'[0m
+	[mStore 'vacuum:js:en' in file: '<BASE>\clients\java-script\games\vacuum\elements.js'[0m
+	[mStore 'vacuum:php:en' in file: '<BASE>\clients\php\games\vacuum\Element.php'[0m
+	[mStore 'vacuum:python:en' in file: '<BASE>\clients\python\games\vacuum\element.py'[0m
+	[mStore 'vacuum:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Vacuum\VacuumElement.cs'[0m
 
-Store 'verland-md' in file: '<BASE>\clients\..\games\verland\src\main\webapp\resources\verland\help\en\elements.md'
-Store 'verland-md' in file: '<BASE>\clients\..\games\verland\src\main\webapp\resources\verland\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/verland/help/ru/info.properties'
-		'file:<BASE>\games\verland\src\main\webapp\resources\verland\help\ru\info.properties'
-[41;93mError during generate: [game=verland, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=verland, language=md]]
-Skipped![0m
-Store 'verland-md_header' in file: '<BASE>\clients\..\games\verland\src\main\webapp\resources\verland\help\header.html'
-Store 'verland-md_footer' in file: '<BASE>\clients\..\games\verland\src\main\webapp\resources\verland\help\footer.html'
-Store 'verland-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\verland\Element.java'
-Store 'verland-cpp' in file: '<BASE>\clients\cpp\src\games\verland\Element.cpp'
-Store 'verland-go' in file: '<BASE>\clients\go\games\verland\element.go'
-Store 'verland-js' in file: '<BASE>\clients\java-script\games\verland\elements.js'
-Store 'verland-php' in file: '<BASE>\clients\php\games\verland\Element.php'
-Store 'verland-python' in file: '<BASE>\clients\python\games\verland\element.py'
-Store 'verland-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Verland\VerlandElement.cs'
+[44;97mGenerating elements for game 'verland'[0m
+	[mStore 'verland:md:en' in file: '<BASE>\clients\..\games\verland\src\main\webapp\resources\verland\help\en\elements.md'[0m
+	[mStore 'verland:md:ru' in file: '<BASE>\clients\..\games\verland\src\main\webapp\resources\verland\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/verland/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\verland\src\main\webapp\resources\verland\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=verland, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=verland, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'verland:md_header:en' in file: '<BASE>\clients\..\games\verland\src\main\webapp\resources\verland\help\header.html'[0m
+	[mStore 'verland:md_footer:en' in file: '<BASE>\clients\..\games\verland\src\main\webapp\resources\verland\help\footer.html'[0m
+	[mStore 'verland:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\verland\Element.java'[0m
+	[mStore 'verland:cpp:en' in file: '<BASE>\clients\cpp\src\games\verland\Element.cpp'[0m
+	[mStore 'verland:go:en' in file: '<BASE>\clients\go\games\verland\element.go'[0m
+	[mStore 'verland:js:en' in file: '<BASE>\clients\java-script\games\verland\elements.js'[0m
+	[mStore 'verland:php:en' in file: '<BASE>\clients\php\games\verland\Element.php'[0m
+	[mStore 'verland:python:en' in file: '<BASE>\clients\python\games\verland\element.py'[0m
+	[mStore 'verland:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Verland\VerlandElement.cs'[0m
 
-Store 'xonix-md' in file: '<BASE>\clients\..\games\xonix\src\main\webapp\resources\xonix\help\en\elements.md'
-Store 'xonix-md' in file: '<BASE>\clients\..\games\xonix\src\main\webapp\resources\xonix\help\ru\elements.md'
-Properties file not found in either: 
-		'classpath:<BASE>/resources/xonix/help/ru/info.properties'
-		'file:<BASE>\games\xonix\src\main\webapp\resources\xonix\help\ru\info.properties'
-[41;93mError during generate: [game=xonix, language=md, locale=ru]
-With exception:        [Cant load properties file: [game=xonix, language=md]]
-Skipped![0m
-Store 'xonix-md_header' in file: '<BASE>\clients\..\games\xonix\src\main\webapp\resources\xonix\help\header.html'
-Store 'xonix-md_footer' in file: '<BASE>\clients\..\games\xonix\src\main\webapp\resources\xonix\help\footer.html'
-Store 'xonix-java' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\xonix\Element.java'
-Store 'xonix-cpp' in file: '<BASE>\clients\cpp\src\games\xonix\Element.cpp'
-Store 'xonix-go' in file: '<BASE>\clients\go\games\xonix\element.go'
-Store 'xonix-js' in file: '<BASE>\clients\java-script\games\xonix\elements.js'
-Store 'xonix-php' in file: '<BASE>\clients\php\games\xonix\Element.php'
-Store 'xonix-python' in file: '<BASE>\clients\python\games\xonix\element.py'
-Store 'xonix-csharp' in file: '<BASE>\clients\csharp\Dojo\Games\Xonix\XonixElement.cs'
+[44;97mGenerating elements for game 'xonix'[0m
+	[mStore 'xonix:md:en' in file: '<BASE>\clients\..\games\xonix\src\main\webapp\resources\xonix\help\en\elements.md'[0m
+	[mStore 'xonix:md:ru' in file: '<BASE>\clients\..\games\xonix\src\main\webapp\resources\xonix\help\ru\elements.md'[0m
+		[mProperties file not found in either: [0m
+		[m		'classpath:<BASE>/resources/xonix/help/ru/info.properties'[0m
+		[m		'file:<BASE>\games\xonix\src\main\webapp\resources\xonix\help\ru\info.properties'[0m
+		[41;97mError during generate: [game=xonix, language=md, locale=ru][0m
+		[41;97mWith exception:        [Cant load properties file: [game=xonix, language=md]][0m
+		[41;97mSkipped![0m
+	[mStore 'xonix:md_header:en' in file: '<BASE>\clients\..\games\xonix\src\main\webapp\resources\xonix\help\header.html'[0m
+	[mStore 'xonix:md_footer:en' in file: '<BASE>\clients\..\games\xonix\src\main\webapp\resources\xonix\help\footer.html'[0m
+	[mStore 'xonix:java:en' in file: '<BASE>\clients\java\src\main\java\com\codenjoy\dojo\games\xonix\Element.java'[0m
+	[mStore 'xonix:cpp:en' in file: '<BASE>\clients\cpp\src\games\xonix\Element.cpp'[0m
+	[mStore 'xonix:go:en' in file: '<BASE>\clients\go\games\xonix\element.go'[0m
+	[mStore 'xonix:js:en' in file: '<BASE>\clients\java-script\games\xonix\elements.js'[0m
+	[mStore 'xonix:php:en' in file: '<BASE>\clients\php\games\xonix\Element.php'[0m
+	[mStore 'xonix:python:en' in file: '<BASE>\clients\python\games\xonix\element.py'[0m
+	[mStore 'xonix:csharp:en' in file: '<BASE>\clients\csharp\Dojo\Games\Xonix\XonixElement.cs'[0m

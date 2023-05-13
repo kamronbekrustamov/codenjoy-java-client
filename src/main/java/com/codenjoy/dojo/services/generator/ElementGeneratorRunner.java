@@ -77,16 +77,20 @@ public class ElementGeneratorRunner {
 
         for (String game : games.split(",")) {
             System.out.println();
-            if (!ALL_GAMES.contains(game)) {
-                PrintUtils.printf("Game not found: '%s'", ERROR, game);
-                continue;
-            }
+            PrintUtils.printftab(() -> generate(game),
+                    "Generating elements for game '%s'", INFO, game);
+        }
+    }
 
-            for (String language : clients.split(",")) {
-                List<Locale> localesList = filter(locales, language);
-                for (Locale locale : localesList) {
-                    new ElementGenerator(game, language, locale, localesList, base).generateToFile();
-                }
+    private static void generate(String game) {
+        if (!ALL_GAMES.contains(game)) {
+            PrintUtils.printf("Game not found: '%s'", ERROR, game);
+            return;
+        }
+
+        for (String language : clients.split(",")) {
+            for (Locale locale : filter(locales, language)) {
+                new ElementGenerator(game, language, locale, localesFor(locales), base).generateToFile();
             }
         }
     }
@@ -116,7 +120,7 @@ public class ElementGeneratorRunner {
     // а для elements.md мы генерим для всех выбранных локалей
     // TODO как-то это костыльно, подумать на досуге
     private static List<Locale> filter(String localesString, String language) {
-        List<Locale> locales = localesFor(localesString.split(","));
+        List<Locale> locales = localesFor(localesString);
         if (language.equals("md")) {
             return locales;
         }
@@ -124,8 +128,8 @@ public class ElementGeneratorRunner {
         return Arrays.asList(locales.get(0));
     }
 
-    public static List<Locale> localesFor(String... codes) {
-        return Arrays.stream(codes)
+    public static List<Locale> localesFor(String codes) {
+        return Arrays.stream(codes.split(","))
                 .map(Locale::forLanguageTag)
                 .collect(toList());
     }

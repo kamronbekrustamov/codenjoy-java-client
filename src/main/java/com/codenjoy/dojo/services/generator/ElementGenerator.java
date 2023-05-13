@@ -36,6 +36,7 @@ import java.util.function.Function;
 
 import static com.codenjoy.dojo.services.properties.GameProperties.getGame;
 import static com.codenjoy.dojo.utils.PrintUtils.Color.ERROR;
+import static com.codenjoy.dojo.utils.PrintUtils.Color.TEXT;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
 import static org.apache.commons.lang3.StringUtils.capitalize;
@@ -120,19 +121,25 @@ public class ElementGenerator {
                     "Error during generate: [game=%s, language=%s, locale=%s]\n" +
                     "With exception:        [%s]\n" +
                     "Skipped!",
-                    ERROR, game, language, locale, exception.getMessage());
+                    ERROR,
+                    game, language, locale, exception.getMessage());
             return null;
         }
     }
 
     public void generateToFile() {
         File dest = new File(base + "/clients/" + replace(template.file()));
-        System.out.printf("Store '%s-%s' in file: '%s'\n",
-                game, language, dest.getAbsolutePath());
+        PrintUtils.printftab(() -> generate(dest),
+                "Store '%s:%s:%s' in file: '%s'", TEXT,
+                game, language, locale, dest.getAbsolutePath());
+    }
 
+    private void generate(File dest) {
         // TODO пока не закончу переносить полезные методы с icancode/elemtnt.js
         //      не удалять эту строчку
-        if (game.equals("icancode") && language.equals("js")) return;
+        if (game.equals("icancode") && language.equals("js")) {
+            return;
+        }
 
         String data = generate();
 

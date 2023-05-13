@@ -22,6 +22,8 @@ package com.codenjoy.dojo.services.properties;
  * #L%
  */
 
+import com.codenjoy.dojo.utils.PrintUtils;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.InputStream;
@@ -30,6 +32,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Properties;
 
+import static com.codenjoy.dojo.utils.PrintUtils.Color.TEXT;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static java.util.stream.Collectors.toMap;
 import static org.apache.commons.lang3.StringUtils.capitalize;
@@ -78,9 +81,9 @@ public class GameProperties {
         String sourcesPath = replace(base + "${game-source}" + locale(INFO_PROPERTIES), canonicalGame);
         boolean success = tryLoadFromSources(sourcesPath);
         if (!success && !silentMode) {
-            System.out.printf("Properties file not found in either: \n" +
+            PrintUtils.printf("Properties file not found in either: \n" +
                     "\t\t'classpath:%s'\n" +
-                    "\t\t'file:%s'\n",
+                    "\t\t'file:%s'", TEXT,
                     classPath, new File(sourcesPath).getAbsolutePath());
         }
         return success;

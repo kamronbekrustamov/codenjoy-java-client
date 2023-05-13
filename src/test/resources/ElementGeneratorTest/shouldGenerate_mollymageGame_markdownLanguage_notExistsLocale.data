@@ -1,6 +1,6 @@
-Properties file not found in either: 
-		'classpath:<BASE>/resources/mollymage/help/zh/info.properties'
-		'file:<BASE>\games\mollymage\src\main\webapp\resources\mollymage\help\zh\info.properties'
-[41;93mError during generate: [game=mollymage, language=md, locale=zh_CN]
-With exception:        [Cant load properties file: [game=mollymage, language=md]]
-Skipped![0m
+[mProperties file not found in either: [0m
+[m		'classpath:<BASE>/resources/mollymage/help/zh/info.properties'[0m
+[m		'file:<BASE>\games\mollymage\src\main\webapp\resources\mollymage\help\zh\info.properties'[0m
+[41;97mError during generate: [game=mollymage, language=md, locale=zh_CN][0m
+[41;97mWith exception:        [Cant load properties file: [game=mollymage, language=md]][0m
+[41;97mSkipped![0m

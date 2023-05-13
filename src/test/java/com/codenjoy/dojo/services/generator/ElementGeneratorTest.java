@@ -202,7 +202,7 @@ public class ElementGeneratorTest {
             skipTestWarning();
             return;
         }
-        String actual = new ElementGenerator(game, language, locale, localesFor("en", "ru"), base).generate();
+        String actual = new ElementGenerator(game, language, locale, localesFor("en,ru"), base).generate();
         if (actual == null) {
             // если ничего не пришло, скорее всего там ошибка
             actual = output.toString();
