@@ -65,7 +65,7 @@ public class ElementGeneratorRunner {
             printInfo("Runner");
         }
         if (isAllGames()) {
-            games = allGames.stream().collect(joining(","));
+            games = String.join(",", allGames);
         }
 
         if (!new File(base).isAbsolute()) {

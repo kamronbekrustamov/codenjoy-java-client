@@ -39,11 +39,11 @@ public enum Element implements CharElement {
 
     START_SPOT('#'),
 
-        // Apple.
+        // Blueberry.
 
     BLUEBERRY('○'),
 
-        // Stone.
+        // Acorn.
 
     ACORN('●'),
 
@@ -83,7 +83,7 @@ public enum Element implements CharElement {
 
     HEAD_EVIL('♥'),
 
-        // Your hero head under influence Flying pill/Angels wings.
+        // Your hero head under influence Death cap/Angels wings.
 
     HEAD_FLY('♠'),
 
@@ -159,7 +159,7 @@ public enum Element implements CharElement {
 
     ENEMY_HEAD_EVIL('♣'),
 
-        // Enemy hero head under influence Flying pill/Angels wings.
+        // Enemy hero head under influence Death cap/Angels wings.
 
     ENEMY_HEAD_FLY('♦'),
 

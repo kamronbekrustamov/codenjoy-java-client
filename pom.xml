@@ -40,6 +40,7 @@
         <maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
         <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
+        <maven-exec-plugin.version>3.1.0</maven-exec-plugin.version>
 
         <user.resources>src/main/webapp/resources/user</user.resources>
         <client.sources.file>java-client.zip</client.sources.file>
@@ -66,7 +67,7 @@
                             <execution>
                                 <!-- Плагин отвечает за мутационное тестирование.
                                      Включается для игр ключом -Pmutation -->
-                                <id>[##5]-mutation-testing</id>
+                                <id>[##6]-mutation-testing</id>
                                 <goals>
                                     <goal>mutationCoverage</goal>
                                 </goals>
@@ -102,7 +103,7 @@
                             <execution>
                                 <!-- Плагин отвечает за сборку запускного
                                      jar -->
-                                <id>[##9]-make-assembly-jar</id>
+                                <id>[##10]-make-assembly-jar</id>
                                 <phase>package</phase>
                                 <goals>
                                     <goal>single</goal>
@@ -320,6 +321,25 @@
                 </configuration>
             </plugin>
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>${maven-exec-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <!-- Плагин отвечает за копирование
+                             генерацию всех Elements артефактов -->
+                        <id>[##5]-generate-elements</id>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>com.codenjoy.dojo.services.generator.ElementGeneratorRunner</mainClass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>${maven-jar-plugin.version}</version>
@@ -331,7 +351,7 @@
                     <execution>
                         <!-- Плагин отвечает за сборку jar
                              файла -->
-                        <id>[##6]-make-jar</id>
+                        <id>[##7]-make-jar</id>
                         <goals>
                             <goal>jar</goal>
                         </goals>
@@ -352,7 +372,7 @@
                     <execution>
                         <!-- Плагин добавляет jar с сырцами engine
                              в target -->
-                        <id>[##7]-attach-engine-sources</id>
+                        <id>[##8]-attach-engine-sources</id>
                         <goals>
                             <goal>jar</goal>
                         </goals>
@@ -372,7 +392,7 @@
                     <execution>
                         <!-- Плагин собирает engine-libs.zip
                              со всеми артефактами -->
-                        <id>[##8]-run-ant</id>
+                        <id>[##9]-run-ant</id>
                         <goals>
                             <goal>run</goal>
                         </goals>
@@ -394,8 +414,8 @@
                                 <copy file="${client.sources}"
                                       todir="target/classes/resources/user"/>
 
-                                <!-- Это нужно для плагина с id [##10]-run-ant engine/pom.xml
-                                     ведь при сборке всего CodingDojo/pom.xml он стелает
+                                <!-- Это нужно для плагина с id [##10]-run-ant в engine/pom.xml
+                                     ведь при сборке всего CodingDojo/pom.xml он слетает
                                      так как не может найти pom.xml-->
                                 <copy todir="${project.build.directory}">
                                     <fileset file="${project.basedir}/pom.xml"/>
