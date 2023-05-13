@@ -414,7 +414,7 @@
                                 <copy file="${client.sources}"
                                       todir="target/classes/resources/user"/>
 
-                                <!-- Это нужно для плагина с id [##10]-run-ant в engine/pom.xml
+                                <!-- Это нужно для плагина с id [##12]-run-ant в engine/pom.xml
                                      ведь при сборке всего CodingDojo/pom.xml он слетает
                                      так как не может найти pom.xml-->
                                 <copy todir="${project.build.directory}">
