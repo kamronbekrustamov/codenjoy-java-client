@@ -44,17 +44,22 @@ public class ElementsGeneratorRunnerTest {
         output.redirect();
         ElementGenerator.READONLY = true;
 
-        // when
-        ElementGeneratorRunner.main(new String[0]);
+        try {
+            // when
+            ElementGeneratorRunner.main(new String[0]);
 
-        // then
-        String actual = output.toString();
-        output.rollback();
-        if (base("") == null) {
-            skipTestWarning();
-            return;
+            // then
+            String actual = output.toString();
+            output.rollback();
+            if (base("") == null) {
+                skipTestWarning();
+                return;
+            }
+            assertEquals(actual);
+        } finally {
+            // when maven run tests it uses same test class instance for each test
+            ElementGenerator.READONLY = false;
         }
-        assertEquals(actual);
     }
 
     private void assertEquals(String actual) {
