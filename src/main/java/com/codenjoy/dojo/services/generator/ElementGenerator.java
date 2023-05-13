@@ -43,6 +43,7 @@ import static org.apache.commons.lang3.StringUtils.capitalize;
 public class ElementGenerator {
 
     public static final int COMMENT_MAX_LENGTH = 60;
+    public static final String PROJECT_BASE_FOLDER = "CodingDojo";
 
     // используется для тестирования, этим флагом отключаем реальное сохранение файлов
     public static boolean READONLY = false;
@@ -86,12 +87,12 @@ public class ElementGenerator {
      * иначе вернется без изменения.
      */
     public static String getBase(String inputBase) {
-        if (!inputBase.contains("CodingDojo")) {
+        if (!inputBase.contains(PROJECT_BASE_FOLDER)) {
             return inputBase;
         }
         File absolute = new File(inputBase).getAbsoluteFile();
         while (absolute != null
-                && !absolute.getName().equals("CodingDojo"))
+                && !absolute.getName().equals(PROJECT_BASE_FOLDER))
         {
             absolute = absolute.getParentFile();
         }

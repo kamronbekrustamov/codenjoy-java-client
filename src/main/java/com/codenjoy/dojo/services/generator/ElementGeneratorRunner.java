@@ -30,9 +30,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
+import static com.codenjoy.dojo.services.generator.ElementGenerator.PROJECT_BASE_FOLDER;
 import static com.codenjoy.dojo.utils.PrintUtils.Color.ERROR;
 import static com.codenjoy.dojo.utils.PrintUtils.Color.INFO;
-import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 public class ElementGeneratorRunner {
@@ -76,10 +76,7 @@ public class ElementGeneratorRunner {
         }
 
         if (!gamesSourcesPresent(base)) {
-            PrintUtils.printf("Please run this script on a fully cloned project c with submodules (with --recursive option)\n" +
-                            "    git clone --recursive https://github.com/codenjoyme/codenjoy.git",
-                    ERROR,
-                    base);
+            pleaseRunInAllProject();
             return;
         }
 
@@ -95,6 +92,13 @@ public class ElementGeneratorRunner {
                 }
             }
         }
+    }
+
+    public static void pleaseRunInAllProject() {
+        PrintUtils.printf("Please run this script on a fully cloned project c with submodules (with --recursive option)\n" +
+                        "    git clone --recursive https://github.com/codenjoyme/codenjoy.git",
+                ERROR,
+                base);
     }
 
     // для всех языков по умолчанию берется только первая локаль в списке,
@@ -116,7 +120,7 @@ public class ElementGeneratorRunner {
 
     private static boolean gamesSourcesPresent(String base) {
         File file = new File(base);
-        while (!file.getName().equals("CodingDojo")) {
+        while (!file.getName().equals(PROJECT_BASE_FOLDER)) {
             file = file.getParentFile();
             if (file == null) {
                 return false;

@@ -30,7 +30,9 @@ import org.junit.rules.TestName;
 import java.io.File;
 import java.util.Locale;
 
+import static com.codenjoy.dojo.services.generator.ElementGenerator.PROJECT_BASE_FOLDER;
 import static com.codenjoy.dojo.services.generator.ElementGeneratorRunner.localesFor;
+import static com.codenjoy.dojo.services.generator.ElementGeneratorRunner.pleaseRunInAllProject;
 import static com.codenjoy.dojo.utils.SmokeUtils.assertSmokeEquals;
 import static java.util.Locale.ENGLISH;
 
@@ -195,7 +197,12 @@ public class ElementGeneratorTest {
     }
 
     private void assertGenerate(String game, String language, Locale locale) {
-        String actual = new ElementGenerator(game, language, locale, localesFor("en", "ru"), base(game)).generate();
+        String base = base(game);
+        if (base == null) {
+            skipTestWarning();
+            return;
+        }
+        String actual = new ElementGenerator(game, language, locale, localesFor("en", "ru"), base).generate();
         if (actual == null) {
             // если ничего не пришло, скорее всего там ошибка
             actual = output.toString();
@@ -208,13 +215,25 @@ public class ElementGeneratorTest {
     //      двух режимах: из запущенного приложения - тогда файлы properties
     //      ищем в classpath и батником для генерации elements - там мы
     //      ищем properties в сырцах.
-    private String base(String game) {
+    public static String base(String game) {
         switch (game) {
             case "test":
             case "test-another":
                 return "";
             default:
-                return new File(".").getAbsolutePath();
+                return pathInsideCodingDojo();
         }
+    }
+
+    private static String pathInsideCodingDojo() {
+        String path = new File(".").getAbsolutePath();
+        return path.contains(PROJECT_BASE_FOLDER) ? path : null;
+
+    }
+
+    public static void skipTestWarning() {
+        // TODO если java-client запущен без других проектов, то тесты clifford/mollymage не проходят
+        pleaseRunInAllProject();
+        System.out.println("WARNING: Skip test.");
     }
 }

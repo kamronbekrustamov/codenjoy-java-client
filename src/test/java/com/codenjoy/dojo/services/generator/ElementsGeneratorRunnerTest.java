@@ -27,6 +27,8 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestName;
 
+import static com.codenjoy.dojo.services.generator.ElementGeneratorTest.base;
+import static com.codenjoy.dojo.services.generator.ElementGeneratorTest.skipTestWarning;
 import static com.codenjoy.dojo.utils.SmokeUtils.assertSmokeEquals;
 
 public class ElementsGeneratorRunnerTest {
@@ -48,6 +50,10 @@ public class ElementsGeneratorRunnerTest {
         // then
         String actual = output.toString();
         output.rollback();
+        if (base("") == null) {
+            skipTestWarning();
+            return;
+        }
         assertEquals(actual);
     }
 
