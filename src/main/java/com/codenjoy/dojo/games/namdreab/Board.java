@@ -44,9 +44,9 @@ public class Board extends AbstractBoard<Element> {
         return isAt(x, y,
                 ROCK,
                 START_SPOT,
-                ENEMY_HEAD_SLEEP,
-                ENEMY_TAIL_INACTIVE,
-                TAIL_INACTIVE);
+                ENEMY_HERO_SLEEP,
+                ENEMY_HERO_TAIL_INACTIVE,
+                HERO_TAIL_INACTIVE);
     }
 
     public boolean isHeroHeadAt(Point pt) {

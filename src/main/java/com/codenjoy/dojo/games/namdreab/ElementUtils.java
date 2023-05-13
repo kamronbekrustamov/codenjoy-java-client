@@ -44,101 +44,101 @@ public class ElementUtils {
     }
 
     static {
-        part(HEAD_DOWN,       DOWN);
-        part(HEAD_LEFT,       LEFT);
-        part(HEAD_RIGHT,      RIGHT);
-        part(HEAD_UP,         UP);
-        part(HEAD_DEAD,       UP, DOWN, LEFT, RIGHT);
-        part(HEAD_EVIL,       UP, DOWN, LEFT, RIGHT);
-        part(HEAD_FLY,        UP, DOWN, LEFT, RIGHT);
-        part(HEAD_SLEEP,      UP, DOWN, LEFT, RIGHT);
+        part(HERO_DOWN,             DOWN);
+        part(HERO_LEFT,             LEFT);
+        part(HERO_RIGHT,            RIGHT);
+        part(HERO_UP,               UP);
+        part(HERO_DEAD,             UP, DOWN, LEFT, RIGHT);
+        part(HERO_EVIL,             UP, DOWN, LEFT, RIGHT);
+        part(HERO_FLY,              UP, DOWN, LEFT, RIGHT);
+        part(HERO_SLEEP,            UP, DOWN, LEFT, RIGHT);
 
-        part(BODY_HORIZONTAL, LEFT, RIGHT);
-        part(BODY_VERTICAL,   UP, DOWN);
-        part(BODY_LEFT_DOWN,  RIGHT, UP);
-        part(BODY_LEFT_UP,    RIGHT, DOWN);
-        part(BODY_RIGHT_DOWN, LEFT, UP);
-        part(BODY_RIGHT_UP,   LEFT, DOWN);
+        part(HERO_BEARD_HORIZONTAL, LEFT, RIGHT);
+        part(HERO_BEARD_VERTICAL,   UP, DOWN);
+        part(HERO_BEARD_LEFT_DOWN,  RIGHT, UP);
+        part(HERO_BEARD_LEFT_UP,    RIGHT, DOWN);
+        part(HERO_BEARD_RIGHT_DOWN, LEFT, UP);
+        part(HERO_BEARD_RIGHT_UP,   LEFT, DOWN);
 
-        part(TAIL_END_DOWN,   DOWN);
-        part(TAIL_END_LEFT,   LEFT);
-        part(TAIL_END_UP,     UP);
-        part(TAIL_END_RIGHT,  RIGHT);
-        part(TAIL_INACTIVE,   UP, DOWN, LEFT, RIGHT);
+        part(HERO_TAIL_DOWN,        DOWN);
+        part(HERO_TAIL_LEFT,        LEFT);
+        part(HERO_TAIL_UP,          UP);
+        part(HERO_TAIL_RIGHT,       RIGHT);
+        part(HERO_TAIL_INACTIVE,    UP, DOWN, LEFT, RIGHT);
     }
 
     public static final Element[] heroHead = new Element[]{
-            HEAD_DOWN,
-            HEAD_LEFT,
-            HEAD_RIGHT,
-            HEAD_UP,
-            HEAD_SLEEP,
-            HEAD_EVIL,
-            HEAD_FLY
+            HERO_DOWN,
+            HERO_LEFT,
+            HERO_RIGHT,
+            HERO_UP,
+            HERO_SLEEP,
+            HERO_EVIL,
+            HERO_FLY
     };
 
     public static boolean isFly(Element element) {
-        return element == HEAD_FLY
-                || element == ENEMY_HEAD_FLY;
+        return element == HERO_FLY
+                || element == ENEMY_HERO_FLY;
     }
 
     public static boolean isEvil(Element element) {
-        return element == HEAD_EVIL
-                || element == ENEMY_HEAD_EVIL;
+        return element == HERO_EVIL
+                || element == ENEMY_HERO_EVIL;
     }
 
     public static Element tail(TailDirection direction) {
         switch (direction) {
-            case VERTICAL_DOWN:    return TAIL_END_DOWN;
-            case VERTICAL_UP:      return TAIL_END_UP;
-            case HORIZONTAL_LEFT:  return TAIL_END_LEFT;
-            case HORIZONTAL_RIGHT: return TAIL_END_RIGHT;
+            case VERTICAL_DOWN:    return HERO_TAIL_DOWN;
+            case VERTICAL_UP:      return HERO_TAIL_UP;
+            case HORIZONTAL_LEFT:  return HERO_TAIL_LEFT;
+            case HORIZONTAL_RIGHT: return HERO_TAIL_RIGHT;
         }
         throw new IllegalArgumentException("Bad direction: " + direction);
     }
     public static Element head(Direction direction) {
         switch (direction) {
-            case DOWN:  return HEAD_DOWN;
-            case UP:    return HEAD_UP;
-            case LEFT:  return HEAD_LEFT;
-            case RIGHT: return HEAD_RIGHT;
+            case DOWN:  return HERO_DOWN;
+            case UP:    return HERO_UP;
+            case LEFT:  return HERO_LEFT;
+            case RIGHT: return HERO_RIGHT;
         }
         throw new IllegalArgumentException("Bad direction: " + direction);
     }
 
-    public static Element body(BodyDirection direction) {
+    public static Element beard(BodyDirection direction) {
         switch (direction) {
-            case HORIZONTAL:        return BODY_HORIZONTAL;
-            case VERTICAL:          return BODY_VERTICAL;
-            case TURNED_LEFT_DOWN:  return BODY_LEFT_DOWN;
-            case TURNED_LEFT_UP:    return BODY_LEFT_UP;
-            case TURNED_RIGHT_DOWN: return BODY_RIGHT_DOWN;
-            case TURNED_RIGHT_UP:   return BODY_RIGHT_UP;
+            case HORIZONTAL:        return HERO_BEARD_HORIZONTAL;
+            case VERTICAL:          return HERO_BEARD_VERTICAL;
+            case TURNED_LEFT_DOWN:  return HERO_BEARD_LEFT_DOWN;
+            case TURNED_LEFT_UP:    return HERO_BEARD_LEFT_UP;
+            case TURNED_RIGHT_DOWN: return HERO_BEARD_RIGHT_DOWN;
+            case TURNED_RIGHT_UP:   return HERO_BEARD_RIGHT_UP;
         }
         throw new IllegalArgumentException("Bad direction: " + direction);
     }
 
     public static Element enemyHero(Element element) {
         switch (element) {
-            case HEAD_DOWN:       return ENEMY_HEAD_DOWN;
-            case HEAD_LEFT:       return ENEMY_HEAD_LEFT;
-            case HEAD_RIGHT:      return ENEMY_HEAD_RIGHT;
-            case HEAD_UP:         return ENEMY_HEAD_UP;
-            case HEAD_DEAD:       return ENEMY_HEAD_DEAD;
-            case HEAD_EVIL:       return ENEMY_HEAD_EVIL;
-            case HEAD_FLY:        return ENEMY_HEAD_FLY;
-            case HEAD_SLEEP:      return ENEMY_HEAD_SLEEP;
-            case BODY_HORIZONTAL: return ENEMY_BODY_HORIZONTAL;
-            case BODY_VERTICAL:   return ENEMY_BODY_VERTICAL;
-            case BODY_LEFT_DOWN:  return ENEMY_BODY_LEFT_DOWN;
-            case BODY_LEFT_UP:    return ENEMY_BODY_LEFT_UP;
-            case BODY_RIGHT_DOWN: return ENEMY_BODY_RIGHT_DOWN;
-            case BODY_RIGHT_UP:   return ENEMY_BODY_RIGHT_UP;
-            case TAIL_END_DOWN:   return ENEMY_TAIL_END_DOWN;
-            case TAIL_END_LEFT:   return ENEMY_TAIL_END_LEFT;
-            case TAIL_END_UP:     return ENEMY_TAIL_END_UP;
-            case TAIL_END_RIGHT:  return ENEMY_TAIL_END_RIGHT;
-            case TAIL_INACTIVE:   return ENEMY_TAIL_INACTIVE;
+            case HERO_DOWN:             return ENEMY_HERO_DOWN;
+            case HERO_LEFT:             return ENEMY_HERO_LEFT;
+            case HERO_RIGHT:            return ENEMY_HERO_RIGHT;
+            case HERO_UP:               return ENEMY_HERO_UP;
+            case HERO_DEAD:             return ENEMY_HERO_DEAD;
+            case HERO_EVIL:             return ENEMY_HERO_EVIL;
+            case HERO_FLY:              return ENEMY_HERO_FLY;
+            case HERO_SLEEP:            return ENEMY_HERO_SLEEP;
+            case HERO_BEARD_HORIZONTAL: return ENEMY_HERO_BEARD_HORIZONTAL;
+            case HERO_BEARD_VERTICAL:   return ENEMY_HERO_BEARD_VERTICAL;
+            case HERO_BEARD_LEFT_DOWN:  return ENEMY_HERO_BEARD_LEFT_DOWN;
+            case HERO_BEARD_LEFT_UP:    return ENEMY_HERO_BEARD_LEFT_UP;
+            case HERO_BEARD_RIGHT_DOWN: return ENEMY_HERO_BEARD_RIGHT_DOWN;
+            case HERO_BEARD_RIGHT_UP:   return ENEMY_HERO_BEARD_RIGHT_UP;
+            case HERO_TAIL_DOWN:        return ENEMY_HERO_TAIL_DOWN;
+            case HERO_TAIL_LEFT:        return ENEMY_HERO_TAIL_LEFT;
+            case HERO_TAIL_UP:          return ENEMY_HERO_TAIL_UP;
+            case HERO_TAIL_RIGHT:       return ENEMY_HERO_TAIL_RIGHT;
+            case HERO_TAIL_INACTIVE:    return ENEMY_HERO_TAIL_INACTIVE;
         }
         throw new IllegalArgumentException("Bad hero state: " + element);
     }
