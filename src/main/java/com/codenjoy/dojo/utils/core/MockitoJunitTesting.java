@@ -129,6 +129,14 @@ public class MockitoJunitTesting implements Testing {
                 new Object[]{o1, o2});
     }
 
+
+    @Override
+    public void fail(String message) {
+        callStatic(Assert, "fail",
+                new Class[]{String.class},
+                new Object[]{message});
+    }
+
     @Override
     public <T> T mock(Class<T> clazz) {
         return (T) callStatic(Mockito, "mock",
