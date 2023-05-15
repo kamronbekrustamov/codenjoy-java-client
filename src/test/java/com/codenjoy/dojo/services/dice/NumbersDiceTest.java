@@ -53,6 +53,50 @@ public class NumbersDiceTest {
     }
 
     @Test
+    public void shouldReturnAllNumbers_thenLastValue() {
+        // given
+        NumbersDice dice = new NumbersDice();
+        dice.will(1, 2, 3, 4, 5);
+
+        // when then
+        assertEquals(1, dice.next(100));
+        assertEquals(2, dice.next(100));
+        assertEquals(3, dice.next(100));
+        assertEquals(4, dice.next(100));
+        assertEquals(5, dice.next(100));
+
+        assertEquals(5, dice.next(100));
+        assertEquals(5, dice.next(100));
+        assertEquals(5, dice.next(100));
+        assertEquals(5, dice.next(100));
+
+        // when
+        dice.will(6, 7, 8);
+
+        // then
+        assertEquals(6, dice.next(100));
+        assertEquals(7, dice.next(100));
+        assertEquals(8, dice.next(100));
+
+        assertEquals(8, dice.next(100));
+        assertEquals(8, dice.next(100));
+        assertEquals(8, dice.next(100));
+        assertEquals(8, dice.next(100));
+
+        // when
+        dice.will(9, 10);
+
+        // then
+        assertEquals(9, dice.next(100));
+        assertEquals(10, dice.next(100));
+
+        assertEquals(10, dice.next(100));
+        assertEquals(10, dice.next(100));
+        assertEquals(10, dice.next(100));
+        assertEquals(10, dice.next(100));
+    }
+
+    @Test
     public void shouldReturnAllNumbers_thenDefaultValue_fromGenerator() {
         // given
         NumbersDice diceDefault = new NumbersDice(-1);

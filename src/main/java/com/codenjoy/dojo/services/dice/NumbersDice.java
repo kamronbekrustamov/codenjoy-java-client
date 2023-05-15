@@ -28,33 +28,44 @@ import java.util.function.Function;
 
 public class NumbersDice implements Dice {
 
-    private Function<Integer, Integer> defaultGenerator;
-    private Function<Integer, Integer> numbers;
+    private Function<Integer, Integer> now;
+    private Function<Integer, Integer> then;
 
-    public NumbersDice(int defaultValue) {
-        this.numbers = new Numbers();
-        this.defaultGenerator = n -> defaultValue;
+    private boolean repeat = false;
+    private int current;
+
+    public NumbersDice() {
+        this.now = new Numbers();
+        repeat = true;
     }
 
-    public NumbersDice(Function<Integer, Integer> defaultGenerator) {
-        this.numbers = new Numbers();
-        this.defaultGenerator = defaultGenerator;
+    public NumbersDice(int defaultValue) {
+        this.now = new Numbers();
+        this.then = n -> defaultValue;
+    }
+
+    public NumbersDice(Function<Integer, Integer> then) {
+        this.now = new Numbers();
+        this.then = then;
     }
 
     public void will(Integer... next) {
-        this.numbers = new Numbers(next);
+        this.now = new Numbers(next);
     }
 
     public void will(Function<Integer, Integer> next) {
-        this.numbers = next;
+        this.now = next;
     }
 
     @Override
     public int next(int max) {
-        Integer value = numbers.apply(max);
+        Integer value = now.apply(max);
         if (value == null) {
-            return defaultGenerator.apply(max);
+            if (repeat) {
+                then = n -> current;
+            }
+            return current = then.apply(max);
         }
-        return value;
+        return current = value;
     }
 }
