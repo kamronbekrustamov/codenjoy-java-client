@@ -137,6 +137,13 @@ public class MockitoJunitTesting implements Testing {
     }
 
     @Override
+    public <T> T spy(T object) {
+        return (T) callStatic(Mockito, "spy",
+                new Class[]{Object.class},
+                new Object[]{object});
+    }
+
+    @Override
     public <T> Testing.OngoingStubbing<T> when(T methodCall) {
         return wrap(callStatic(Mockito, "when",
                 new Class[]{Object.class},

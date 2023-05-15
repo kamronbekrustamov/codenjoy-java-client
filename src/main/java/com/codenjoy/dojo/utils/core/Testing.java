@@ -36,6 +36,8 @@ public interface Testing {
 
     <T> T mock(Class<T> clazz);
 
+    <T> T spy(T object);
+
     <T> Testing.OngoingStubbing<T> when(T methodCall);
 
     <T> T verify(T mock, Object mode);
