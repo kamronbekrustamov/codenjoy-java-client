@@ -45,6 +45,65 @@ public class NumbersDiceTest {
         assertEquals(3, dice.next(100));
         assertEquals(4, dice.next(100));
         assertEquals(5, dice.next(100));
+
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+    }
+
+    @Test
+    public void shouldReturnAllNumbers_thenDefaultValue_fromGenerator() {
+        // given
+        NumbersDice diceDefault = new NumbersDice(-1);
+        diceDefault.will(6, 7, 8);
+
+        NumbersDice dice = new NumbersDice(diceDefault::next);
+        dice.will(1, 2, 3, 4, 5);
+
+        // when then
+        assertEquals(1, dice.next(100));
+        assertEquals(2, dice.next(100));
+        assertEquals(3, dice.next(100));
+        assertEquals(4, dice.next(100));
+        assertEquals(5, dice.next(100));
+
+        assertEquals(6, dice.next(100));
+        assertEquals(7, dice.next(100));
+        assertEquals(8, dice.next(100));
+
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+    }
+
+    @Test
+    public void shouldReturnAllNumbers_regenerateWhenCallWill() {
+        // given
+        NumbersDice dice = new NumbersDice(-1);
+        dice.will(1, 2, 3, 4, 5);
+
+        // then
+        assertEquals(1, dice.next(100));
+        assertEquals(2, dice.next(100));
+        assertEquals(3, dice.next(100));
+        assertEquals(4, dice.next(100));
+        assertEquals(5, dice.next(100));
+
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+        assertEquals(-1, dice.next(100));
+
+        // when
+        dice.will(6, 7, 8);
+
+        // then
+        assertEquals(6, dice.next(100));
+        assertEquals(7, dice.next(100));
+        assertEquals(8, dice.next(100));
+
         assertEquals(-1, dice.next(100));
         assertEquals(-1, dice.next(100));
         assertEquals(-1, dice.next(100));
@@ -69,6 +128,7 @@ public class NumbersDiceTest {
         assertEquals(3, dice.next(100));
         assertEquals(4, dice.next(100));
         assertEquals(5, dice.next(100));
+
         assertEquals(-1, dice.next(100));
         assertEquals(-1, dice.next(100));
         assertEquals(-1, dice.next(100));

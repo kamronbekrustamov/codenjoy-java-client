@@ -28,12 +28,17 @@ import java.util.function.Function;
 
 public class NumbersDice implements Dice {
 
-    private int defaultValue;
+    private Function<Integer, Integer> defaultGenerator;
     private Function<Integer, Integer> numbers;
 
     public NumbersDice(int defaultValue) {
         this.numbers = new Numbers();
-        this.defaultValue = defaultValue;
+        this.defaultGenerator = n -> defaultValue;
+    }
+
+    public NumbersDice(Function<Integer, Integer> defaultGenerator) {
+        this.numbers = new Numbers();
+        this.defaultGenerator = defaultGenerator;
     }
 
     public void will(Integer... next) {
@@ -48,7 +53,7 @@ public class NumbersDice implements Dice {
     public int next(int max) {
         Integer value = numbers.apply(max);
         if (value == null) {
-            return defaultValue;
+            return defaultGenerator.apply(max);
         }
         return value;
     }
