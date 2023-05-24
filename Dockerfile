@@ -8,7 +8,7 @@ WORKDIR /app
 COPY src ./src/
 COPY pom.xml .
 
-RUN --mount=type=cache,target=/root/.m2 mvn -f ./pom.xml -B clean compile assembly:single -DskipTests=true -Pjar-with-dependencies,noGit
+RUN --mount=type=cache,target=/root/.m2 mvn -f ./pom.xml -B clean package assembly:single -DskipTests=true -Pjar-with-dependencies,noGit
 
 # package stage
 FROM openjdk:11-jre-slim
