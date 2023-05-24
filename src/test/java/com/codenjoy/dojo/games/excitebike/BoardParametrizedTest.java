@@ -40,13 +40,13 @@ public class BoardParametrizedTest {
     private String elementName;
     private Class elementClass;
 
-    public <T extends Enum & CharElement> BoardParametrizedTest(T element) {
-        elementChar = element.ch();
-        elementName = element.name();
-        elementClass = element.getClass();
+    public <T extends Enum<T> & CharElement> BoardParametrizedTest(T element) {
+        this.elementChar = element.ch();
+        this.elementName = element.name();
+        this.elementClass = element.getClass();
     }
 
-    @Parameterized.Parameters(name = "{0}")
+    @Parameterized.Parameters(name = "{index}: \"{0}\"")
     public static Collection data() {
         return Arrays.asList(Element.values());
     }
