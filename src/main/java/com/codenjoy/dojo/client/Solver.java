@@ -23,6 +23,8 @@ package com.codenjoy.dojo.client;
  */
 
 
+import com.codenjoy.dojo.JavaRunner;
+
 /**
  * Любая реализация AI должна реализовать этот интерфейс.
  * @param <B> реализация {@link AbstractBoard} для текущей игры
@@ -36,4 +38,13 @@ public interface Solver<B extends ClientBoard> {
      * @return команда, что делать серверу
      */
     String get(B board);
+
+    /**
+     * Запускает игру с вашим алгоритмом.
+     * @param game имя игры.
+     * @param url адрес сервера.
+     */
+    static void run(String game, String url) {
+        new JavaRunner().run(new String[]{game, url});
+    }
 }
