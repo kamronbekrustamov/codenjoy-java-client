@@ -49,7 +49,7 @@ public class ReflectLoader {
         return loadSolver(game, "kotlin");
     }
 
-    private static Solver loadSolver(String game, String language) {
+    public static Solver loadSolver(String game, String language) {
         try {
             return (Solver) load(Solver.class, game, language, PRIMARY_SOLVER_NAME)
                     .getDeclaredConstructor(Dice.class)
@@ -72,7 +72,7 @@ public class ReflectLoader {
         return loadBoard(game, "kotlin");
     }
 
-    private static ClientBoard loadBoard(String game, String language) {
+    public static ClientBoard loadBoard(String game, String language) {
         try {
             return (ClientBoard) load(ClientBoard.class, game, language, PRIMARY_BOARD_NAME)
                     .getDeclaredConstructor()
@@ -89,7 +89,7 @@ public class ReflectLoader {
                 .filter(clazz -> !Modifier.isAbstract(clazz.getModifiers()))
                 .filter(clazz -> !Modifier.isInterface(clazz.getModifiers()))
                 .filter(clazz -> Modifier.isPublic(clazz.getModifiers()))
-                .filter(clazz -> clazz.getCanonicalName().contains(game))
+                .filter(clazz -> clazz.getCanonicalName().contains(String.format(".%s.", game)))
                 .filter(clazz -> filterClazzByJvmLanguage(clazz, language))
                 .sorted(Comparator.comparing(Class::getSimpleName))
                 .collect(Collectors.toList());
