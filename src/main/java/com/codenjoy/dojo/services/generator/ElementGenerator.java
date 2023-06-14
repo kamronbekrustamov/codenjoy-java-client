@@ -35,6 +35,7 @@ import java.util.*;
 import java.util.function.Function;
 
 import static com.codenjoy.dojo.services.properties.GameProperties.getGame;
+import static com.codenjoy.dojo.utils.FilePathUtils.normalize;
 import static com.codenjoy.dojo.utils.PrintUtils.Color.ERROR;
 import static com.codenjoy.dojo.utils.PrintUtils.Color.TEXT;
 import static java.util.stream.Collectors.toList;
@@ -97,7 +98,7 @@ public class ElementGenerator {
         {
             absolute = absolute.getParentFile();
         }
-        return absolute.getAbsolutePath();
+        return normalize(absolute.getAbsolutePath());
     }
 
     public static String getBase() {
