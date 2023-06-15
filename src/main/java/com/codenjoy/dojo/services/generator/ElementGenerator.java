@@ -132,7 +132,7 @@ public class ElementGenerator {
         File dest = new File(base + "/clients/" + replace(template.file()));
         PrintUtils.printftab(() -> generate(dest),
                 "Store '%s:%s:%s' in file: '%s'", TEXT,
-                game, language, locale, dest.getAbsolutePath());
+                game, language, locale, normalize(dest.getAbsolutePath()));
     }
 
     private void generate(File dest) {

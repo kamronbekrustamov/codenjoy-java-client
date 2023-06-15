@@ -22,6 +22,7 @@ package com.codenjoy.dojo.services.properties;
  * #L%
  */
 
+import com.codenjoy.dojo.utils.FilePathUtils;
 import com.codenjoy.dojo.utils.PrintUtils;
 
 import java.io.File;
@@ -84,7 +85,7 @@ public class GameProperties {
             PrintUtils.printf("Properties file not found in either: \n" +
                     "\t\t'classpath:%s'\n" +
                     "\t\t'file:%s'", TEXT,
-                    classPath, new File(sourcesPath).getAbsolutePath());
+                    classPath, FilePathUtils.normalize(new File(sourcesPath).getAbsolutePath()));
         }
         return success;
     }

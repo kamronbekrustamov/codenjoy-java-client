@@ -22,6 +22,7 @@ package com.codenjoy.dojo.services.generator;
  * #L%
  */
 
+import com.codenjoy.dojo.utils.FilePathUtils;
 import com.codenjoy.dojo.utils.GamesUtils;
 import com.codenjoy.dojo.utils.PrintUtils;
 
@@ -100,7 +101,7 @@ public class ElementGeneratorRunner {
         if (path.isAbsolute()) {
             return input;
         }
-        return path.getAbsoluteFile().getPath();
+        return FilePathUtils.normalize(path.getAbsoluteFile().getPath());
     }
 
     public static String decodeAll(String list, List<String> all) {
