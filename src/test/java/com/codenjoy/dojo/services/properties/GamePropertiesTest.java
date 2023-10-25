@@ -40,6 +40,28 @@ public class GamePropertiesTest {
     }
 
     @Test
+    public void shouldGetAllKeys_withSortingOrder() {
+        // given
+        GameProperties properties = new GameProperties();
+
+        // when
+        properties.load("", Locale.ENGLISH, "test");
+
+        // then
+        assertEquals("{game.test.element.NONE=Short comment.,\n" +
+                        "game.test.element.WALL=Long long long long long long long long long long long looooooooong long long long long long long long long long long comment.,\n" +
+                        "game.test.element.HERO=Another short comment.,\n" +
+                        "game.test.element.OTHER_HERO=One more time.,\n" +
+                        "game.test.element.HERO_DEAD=,\n" +
+                        "game.test.element.OTHER_HERO_DEAD_LONG_LONG_LONG_LONG_LONG=Long name.,\n" +
+                        "game.test.element.G=Short name.,\n" +
+                        "game.test.settings.WIN_SCORE=[Score] Win score,\n" +
+                        "game.test.settings.LOSE_PENALTY=[Score] Lose penalty,\n" +
+                        "game.test.settings.SIZE=[Level] Size}",
+                properties.properties().toString().replace(", ", ",\n"));
+    }
+
+    @Test
     public void shouldHasGameProperties_whenExists() {
         assertEquals(true, GameProperties.has("", Locale.ENGLISH, "test"));
     }

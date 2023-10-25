@@ -31,7 +31,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Properties;
 
 import static com.codenjoy.dojo.utils.PrintUtils.Color.TEXT;
 import static java.nio.charset.StandardCharsets.UTF_8;
@@ -43,7 +42,7 @@ public class GameProperties {
     public static final String INFO_PROPERTIES = "src/main/webapp/resources/${game}/help/${locale}/info.properties";
 
     private Locale locale;
-    private Properties properties;
+    private LinkedProperties properties;
     private String canonicalGame;
     private boolean silentMode;
 
@@ -70,7 +69,7 @@ public class GameProperties {
 
     public boolean load(String base, Locale locale, String game) {
         this.locale = locale;
-        properties = new Properties();
+        properties = new LinkedProperties();
         canonicalGame = game;
 
         String classPath = replace(base + locale(INFO_PROPERTIES), canonicalGame)
@@ -91,9 +90,7 @@ public class GameProperties {
     }
 
     public Map<String, String> properties() {
-        return properties.entrySet().stream()
-                .collect(toMap(entry -> (String) entry.getKey(),
-                        entry -> (String) entry.getValue()));
+        return properties.asMap();
     }
 
     private String locale(String template) {
